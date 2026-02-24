@@ -14,3 +14,7 @@
 
 !changelogs/
 !changelogs/**
+
+!README.md
+!LICENSE.md
+!TODO.md
