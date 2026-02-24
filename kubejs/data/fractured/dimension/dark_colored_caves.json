@@ -1,0 +1,11 @@
+{
+  "type": "fractured:dark_colored_caves",
+  "generator": {
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "fractured:dark_colored_caves"
+    },
+    "settings": "fractured:dark_colored_caves",
+    "type": "minecraft:noise"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ltxi:grinder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:resinous_biomass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:monomer_chemical"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:polymer_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:chem_lab"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:raw_niobium_cluster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:impure_tin"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

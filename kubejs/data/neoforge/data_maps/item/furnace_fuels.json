@@ -1,0 +1,10 @@
+{
+  "values": {
+    "fractured:impure_coal": {
+        "burn_time": 800
+    },
+    "fractured:pure_coal": {
+        "burn_time": 3200
+    } 
+  }
+}

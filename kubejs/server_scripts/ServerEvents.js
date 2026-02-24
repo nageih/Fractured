@@ -1,0 +1,154 @@
+//Server Events
+
+PlayerEvents.tick(event => {
+    let player = event.player
+    let server = event.server
+
+    if (player.y > 301 && player.y < 310 && player.tags.contains('given_ship')) {
+        player.tags.remove('given_ship')
+    }
+         
+
+    if (player.y < 300 && player.y > 290 && !player.tags.contains('given_ship')) {
+
+        player.tell(`${player.profile.name} incoming !!!!`)
+        //player.potionEffects.add('minecraft:blindness', 100, 0)
+
+        server.scheduleInTicks(20, () => {
+            server.runCommandSilent(
+                `summon immersive_aircraft:gyrodyne ${player.x} ${player.y - 40} ${player.z} {Tags:["spawned_gyro"]}`
+            )
+        })
+
+        server.scheduleInTicks(23, () => {
+            server.runCommandSilent(
+                `execute as ${player.uuid} at ${player.uuid} run ride @s mount @e[type=immersive_aircraft:gyrodyne,limit=1,sort=nearest]`
+            )
+        })
+
+        server.scheduleInTicks(35, () => {
+            player.tell(`${player.profile.name} we got you!`)
+        })
+
+        server.scheduleInTicks(50, () => {
+            // Title
+            server.runCommandSilent(
+                `execute as ${player.uuid} at ${player.uuid} run title ${player.uuid} title '{"text":"Fractured","color":"red","bold":true}'`
+            )
+            // Subtitle
+            server.runCommandSilent(
+                `execute as ${player.uuid} at ${player.uuid} run title ${player.uuid} subtitle '{"text":"by benbenlaw","color":"yellow"}'`
+            )
+        })
+
+
+
+        server.scheduleInTicks(80, () => {
+            player.tell(`Start the engine (Hold Forward)`)
+        })
+
+
+        player.tags.add('given_ship')
+    }
+})
+
+
+EntityEvents.spawned(event => {
+    if (!event.entity.isLiving()) return
+    const dimension = event.level.dimension
+
+    if (dimension == 'undergarden:undergarden') {
+        event.entity.tell('You have entered the Undergarden. Be careful, it is a dangerous place!')
+    }
+    if (dimension == 'minecraft:overworld') {
+        event.entity.tell('Home sweet home!')
+    }
+})
+
+//Lightning Charge
+ItemEvents.rightClicked('fractured:lightning_charge', event => {
+    const { player, level, hand, item } = event
+
+    if (level.clientSide) return
+
+    const blockBelow = level.getBlock(player.blockPosition().below())
+
+    if (blockBelow.id == 'immersiveengineering:lightning_rod') {
+
+        if (event.player.getFeetArmorItem().hasTag('fractured:conductive_armor') &&
+            event.player.getLegsArmorItem().hasTag('fractured:conductive_armor') &&
+            event.player.getChestArmorItem().hasTag('fractured:conductive_armor') &&
+            event.player.getHeadArmorItem().hasTag('fractured:conductive_armor') 
+        
+        ) {
+
+            event.server.runCommandSilent(`execute as ${player.uuid} at ${player.uuid} run summon lightning_bolt`)
+
+            if (!player.creative) {
+                item.count--
+            }
+        } 
+        else {
+            player.tell('You need to be wearing a full set of Faraday Armor to use this item!')
+        }
+    } else {
+        player.tell('You need to be standing on a Immersive Engineering Lightning Rod to use this item!')
+    }
+})
+
+
+
+
+//Locators
+const $Registry = Java.loadClass('net.minecraft.core.registries.Registries')
+const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
+
+ItemEvents.rightClicked('fractured:catacombs_locator', event => {
+    const { player, level, hand, item } = event
+
+    if (level.clientSide) return
+
+    let structureTag = $TagKey.create($Registry.STRUCTURE, 'fractured:catacombs')
+    let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+
+    if (foundPos != null) {
+        // Spawn vanilla ender eye entity pointing to the structure
+        let eye = level.createEntity('minecraft:eye_of_ender')
+        eye.setPos(player.x, player.eyeY - 0.1, player.z)
+        eye.signalTo(foundPos)
+        eye.setItem(Item.of('fractured:catacombs_locator'))
+        level.addFreshEntity(eye)
+
+        player.swing(hand)
+        if (!player.creative) {
+            item.count--
+        }
+    } else {
+        player.displayClientMessage(Component.literal('§cNo Catacombs found nearby!'), true)
+    }
+})
+
+ItemEvents.rightClicked('fractured:malachite_watchtower_locator', event => {
+    const { player, level, hand, item } = event
+
+    if (level.clientSide) return
+
+    let structureTag = $TagKey.create($Registry.STRUCTURE, 'fractured:malachite_watchtower')
+    let foundPos = level.findNearestMapStructure(structureTag, player.blockPosition(), 100, false)
+
+    if (foundPos != null) {
+        // Spawn vanilla ender eye entity pointing to the structure
+        let eye = level.createEntity('minecraft:eye_of_ender')
+        eye.setPos(player.x, player.eyeY - 0.1, player.z)
+        eye.signalTo(foundPos)
+        eye.setItem(Item.of('fractured:malachite_watchtower_locator'))
+        level.addFreshEntity(eye)
+
+        player.swing(hand)
+        if (!player.creative) {
+            item.count--
+        }
+    } else {
+        player.displayClientMessage(Component.literal('§cNo Malachite Watchtower found nearby!'), true)
+    }
+})

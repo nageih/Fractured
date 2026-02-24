@@ -1,0 +1,9 @@
+deeperdarker:cave
+deeperdarker:low_cave
+gaiadimension:chasms
+gaiadimension:crystal_caves
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+minecraft:nether_cave
+undergarden:undergarden_cave

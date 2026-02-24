@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:diamond"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"routers:exporter_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

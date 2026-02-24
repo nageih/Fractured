@@ -1,0 +1,20 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "biomes": {
+    "isBlacklist": false,
+    "list": []
+  },
+  "dimensions": {
+    "isBlacklist": true,
+    "list": [
+      "undergarden:undergarden"
+    ]
+  },
+  "equilibrium": 0,
+  "fluid": "undergarden:virulent_mix_source",
+  "fluidcapacity": 32500000,
+  "fluidminimum": 2500000,
+  "fluidtrace": 6,
+  "name": "virulent_mix",
+  "weight": 40
+}

@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:bamboo_mosaic_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:impure_coal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:coal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:pickaxe_mold"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:stone_pickaxe_head"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stone_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:black_water"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:deepslate_draconium_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

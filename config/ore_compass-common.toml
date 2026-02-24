@@ -1,0 +1,16 @@
+#Detection range for Basic Ore Compass (in blocks)
+# Default: 16
+# Range: 8 ~ 64
+basicRange = 16
+#Detection range for Advanced Ore Compass (in blocks)
+# Default: 32
+# Range: 16 ~ 128
+advancedRange = 32
+#Detection range for Master Ore Compass (in blocks)
+# Default: 64
+# Range: 32 ~ 256
+masterRange = 64
+#How often the compass updates in ticks (20 ticks = 1 second)
+# Default: 20
+# Range: 5 ~ 100
+updateInterval = 20

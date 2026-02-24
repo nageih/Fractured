@@ -1,0 +1,20 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "biomes": {
+    "isBlacklist": false,
+    "list": []
+  },
+  "dimensions": {
+    "isBlacklist": true,
+    "list": [
+      "fractured:light_colored_caves"
+    ]
+  },
+  "equilibrium": 0,
+  "fluid": "strainers:purifying_water",
+  "fluidcapacity": 32500000,
+  "fluidminimum": 2500000,
+  "fluidtrace": 6,
+  "name": "purifying_water",
+  "weight": 40
+}

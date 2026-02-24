@@ -1,0 +1,17 @@
+[Settings]
+	#Radius of the spheres
+	radius = 64
+	#Spacing between the spheres
+	spacing = 192
+	#Center Y level for sphere generation
+	center_y = 62
+	#Block used for the spheres
+	sphere_block = "connectedglass:clear_glass"
+	#Generate only the upper hemisphere of the spheres
+	only_upper_hemisphere = true
+	#Generate bridges between spheres
+	generate_bridge = false
+	#Block used for the bridges
+	bridge_block = "minecraft:oak_planks"
+	#Radius of the bridges
+	bridge_radius = 1

@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:sand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:forgotten_sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"actuallyadditions:void_crystal_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

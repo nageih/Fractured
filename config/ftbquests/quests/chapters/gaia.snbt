@@ -1,0 +1,633 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gaia"
+	group: "4C6CA59E34F8B51F"
+	id: "4C0723A449EFCCD6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FB32CECCE3E1A3F"]
+			id: "2863B7E6B497FBFC"
+			tasks: [{
+				entity: "gaiadimension:malachite_guard"
+				id: "39BA335FD3D4C1DA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["54AE70099F87ED5F"]
+			id: "2FB32CECCE3E1A3F"
+			tasks: [{
+				id: "1EB3B59494A4D674"
+				structure: "gaiadimension:malachite_watchtower"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "116E654229D0BA5F"
+			tasks: [{
+				dimension: "gaiadimension:gaia_dimension"
+				id: "42EFC231D84836C8"
+				type: "dimension"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["116E654229D0BA5F"]
+			id: "4CC132E4FA1620DF"
+			tasks: [{
+				id: "6C184E7788A407CC"
+				item: { count: 1, id: "gaiadimension:red_opal" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["116E654229D0BA5F"]
+			id: "18E2A6B88E47A449"
+			tasks: [{
+				id: "6D0C1548837C4149"
+				item: { count: 1, id: "gaiadimension:blue_opal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["116E654229D0BA5F"]
+			id: "00012C8C1EC7B6DA"
+			tasks: [{
+				id: "415806EA9CE7DA2D"
+				item: { count: 1, id: "gaiadimension:green_opal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["116E654229D0BA5F"]
+			id: "1CA226A22FBD6A9A"
+			tasks: [{
+				id: "40402DAE5A50CE3D"
+				item: { count: 1, id: "gaiadimension:white_opal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["116E654229D0BA5F"]
+			id: "54C64C0F22FD7BA0"
+			tasks: [{
+				id: "085E1BF4807E44B6"
+				item: { count: 1, id: "gaiadimension:gaia_stone" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["758676465392CF65"]
+			id: "77265536786564DA"
+			tasks: [{
+				id: "5960CCF51FD047B5"
+				item: { count: 1, id: "gaiadimension:restructurer" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["116E654229D0BA5F"]
+			id: "6B0D5826F139134D"
+			tasks: [{
+				id: "2B4C9543F1E7305E"
+				item: { count: 1, id: "gaiadimension:sweet_muckball" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B0D5826F139134D"]
+			id: "23101B2140E1667B"
+			tasks: [{
+				id: "7AF28D0358963CBB"
+				item: { count: 1, id: "gaiadimension:gummy_glitter_block" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["23101B2140E1667B"]
+			id: "3AA80E55D058794B"
+			tasks: [{
+				id: "69B20898D0EDF911"
+				item: { count: 1, id: "gaiadimension:thick_glitter_block" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3AA80E55D058794B"
+				"5FE27D8952337B2E"
+			]
+			id: "758676465392CF65"
+			tasks: [{
+				id: "4442F83CC7632D96"
+				item: { count: 1, id: "gaiadimension:reinforced_bricks" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["54C64C0F22FD7BA0"]
+			id: "5FE27D8952337B2E"
+			tasks: [{
+				id: "7E6BDE3125C7065F"
+				item: { count: 1, id: "gaiadimension:gaia_stone_bricks" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4CC132E4FA1620DF"
+				"77265536786564DA"
+			]
+			id: "212C8F53C6562A70"
+			tasks: [{
+				id: "299FBD2234E36BF1"
+				item: { count: 1, id: "gaiadimension:carnelian" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"18E2A6B88E47A449"
+				"77265536786564DA"
+			]
+			id: "3F0837CF53EDC699"
+			tasks: [{
+				id: "19DDF72C5DD42EE9"
+				item: { count: 1, id: "gaiadimension:benitoite" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"00012C8C1EC7B6DA"
+				"77265536786564DA"
+			]
+			id: "4B57EC252B04CE32"
+			tasks: [{
+				id: "2B19830196B3760B"
+				item: { count: 1, id: "gaiadimension:diopside" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1CA226A22FBD6A9A"
+				"77265536786564DA"
+			]
+			id: "0B88FF01EB0BD5A5"
+			tasks: [{
+				id: "5CA3018E348FFFA3"
+				item: { count: 1, id: "gaiadimension:goshenite" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["54C64C0F22FD7BA0"]
+			id: "12571F322C143731"
+			tasks: [{
+				id: "6AB7EA8073B25960"
+				item: { count: 1, id: "gaiadimension:pink_essence" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["77265536786564DA"]
+			id: "600B5859D960C6B6"
+			tasks: [{
+				id: "43C28763F14E9FD8"
+				item: { count: 1, id: "gaiadimension:black_residue" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["212C8F53C6562A70"]
+			id: "17D864E1C3813A89"
+			tasks: [{
+				id: "55E4EDC2545035FB"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6696AAEEFC4F5779"]
+			id: "7DDD3FB8B7A1644D"
+			tasks: [{
+				id: "1DC43AF6BA5FD83B"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B88FF01EB0BD5A5"]
+			id: "7558E1DAAF8DDE1B"
+			tasks: [{
+				id: "6511332F72DD1847"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"600B5859D960C6B6"
+				"7558E1DAAF8DDE1B"
+			]
+			id: "361D6D0C32F5212C"
+			tasks: [{
+				id: "60CCD3763C78D1AF"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"17D864E1C3813A89"
+				"7DDD3FB8B7A1644D"
+				"3F59613C98FF78A1"
+				"375F3B305EF70DD6"
+				"361D6D0C32F5212C"
+			]
+			id: "708E6E9F9B1CF4D4"
+			tasks: [{
+				id: "54A9A8731F50791A"
+				item: { count: 1, id: "actuallyadditions:lens_of_the_miner" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6134FF1F3194A996"]
+			id: "3F59613C98FF78A1"
+			tasks: [{
+				id: "63BA9DA35EA41D0E"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F0837CF53EDC699"]
+			id: "6134FF1F3194A996"
+			tasks: [{
+				id: "3C413C32E74084EF"
+				item: { count: 1, id: "gaiadimension:benitoite_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B57EC252B04CE32"]
+			id: "6696AAEEFC4F5779"
+			tasks: [{
+				id: "2345E056B23B0AFE"
+				item: { count: 1, id: "gaiadimension:diopside_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["361D6D0C32F5212C"]
+			id: "375F3B305EF70DD6"
+			tasks: [{
+				id: "0DBC42C44EE9EFEC"
+				item: { count: 1, id: "actuallyadditions:lens" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1703989159CD2650"]
+			id: "267082E5279A2523"
+			tasks: [{
+				id: "40C3D10063E26C9B"
+				item: { count: 1, id: "gaiadimension:celestine_ore" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["708E6E9F9B1CF4D4"]
+			id: "3E7AA207262A2655"
+			tasks: [{
+				id: "453B7703B5776C59"
+				item: { count: 1, id: "gaiadimension:labradorite" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["708E6E9F9B1CF4D4"]
+			id: "46C29603CFCAC866"
+			tasks: [{
+				id: "5543CFBC009D9E65"
+				item: { count: 1, id: "gaiadimension:pyrite" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["708E6E9F9B1CF4D4"]
+			id: "4C7356BB11E7074C"
+			tasks: [{
+				id: "38EF486E6E8520BC"
+				item: { count: 1, id: "gaiadimension:hematite" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["708E6E9F9B1CF4D4"]
+			id: "71487C2E17906785"
+			tasks: [{
+				id: "1F6587EEF1528D6D"
+				item: { count: 1, id: "gaiadimension:moonstone" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["708E6E9F9B1CF4D4"]
+			id: "7BD529298480E2FC"
+			tasks: [{
+				id: "3B8B296EBF02CA6D"
+				item: { count: 1, id: "gaiadimension:sugilite" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BD529298480E2FC"]
+			id: "1703989159CD2650"
+			tasks: [{
+				id: "290313A16F42530B"
+				item: { count: 1, id: "gaiadimension:sugilite_block" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E7AA207262A2655"]
+			id: "047D74E10724B489"
+			tasks: [{
+				id: "75CCB83C03611BE8"
+				item: { count: 1, id: "gaiadimension:euclase" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C7356BB11E7074C"]
+			id: "4CE264175DE13357"
+			tasks: [{
+				id: "61368EBC92D5D0D4"
+				item: { count: 1, id: "gaiadimension:stibnite" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71487C2E17906785"]
+			id: "228009FA2766F4D8"
+			tasks: [{
+				id: "2DC8BEFD703BA27E"
+				item: { count: 1, id: "gaiadimension:albite" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["46C29603CFCAC866"]
+			id: "6970AE453BBEF764"
+			tasks: [{
+				id: "638B2A1D6006BF74"
+				item: { count: 1, id: "gaiadimension:aura_residue" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46C29603CFCAC866"]
+			id: "44C2DDF2A0528F11"
+			tasks: [{
+				id: "7894AFFD2FDB58C9"
+				item: { count: 1, id: "gaiadimension:bismuth_residue" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44C2DDF2A0528F11"]
+			id: "34FF1729FBE766A1"
+			tasks: [{
+				id: "5B0FB5695770252C"
+				item: { count: 1, id: "gaiadimension:bismuth_crystal" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6970AE453BBEF764"]
+			id: "7DF17CC8CA995685"
+			tasks: [{
+				id: "09D75DED0254EE06"
+				item: { count: 1, id: "gaiadimension:aura_cluster" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46C29603CFCAC866"]
+			id: "73669C0F69532271"
+			tasks: [{
+				id: "30447AED70FB4522"
+				item: { count: 1, id: "gaiadimension:pyrite_block" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"73669C0F69532271"
+				"7DF17CC8CA995685"
+				"34FF1729FBE766A1"
+			]
+			id: "3675D49F591079A9"
+			tasks: [{
+				id: "401786E42CCAA5D2"
+				item: { count: 1, id: "gaiadimension:purifier" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["047D74E10724B489"]
+			id: "2800B8039514B962"
+			tasks: [{
+				id: "7A7CB0F198B3E06B"
+				item: { count: 1, id: "gaiadimension:euclase_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CE264175DE13357"]
+			id: "5D5B93FF39C2F2E0"
+			tasks: [{
+				id: "463A7B70FDE6FD62"
+				item: { count: 1, id: "gaiadimension:stibnite_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["228009FA2766F4D8"]
+			id: "229C6C1FB65E26EC"
+			tasks: [{
+				id: "68E4879F85D00633"
+				item: { count: 1, id: "gaiadimension:albite_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"229C6C1FB65E26EC"
+				"2800B8039514B962"
+				"5D5B93FF39C2F2E0"
+			]
+			id: "160624940ADFFD1A"
+			tasks: [{
+				id: "4155F46E336D057D"
+				item: { count: 1, id: "fractured:infused_obsidian" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["267082E5279A2523"]
+			id: "6F817E513A1A455C"
+			tasks: [{
+				id: "0701580C66915E8C"
+				item: { count: 1, id: "gaiadimension:celestine" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6F817E513A1A455C"
+				"204DBF02939A76C5"
+			]
+			id: "7DAF88FC37E37779"
+			tasks: [{
+				id: "709664A4088DCFD5"
+				item: { count: 1, id: "fractured:nether_catalyst" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"12571F322C143731"
+				"600B5859D960C6B6"
+			]
+			id: "54AE70099F87ED5F"
+			optional: true
+			tasks: [{
+				id: "57FC6FB9BC3EF645"
+				item: { count: 1, id: "fractured:malachite_watchtower_locator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2863B7E6B497FBFC"]
+			id: "204DBF02939A76C5"
+			tasks: [{
+				id: "4964ADD1C25DA4B9"
+				item: { count: 1, id: "fractured:malachite_heart" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+	]
+}

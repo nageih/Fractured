@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"immersiveengineering:ethanol_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:forgotten_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_spruce_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

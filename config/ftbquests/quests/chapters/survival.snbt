@@ -1,0 +1,438 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival"
+	group: "4C6CA59E34F8B51F"
+	icon: {
+		id: "flintrequired:flint_pickaxe"
+	}
+	id: "18FE7037F60F9DC2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["15A0B3BB1FC9B3C9"]
+			id: "7DCC42D86F471F53"
+			tasks: [{
+				id: "2CE8147492F1FF16"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fractured:twigs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DCC42D86F471F53"]
+			id: "2DBEE8FAB832D8A1"
+			tasks: [{
+				id: "1BBFB9AFA70FE70F"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FBDDBDD053EA6FE"]
+			id: "6F6ABB1CA79EA0BA"
+			tasks: [{
+				id: "6AC8209EE10D8FD2"
+				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"32B94B1452E8A054"
+				"43FC0823243133AC"
+				"666178BDBA540E78"
+			]
+			id: "25729C9D0E1AF5F7"
+			tasks: [{
+				id: "65D22F49F9877FD3"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CFA5014092DF032"]
+			id: "44DA923F27F905E9"
+			tasks: [{
+				id: "269966159C954447"
+				item: { count: 1, id: "flintrequired:flint_pickaxe" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42024C4DAC805D7E"]
+			id: "7A3425385A3BD05D"
+			tasks: [{
+				id: "491A6EB5F70EAF7E"
+				item: { count: 1, id: "flintrequired:flint_axe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A3425385A3BD05D"]
+			id: "21272C07AFACC7D0"
+			tasks: [{
+				id: "7E69B64A268382CE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1393BF57965923E5"]
+			id: "1BBC6DDFBEC013A9"
+			tasks: [{
+				id: "10C20F1AA88C95C2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D7C475BDB7FB0E8"]
+			id: "5CFA5014092DF032"
+			tasks: [{
+				id: "40E094546CC1ED77"
+				item: { count: 1, id: "flintrequired:flint_pickaxe_head" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1393BF57965923E5"]
+			id: "393A1B2FDCBB1888"
+			tasks: [{
+				id: "29E42335006A91DA"
+				item: { count: 1, id: "opolisutilities:wooden_shears" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["393A1B2FDCBB1888"]
+			id: "57402B188353AC5C"
+			tasks: [{
+				id: "1119B5090688F959"
+				item: { count: 1, id: "minecraft:oak_leaves" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"666178BDBA540E78"
+				"50609BAFE7E276DC"
+				"57402B188353AC5C"
+			]
+			id: "466288CFF3BB3295"
+			tasks: [{
+				id: "51790CC28636E9E7"
+				item: { count: 1, id: "opolisutilities:leafy_string" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D7C475BDB7FB0E8"]
+			id: "5BCF20C94A0AB809"
+			size: 1.0d
+			tasks: [{
+				id: "73EA30CEF46A2ED0"
+				item: { count: 1, id: "opolisutilities:drying_table" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BCF20C94A0AB809"]
+			id: "4585D98E2FBCBF05"
+			tasks: [{
+				id: "63E8A0A349162795"
+				item: { count: 1, id: "fractured:dried_leaves" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4585D98E2FBCBF05"]
+			id: "1098BBDB7BBB45DE"
+			tasks: [{
+				id: "1DA3FB09A9440A86"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1098BBDB7BBB45DE"]
+			id: "74B062AAB31C90BA"
+			tasks: [{
+				id: "3A9CF8E29B23E539"
+				item: { count: 1, id: "survival_firesticks:firestick" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44DA923F27F905E9"]
+			id: "603ED41C2C9E8FD4"
+			tasks: [{
+				id: "3C34C865DA3E25F5"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["361322EEFF0A4E34"]
+			id: "3FBDDBDD053EA6FE"
+			tasks: [{
+				id: "4A3B28B397424D48"
+				item: { count: 1, id: "flintrequired:flint_hoe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FBDDBDD053EA6FE"]
+			id: "0F64894280306C3D"
+			tasks: [{
+				id: "5B1515719BD518BC"
+				item: { count: 1, id: "actuallyadditions:worm" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FBDDBDD053EA6FE"]
+			id: "63742CD0E21CB0D7"
+			tasks: [{
+				id: "6FBF12FA457751DE"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15A0B3BB1FC9B3C9"]
+			id: "32B94B1452E8A054"
+			tasks: [{
+				id: "48102A9B587BC441"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15A0B3BB1FC9B3C9"]
+			id: "43FC0823243133AC"
+			tasks: [{
+				id: "4498287C3F486767"
+				item: { count: 1, id: "projectvibrantjourneys:rocks" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "15A0B3BB1FC9B3C9"
+			tasks: [{
+				id: "2BC65434ED6F7B6A"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DBEE8FAB832D8A1"]
+			id: "1393BF57965923E5"
+			tasks: [{
+				id: "52E6C4F148BB69E8"
+				item: { count: 1, id: "minecraft:oak_planks" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BBC6DDFBEC013A9"]
+			id: "666178BDBA540E78"
+			tasks: [{
+				id: "3AFE61D90AEB6A19"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FB74805EB1CFEF8"]
+			id: "50609BAFE7E276DC"
+			tasks: [{
+				id: "4C149F00DBA79792"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25729C9D0E1AF5F7"]
+			id: "6FB74805EB1CFEF8"
+			tasks: [{
+				id: "15CA6828659FE242"
+				item: { count: 1, id: "flintrequired:flint_shard" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D7C475BDB7FB0E8"]
+			id: "42024C4DAC805D7E"
+			tasks: [{
+				id: "107442E6FF47CE77"
+				item: { count: 1, id: "flintrequired:flint_axe_head" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D7C475BDB7FB0E8"]
+			id: "31C0DC0B9A28D93F"
+			tasks: [{
+				id: "62FB9EF2797A576C"
+				item: { count: 1, id: "flintrequired:flint_shovel_head" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D7C475BDB7FB0E8"]
+			id: "361322EEFF0A4E34"
+			tasks: [{
+				id: "20452223F1B7D191"
+				item: { count: 1, id: "flintrequired:flint_hoe_head" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["466288CFF3BB3295"]
+			id: "5D7C475BDB7FB0E8"
+			tasks: [{
+				id: "78A4144A65A9A2E1"
+				item: { count: 1, id: "fractured:leafy_binding" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "7CC2601769CD855F"
+			tasks: [{
+				id: "77CCE4551CC5B745"
+				item: { count: 1, id: "fractured:leafy_binding" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31C0DC0B9A28D93F"]
+			id: "70338BD83235F87A"
+			tasks: [{
+				id: "3FDB0B64FC7404CD"
+				item: { count: 1, id: "flintrequired:flint_shovel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74B062AAB31C90BA"]
+			id: "416DB413A109C16C"
+			tasks: [{
+				id: "355FF78091A81F68"
+				item: { count: 1, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["416DB413A109C16C"]
+			id: "4B31B426D0FCC623"
+			tasks: [{
+				id: "5D3D6B4C50451E4A"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B31B426D0FCC623"]
+			id: "2D026D02EBCD3D16"
+			tasks: [{
+				id: "280D05C414C9EF2B"
+				item: { count: 1, id: "minecraft:charcoal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D026D02EBCD3D16"]
+			id: "380637B4B2FDACDC"
+			tasks: [{
+				id: "67F8E31DFE64D0C1"
+				item: { count: 1, id: "opolisutilities:mini_charcoal" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D026D02EBCD3D16"]
+			id: "1E04C480ABE974FC"
+			tasks: [{
+				id: "4F84588D1576B3E9"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+	]
+}

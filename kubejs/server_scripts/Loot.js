@@ -1,0 +1,54 @@
+//Loot
+
+LootJS.modifiers(event => {
+
+  //Gravel 
+  event.addBlockModifier('minecraft:gravel').removeLoot('*').addLoot('minecraft:gravel')
+
+  //Ores 
+  replaceOreDrops('#c:ores/coal', 'fractured:impure_coal')
+  replaceOreDrops('#c:ores/copper', 'fractured:impure_copper')
+  replaceOreDrops('#c:ores/iron', 'fractured:impure_iron')
+  replaceOreDrops('#c:ores/gold', 'fractured:impure_gold')
+  replaceOreDrops('#c:ores/diamond', 'fractured:impure_diamond')
+
+  //AllTheOres
+  replaceOreDrops('#c:ores/tin', 'fractured:impure_tin')
+  replaceOreDrops('#c:ores/platinum', 'fractured:impure_platinum')
+  replaceOreDrops('#c:ores/silver', 'fractured:impure_silver')
+  replaceOreDrops('#c:ores/lead', 'fractured:impure_lead')
+  replaceOreDrops('#c:ores/nickel', 'fractured:impure_nickel')
+  replaceOreDrops('#c:ores/uranium', 'fractured:impure_uranium')
+  replaceOreDrops('#c:ores/zinc', 'fractured:impure_zinc')
+  replaceOreDrops('#c:ores/aluminum', 'fractured:impure_aluminum')
+  replaceOreDrops('#c:ores/osmium', 'fractured:impure_osmium')
+  replaceOreDrops('#c:ores/scorching', 'fractured:netherrack_rocks')
+
+  //Undergarden
+  replaceOreDrops('#c:ores/cloggrum', 'fractured:impure_cloggrum')
+  replaceOreDrops('#c:ores/froststeel', 'fractured:impure_froststeel')
+  replaceOreDrops('#c:ores/utherium', 'undergarden:utheric_shard')
+  
+  //Function to replace ore drops
+  function replaceOreDrops(oreTag, drop) {
+
+    let oreBlocks = Ingredient.of(oreTag).itemIds
+
+    oreBlocks.forEach(oreBlock => {
+
+      event.addBlockModifier(oreBlock).removeLoot('*').addAlternativesLoot(
+            
+        LootEntry.of(oreBlock).when(c =>
+                c.matchTool(ItemFilter.anyOf(ItemFilter.hasEnchantment("minecraft:silk_touch")))),
+              
+        LootEntry.of(drop).applyOreBonus("minecraft:fortune").when(c =>
+            c.matchTool(ItemFilter.not(ItemFilter.hasEnchantment("minecraft:silk_touch")))),
+                  
+      )
+    })
+  }
+
+  //Malachite Heart
+  event.addEntityModifier('gaiadimension:malachite_guard').addLoot('fractured:malachite_heart')
+
+})

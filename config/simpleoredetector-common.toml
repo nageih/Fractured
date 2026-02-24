@@ -1,0 +1,16 @@
+#Wooden detector range
+# Default: 4
+# Range: > 0
+wooden_range = 40
+#Iron detector range
+# Default: 8
+# Range: > 0
+iron_range = 60
+#Diamond detector range
+# Default: 12
+# Range: > 0
+diamond_range = 80
+#Netherite detector range
+# Default: 14
+# Range: > 0
+netherite_range = 100

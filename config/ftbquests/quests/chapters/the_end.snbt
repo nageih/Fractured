@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "4C6CA59E34F8B51F"
+	id: "07C561B1E198D1D8"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F526021085689F0"
+			tasks: [{
+				id: "7CC2C4263619280C"
+				item: { count: 1, id: "ltxi:raw_niobium" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F526021085689F0"]
+			id: "211BE3C8BC6FD916"
+			tasks: [{
+				id: "2CF3681F242D518F"
+				item: { count: 1, id: "ltxi:niobium_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7775064177496889"
+				"211BE3C8BC6FD916"
+			]
+			id: "34558283114852CA"
+			tasks: [{
+				id: "5D06607CD51BCF97"
+				item: { count: 1, id: "ltxi:t4_circuit" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EF59442607AD0B9"]
+			id: "7775064177496889"
+			tasks: [{
+				id: "2F091FF2E24B3F96"
+				item: { count: 1, id: "ltxi:chorus_chemical" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "3EF59442607AD0B9"
+			tasks: [{
+				id: "0A7A80DD24A977FE"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"550085873851E664"
+				"70C4A083017D917E"
+				"34558283114852CA"
+			]
+			id: "74BED752755FFDCB"
+			tasks: [{
+				id: "39F3972D3DE31674"
+				item: { count: 1, id: "ltxi:t5_circuit" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42BF7B2D2241E6D4"]
+			id: "70C4A083017D917E"
+			tasks: [{
+				id: "197A357165BD42A2"
+				item: { count: 1, id: "ltxi:sculk_chemical" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "42BF7B2D2241E6D4"
+			tasks: [{
+				id: "535C2DA9412A0091"
+				item: { count: 1, id: "ltxi:gloom_shroom" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "550085873851E664"
+			tasks: [{
+				id: "58C2C274767BDB70"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+}

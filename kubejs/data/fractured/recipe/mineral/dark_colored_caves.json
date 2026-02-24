@@ -1,0 +1,38 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "fractured:dark_colored_caves"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "fractured:impure_iron"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "fractured:impure_aluminum"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.75,
+      "output": {
+        "id": "colors:black_stone"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "id": "colors:gray_stone"
+      }
+    }
+  ],
+  "weight": 25
+}

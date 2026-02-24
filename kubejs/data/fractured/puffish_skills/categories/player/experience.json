@@ -1,0 +1,79 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 200)"
+		}
+	},
+	
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					}
+				},
+				"experience": "dropped_xp + max_health / 20",
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"silk_touch": {
+						"operations": [
+							{
+								"type": "get_tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+								}
+							}
+						]
+					},
+					"ores": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:ores"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "!silk_touch & ores",
+						"expression": "1"
+					}
+				]
+			}
+		}
+	]
+}

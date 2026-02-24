@@ -1,0 +1,16 @@
+*
+
+
+!.gitignore
+
+!kubejs/
+!kubejs/**
+
+!defaultconfig/
+!defaultconfig/**
+
+!config/
+!config/**
+
+!changelogs/
+!changelogs/**

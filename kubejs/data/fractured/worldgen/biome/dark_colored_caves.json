@@ -1,0 +1,59 @@
+{
+  "temperature": 0.6,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon",
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:glow_lichen",
+      "minecraft:spring_water",
+
+      "fractured:black_stone_placed",
+      "fractured:blue_stone_placed",
+      "fractured:brown_stone_placed",
+      "fractured:yellow_stone_placed",
+      "fractured:white_stone_placed",
+      "fractured:cyan_stone_placed",
+      "fractured:orange_stone_placed",
+      "fractured:light_blue_stone_placed",
+      "fractured:light_gray_stone_placed",
+      "fractured:gray_stone_placed",
+      "fractured:pink_stone_placed",
+      "fractured:purple_stone_placed",
+      "fractured:magenta_stone_placed",
+      "fractured:lime_stone_placed",
+      "fractured:green_stone_placed",
+      "fractured:red_stone_placed"
+    ]
+  ]
+}

@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_void"
+	group: "4C6CA59E34F8B51F"
+	id: "62CFC2C9EDF463BD"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D9AAECB7861D126"]
+			id: "0E84E7D5A4FF626E"
+			tasks: [{
+				id: "3AD5A5274ABE0421"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6D9AAECB7861D126"]
+			id: "4945DEA3DFF190EE"
+			tasks: [{
+				id: "4837D90A5BFBF056"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["36D380A56080807F"]
+			id: "1BC01DAE3349D1A8"
+			tasks: [{
+				id: "7B10803F69A1ADB9"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0E84E7D5A4FF626E"]
+			id: "36D380A56080807F"
+			tasks: [{
+				id: "55ED0B8F0EB41791"
+				item: { count: 1, id: "alltheores:iron_plate" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0E84E7D5A4FF626E"
+				"4945DEA3DFF190EE"
+			]
+			id: "44E5CA55C8F94FC5"
+			tasks: [{
+				id: "26BF93B1A8D6A901"
+				item: { count: 1, id: "minecraft:piston" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["44E5CA55C8F94FC5"]
+			icon_scale: 3.0d
+			id: "46370408BEF8E9E9"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:metal_press"
+				}
+				id: "3C5E01C3A9AB9A96"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:metal_press"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["36D380A56080807F"]
+			id: "795B4DD4B6C94430"
+			tasks: [{
+				id: "6901A0FB9A506A29"
+				item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["795B4DD4B6C94430"]
+			icon_scale: 3.0d
+			id: "31E93CBE12506CBE"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:fermenter"
+				}
+				id: "7334971FC0DECE97"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:fermenter"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["36D380A56080807F"]
+			id: "4EDC56C8B657F932"
+			tasks: [{
+				id: "070B6233EDD45F67"
+				item: { count: 1, id: "minecraft:hopper" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4EDC56C8B657F932"]
+			icon_scale: 4.0d
+			id: "4F1130825B5C9A51"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:crusher"
+				}
+				id: "578EA439B83D9E63"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:crusher"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4F1130825B5C9A51"]
+			id: "33BFE6241D31E892"
+			tasks: [{
+				id: "64F1740F443A5CBC"
+				item: { count: 1, id: "immersiveengineering:dust_saltpeter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["33BFE6241D31E892"]
+			id: "6124E218241BC913"
+			tasks: [{
+				id: "15E0B8C3F984AB58"
+				item: { count: 1, id: "fractured:catacombs_locator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["263C4569CED5A1D4"]
+			id: "6284C12EBDFC08B8"
+			tasks: [{
+				id: "694F096C232AF8A0"
+				item: { count: 1, id: "undergarden:forgotten_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6284C12EBDFC08B8"]
+			id: "2DC95FFEDAB612B1"
+			tasks: [{
+				id: "12B20204F7765F51"
+				item: { count: 1, id: "undergarden:forgotten_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3F1C77F1F7A62AAC"]
+			id: "155A7AA171192C5A"
+			tasks: [{
+				id: "08FA65CF66AF5311"
+				item: { count: 1, id: "fractured:forgotten_sandstone" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DC95FFEDAB612B1"]
+			id: "1B960A09F2CE341B"
+			tasks: [{
+				id: "19EA33483E37EB2A"
+				item: { count: 1, id: "actuallyadditions:iron_casing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1B960A09F2CE341B"]
+			id: "5668C2E4CEF8652D"
+			tasks: [{
+				id: "5075135696D20D94"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5668C2E4CEF8652D"]
+			id: "631673700DFBD026"
+			tasks: [{
+				id: "0268B634F2D59BBE"
+				item: { count: 1, id: "actuallyadditions:void_crystal" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["631673700DFBD026"]
+			id: "3743424EA21CA930"
+			tasks: [{
+				id: "5DDCB291DE7C1FC9"
+				item: { count: 1, id: "actuallyadditions:void_crystal_block" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31E93CBE12506CBE"]
+			id: "03B46998B37F4E19"
+			tasks: [{
+				id: "00EB29B14DDCAB7A"
+				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3743424EA21CA930"]
+			id: "2291DE8F2FE8D438"
+			tasks: [{
+				dimension: "javd:void"
+				id: "71ED2C9186283834"
+				type: "dimension"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2291DE8F2FE8D438"]
+			id: "3F1C77F1F7A62AAC"
+			tasks: [{
+				id: "4ECF972408E07C49"
+				item: { count: 1, id: "fractured:void_infused_sandstone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			id: "3D01CAC5DAB437F7"
+			tasks: [{
+				id: "0AFA3950B4425302"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "0995D9D8B64CCE33"
+			tasks: [{
+				id: "123FAEBC2D80313F"
+				item: { count: 1, id: "fractured:forgotten_catalyst" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			id: "239E3139E48235D2"
+			tasks: [{
+				id: "6B5C18ED0A0D74B7"
+				item: { count: 1, id: "fractured:void_stone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6124E218241BC913"]
+			id: "263C4569CED5A1D4"
+			tasks: [{
+				id: "4EF378C11F1C9440"
+				structure: "#fractured:catacombs"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+	]
+}

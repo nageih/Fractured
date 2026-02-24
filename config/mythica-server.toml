@@ -1,0 +1,10 @@
+#Determines how the seed for mythica is generated
+#WORLD_SEED uses the same seed as the overworld
+#VALUE uses the seed_value as the fixed seed for mythica
+#OFFSET_VALUE uses the overworld seed plus a fixed offset of the seed_value
+#Allowed Values: WORLD_SEED, VALUE, OFFSET_VALUE
+"Seed Mode" = "OFFSET_VALUE"
+#The seed value used when seed_mode is set to VALUE or OFFSET_VALUE
+# Default: 972349181
+# Range: -9223372036854775808 ~ 9223372036854775807
+"Seed Value" = 972349181

@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_dictionary"
+	group: "71448CACEFEA03D3"
+	id: "67C945A97AA0C93E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:coal_ore"
+			}
+			id: "52246C0846D49379"
+			tasks: [{
+				icon: {
+					id: "minecraft:coal_ore"
+				}
+				id: "07784DA776E08879"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:coal_ore"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			id: "7DA06A5FF2125AFF"
+			tasks: [{
+				icon: {
+					id: "alltheores:tin_ore"
+				}
+				id: "69B06E281546397C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alltheores:tin_ore"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			id: "1FD799D3063824F0"
+			tasks: [{
+				icon: {
+					id: "minecraft:copper_ore"
+				}
+				id: "1F4C5931E242DF66"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:copper_ore"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			id: "0D9C19B2677B34EE"
+			tasks: [{
+				icon: {
+					id: "fractured:scorching_ore"
+				}
+				id: "128AE77AABFAEF02"
+				observe_type: 0
+				timer: 0L
+				to_observe: "fractured:scorching_ore"
+				type: "observation"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			id: "2D181FF935A1FE6D"
+			tasks: [{
+				icon: {
+					id: "undergarden:depthrock_cloggrum_ore"
+				}
+				id: "6A187A35442E1E10"
+				observe_type: 0
+				timer: 0L
+				to_observe: "undergarden:depthrock_cloggrum_ore"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			id: "2F866D99F716E28B"
+			tasks: [{
+				icon: {
+					id: "undergarden:shiverstone_froststeel_ore"
+				}
+				id: "5079B0C4E7352CED"
+				observe_type: 0
+				timer: 0L
+				to_observe: "undergarden:shiverstone_froststeel_ore"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			id: "70EE32C3CD61C180"
+			tasks: [{
+				icon: {
+					id: "minecraft:gold_ore"
+				}
+				id: "001D4835F69B70BA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:gold_ore"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			id: "448C910C045496D9"
+			tasks: [{
+				icon: {
+					id: "alltheores:silver_ore"
+				}
+				id: "4B93C2588B245842"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:gold_ore"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			id: "47C012CF702A5B79"
+			tasks: [{
+				id: "1C3793325452D55F"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			id: "3F96B6D6EB1EC002"
+			tasks: [{
+				id: "440FAC1783ECEFA7"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "0B4C1D9669A4EB40"
+			tasks: [{
+				id: "2DBB33F09EB627E3"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			id: "7A73FA318B1F6C16"
+			tasks: [{
+				id: "641A616B320915ED"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "alltheores:aluminum_ore"
+			}
+			id: "7961A2CF4801468B"
+			tasks: [{
+				id: "1582E02E386EC99A"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_ore"
+			}
+			id: "17E6CA0559A2075A"
+			tasks: [{
+				id: "6F7DD76CA871D9B8"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone_ore"
+			}
+			id: "7336AB92DD4B6785"
+			tasks: [{
+				id: "22933FB24B04B4DB"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			id: "602BE02C18721B83"
+			tasks: [{
+				id: "3DC36D5581963B10"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "gaiadimension:white_opal_ore"
+			}
+			id: "302185C254A81930"
+			tasks: [{
+				icon: {
+					id: "gaiadimension:white_opal_ore"
+				}
+				id: "4A6D84EE8237304D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "gaiadimension:white_opal_ore"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "gaiadimension:blue_opal_ore"
+			}
+			id: "392E6E0C5A3E48C5"
+			tasks: [{
+				icon: {
+					id: "gaiadimension:blue_opal_ore"
+				}
+				id: "6D1F5088FBD5CE5F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "gaiadimension:blue_opal_ore"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "gaiadimension:red_opal_ore"
+			}
+			id: "4D9D0F0C2F41312D"
+			tasks: [{
+				icon: {
+					id: "gaiadimension:red_opal_ore"
+				}
+				id: "53C5D6374A204502"
+				observe_type: 0
+				timer: 0L
+				to_observe: "gaiadimension:white_opal_ore"
+				type: "observation"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "gaiadimension:green_opal_ore"
+			}
+			id: "486A68FCF7F4E791"
+			tasks: [{
+				icon: {
+					id: "gaiadimension:green_opal_ore"
+				}
+				id: "1A506D1233C28998"
+				observe_type: 0
+				timer: 0L
+				to_observe: "gaiadimension:green_opal_ore"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			id: "113A6412F5F0113D"
+			tasks: [{
+				icon: {
+					id: "undergarden:depthrock_utherium_ore"
+				}
+				id: "0D42A3FCCFB419BE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "undergarden:depthrock_utherium_ore"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "54BB9D8D5916EB6E"
+			tasks: [{
+				icon: {
+					id: "alltheores:nickel_ore"
+				}
+				id: "6B0E2666633FD9E5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alltheores:nickel_ore"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			id: "188598D586A3352A"
+			tasks: [{
+				icon: {
+					id: "minecraft:amethyst_cluster"
+				}
+				id: "4E2B6822F28715C8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:amethyst_cluster"
+				type: "observation"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+	]
+}

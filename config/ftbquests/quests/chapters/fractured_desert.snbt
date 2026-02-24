@@ -1,0 +1,465 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fractured_desert"
+	group: "4C6CA59E34F8B51F"
+	id: "433F05046405648B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7A8B5734CC8462E2"]
+			id: "103074F46CE1CF6E"
+			tasks: [{
+				id: "71E605ED59ED9C08"
+				item: { count: 1, id: "immersivepetroleum:seismic_survey" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -15.5d
+		}
+		{
+			id: "119067A87A4674CE"
+			tasks: [{
+				id: "11CEB9EEEA1D9FBC"
+				type: "checkmark"
+			}]
+			x: 34.5d
+			y: -2.0d
+		}
+		{
+			id: "3EC005388676D5F7"
+			tasks: [{
+				id: "3D88C1DD10091D5D"
+				type: "checkmark"
+			}]
+			x: 35.5d
+			y: -2.0d
+		}
+		{
+			id: "7451D629BF96BCB0"
+			tasks: [{
+				id: "1ABDB18DFDD9B165"
+				type: "checkmark"
+			}]
+			x: 31.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D4891733E44EDD7"]
+			icon: {
+				id: "immersiveengineering:biodiesel_bucket"
+			}
+			id: "7140EA442B5FA18F"
+			tasks: [{
+				id: "6F48E8EB93293054"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			id: "58DD564B6A5F8F85"
+			tasks: [{
+				id: "7F055E591F656CDA"
+				item: { count: 1, id: "adfinders:mineral_finder" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E559ACEC3E7EFD"]
+			id: "1D3524C227F3BE28"
+			tasks: [{
+				id: "0866D94EB6F4D14B"
+				item: { count: 1, id: "fractured:impure_gold" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["51E559ACEC3E7EFD"]
+			id: "2134589535C8789F"
+			tasks: [{
+				id: "09F1C0895D3A94A3"
+				item: { count: 1, id: "fractured:impure_silver" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1D3524C227F3BE28"]
+			id: "47D4236FDFBCBAF8"
+			tasks: [{
+				id: "43AE3116A9DBE89F"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2134589535C8789F"]
+			id: "7293902C36929548"
+			tasks: [{
+				id: "38914B0DDEB65C02"
+				item: { count: 1, id: "alltheores:silver_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"7293902C36929548"
+				"47D4236FDFBCBAF8"
+			]
+			id: "4193F2B5376B8AA7"
+			tasks: [{
+				id: "43DF0C1FBC572563"
+				item: { count: 1, id: "alltheores:electrum_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4193F2B5376B8AA7"]
+			id: "1C86103C8BC16C91"
+			tasks: [{
+				id: "7EFDD036D3029753"
+				item: { count: 1, id: "immersiveengineering:wire_electrum" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["62FFBF777A339BC7"]
+			id: "6E1CDA29E7EC877A"
+			tasks: [{
+				id: "32E814FD6AE1CC62"
+				item: { count: 1, id: "immersiveengineering:radiator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4E21978DAD067521"]
+			id: "51C4160DC51AE895"
+			tasks: [{
+				id: "2D465690FD5474FF"
+				item: { count: 1, id: "immersiveengineering:generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1C86103C8BC16C91"]
+			id: "2EB56BE64F07A4FD"
+			tasks: [{
+				id: "10CFD8AE080CD3C1"
+				item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2EB56BE64F07A4FD"]
+			id: "4E21978DAD067521"
+			tasks: [{
+				id: "1B73A1F4210154FC"
+				item: { count: 1, id: "immersiveengineering:coil_mv" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6E1CDA29E7EC877A"
+				"51C4160DC51AE895"
+			]
+			icon_scale: 4.0d
+			id: "367E9D3AD78A5B29"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:diesel_generator"
+				}
+				id: "04908DFB17291048"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:diesel_generator"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["27124894F4012288"]
+			id: "3CC6C32949C4957F"
+			tasks: [{
+				id: "25D3D783A944AA8B"
+				item: { count: 1, id: "alltheores:nickel_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["51E559ACEC3E7EFD"]
+			id: "27124894F4012288"
+			tasks: [{
+				id: "05AA77F9CC6E07D1"
+				item: { count: 1, id: "fractured:impure_nickel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["18A6302F273F5A6C"]
+			id: "62FFBF777A339BC7"
+			tasks: [{
+				id: "7D5DE97D8A962E8B"
+				item: { count: 1, id: "alltheores:constantan_plate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3CC6C32949C4957F"]
+			id: "18A6302F273F5A6C"
+			tasks: [{
+				id: "259698F7AC85B470"
+				item: { count: 1, id: "alltheores:constantan_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["54C066B2880134B5"]
+			id: "7FA5C1B532BC2D51"
+			tasks: [{
+				id: "5A5009A98F799E55"
+				item: { count: 1, id: "immersiveengineering:mold_bullet_casing" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["62FFBF777A339BC7"]
+			id: "54C066B2880134B5"
+			tasks: [{
+				id: "52EEDD4FD4282781"
+				item: { count: 1, id: "immersiveengineering:empty_casing" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"2F244CF1D13B0F30"
+				"6946557AF66020B3"
+			]
+			id: "7A8B5734CC8462E2"
+			tasks: [{
+				id: "60F53DD54435C101"
+				item: { count: 1, id: "immersiveengineering:bullet_buckshot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["367E9D3AD78A5B29"]
+			icon_scale: 4.0d
+			id: "5D4891733E44EDD7"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:refinery"
+				}
+				id: "4D932C4E5E27E744"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:refinery"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5D4891733E44EDD7"]
+			icon: {
+				id: "immersiveengineering:acetaldehyde_bucket"
+			}
+			id: "5DA1F9B26A151E13"
+			tasks: [{
+				id: "46F249097B581460"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5DA1F9B26A151E13"]
+			icon: {
+				id: "immersiveengineering:phenolic_resin_bucket"
+			}
+			id: "16536A481A65F9D2"
+			tasks: [{
+				id: "07F0628147610F0E"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["16536A481A65F9D2"]
+			icon_scale: 3.0d
+			id: "74F2FA103751F198"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:bottling_machine"
+				}
+				id: "2369B61BC4493A3B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:bottling_machine"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"74F2FA103751F198"
+				"7FA5C1B532BC2D51"
+			]
+			id: "6946557AF66020B3"
+			tasks: [{
+				id: "464D99871769E171"
+				item: { count: 1, id: "immersiveengineering:empty_shell" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["54C066B2880134B5"]
+			id: "2F244CF1D13B0F30"
+			tasks: [{
+				id: "26AB20DDDC644993"
+				item: { components: { "immersiveengineering:blueprint": "bullet" }, count: 1, id: "immersiveengineering:blueprint" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["103074F46CE1CF6E"]
+			id: "0C721EC44FCA6FDA"
+			tasks: [{
+				id: "28EAC633A1059D26"
+				item: { count: 1, id: "immersivepetroleum:survey_result" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0C721EC44FCA6FDA"]
+			icon: {
+				id: "immersivepetroleum:crudeoil_bucket"
+			}
+			id: "53F38F1BC9168D03"
+			tasks: [{
+				id: "7C7284BFD3944488"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["53F38F1BC9168D03"]
+			icon_scale: 8.0d
+			id: "442D87AC4B7041CB"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersivepetroleum:derrick"
+				}
+				id: "5EB854EC740929A2"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:derrick"
+				type: "observation"
+			}]
+			x: 18.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["442D87AC4B7041CB"]
+			icon_scale: 4.0d
+			id: "77623C41F3DFABF5"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "immersivepetroleum:oiltank"
+				}
+				id: "3287BB68C41CDF56"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:oiltank"
+				type: "observation"
+			}]
+			x: 20.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["442D87AC4B7041CB"]
+			icon_scale: 3.0d
+			id: "04D8E2A4D39A368C"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersivepetroleum:pumpjack"
+				}
+				id: "31BF12D61BB93961"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:pumpjack"
+				type: "observation"
+			}]
+			x: 20.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"155A7AA171192C5A"
+				"0995D9D8B64CCE33"
+			]
+			id: "51E559ACEC3E7EFD"
+			tasks: [{
+				dimension: "fractured:desert"
+				id: "292BD980AC8E9773"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+	]
+}

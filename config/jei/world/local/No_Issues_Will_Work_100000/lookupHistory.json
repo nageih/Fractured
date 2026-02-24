@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"colors:white_marble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersive_aircraft:airship"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
