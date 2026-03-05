@@ -9,7 +9,7 @@ PlayerEvents.tick(event => {
     }
          
 
-    if (player.y < 300 && player.y > 290 && !player.tags.contains('given_ship')) {
+    if (player.y < 300 && player.y > 290 && !player.tags.contains('given_ship') && !player.isCreative() && !player.isSpectator()) {
 
         player.tell(`${player.profile.name} incoming !!!!`)
         //player.potionEffects.add('minecraft:blindness', 100, 0)
@@ -94,6 +94,26 @@ ItemEvents.rightClicked('fractured:lightning_charge', event => {
     } else {
         player.tell('You need to be standing on a Immersive Engineering Lightning Rod to use this item!')
     }
+})
+
+//Main Island Teleporter
+ItemEvents.rightClicked('fractured:main_island_teleporter', event => {
+    const { player, level, hand, item } = event
+
+    if (level.clientSide) retur
+
+    if (level.dimension == 'minecraft:the_end') {
+
+        event.server.runCommandSilent(`execute as ${player.uuid} at ${player.uuid} run tp 0 66 0`)
+
+        if (!player.creative) {
+            item.count--
+        }
+    } 
+    else {
+        player.tell('You need to be in The End to use this item!')
+    }
+    
 })
 
 

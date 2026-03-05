@@ -21,6 +21,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_chestplate' })
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_leggings' })
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_boots' })
+  event.remove({input: 'immersiveengineering:hammer', output: '#c:dusts'})
+  event.remove({input: 'immersiveengineering:hammer', output: '#c:plates'})
+
 
   //Replace Input
   event.replaceInput({ id: 'immersiveengineering:crafting/hammer' }, 'minecraft:iron_ingot', '#c:ingots/copper')
@@ -32,6 +35,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/wirecutter' }, 'minecraft:iron_ingot', '#c:ingots/steel')
   event.replaceInput({ id: 'immersiveengineering:crafting/thermoelectric_generator' }, '#c:plates/constantan', '#c:plates/iron')
   event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, '#c:plates/copper', '#c:plates/constantan')
+  
 
   //Titanium Gear
   event.recipes.immersiveengineering.metal_press(
@@ -40,6 +44,14 @@ ServerEvents.recipes(event => {
     "casting:gear_mold",
     "1000"
   ).id("fractured:titanium_gear")
+
+  //Slatesteel Gear
+  event.recipes.immersiveengineering.metal_press(
+    TagOutputJS.ofItemStack("ltxi:slatesteel_gear"),
+    IngredientWithSizeJS.ofTag("c:ingots/slatesteel", 4),
+    "casting:gear_mold",
+    "1000"
+  ).id("fractured:slatesteel_gear")
 
   //Faraday Armor
   event.shaped('immersiveengineering:armor_faraday_helmet', ['AAA', 'ABA'], {
@@ -60,6 +72,41 @@ ServerEvents.recipes(event => {
   event.shaped('immersiveengineering:armor_faraday_boots', ['A A', 'A A'], {
     A: '#c:plates/aluminum'
   }).id('fractured:armor_faraday_boots')
+
+  //Silicon Press
+  event.recipes.immersiveengineering.bottling_machine(
+    [TagOutputJS.ofItemStack("ae2:printed_silicon"), TagOutputJS.ofItemStack("ae2:silicon_press")],
+    IngredientWithSizeJS.ofItemStack("ae2:silicon_press"),
+    Fluid.of("casting:molten_silicon", 250)
+  ).id('fractured:printed_silicon')
+
+  //Logic Processor
+  event.recipes.immersiveengineering.bottling_machine(
+    [TagOutputJS.ofItemStack("ae2:printed_logic_processor"), TagOutputJS.ofItemStack("ae2:logic_processor_press")],
+    IngredientWithSizeJS.ofItemStack("ae2:logic_processor_press"),
+    Fluid.of("casting:molten_gold", 90)
+  ).id('fractured:printed_logic_processor')
+
+  //Calculation Processor
+  event.recipes.immersiveengineering.bottling_machine(
+    [TagOutputJS.ofItemStack("ae2:printed_calculation_processor"), TagOutputJS.ofItemStack("ae2:calculation_processor_press")],
+    IngredientWithSizeJS.ofItemStack("ae2:calculation_processor_press"),
+    Fluid.of("casting:molten_certus_quartz", 250)
+  ).id('fractured:printed_calculation_processor')
+
+  //Engineering Processor
+  event.recipes.immersiveengineering.bottling_machine(
+    [TagOutputJS.ofItemStack("ae2:printed_engineering_processor"), TagOutputJS.ofItemStack("ae2:engineering_processor_press")],
+    IngredientWithSizeJS.ofItemStack("ae2:engineering_processor_press"),
+    Fluid.of("casting:molten_diamond", 90)
+  ).id('fractured:printed_engineering_processor')
+
+  //Control Processor
+  event.recipes.immersiveengineering.bottling_machine(
+    [TagOutputJS.ofItemStack("fractured:printed_control_circuit"), TagOutputJS.ofItemStack("fractured:control_press")],
+    IngredientWithSizeJS.ofItemStack("fractured:control_press"),
+    Fluid.of("casting:molten_titanium", 90)
+  ).id('fractured:printed_control_circuit')
 
   //Lightning Charge
   event.recipes.immersiveengineering.bottling_machine(

@@ -1,15 +1,14 @@
 //Armor
-/*
+
 StartupEvents.registry('item', event => {
 
     //Conductive Armor
-    event.create('fractured:conductive_helmet', 'helmet').material('fractured:conductive').tag('fractured:conductive_armor')
-    event.create('fractured:conductive_chestplate', 'chestplate').material('fractured:conductive').tag('fractured:conductive_armor')
-    event.create('fractured:conductive_leggings', 'leggings').material('fractured:conductive').tag('fractured:conductive_armor')
-    event.create('fractured:conductive_boots', 'boots').material('fractured:conductive').tag('fractured:conductive_armor')
+    event.create('fractured:survivalist_helmet', 'helmet').maxDamage(56).material('fractured:survivalist').tag('fractured:survivalist_armor')
+    event.create('fractured:survivalist_chestplate', 'chestplate').maxDamage(72).material('fractured:survivalist').tag('fractured:survivalist_armor')
+    event.create('fractured:survivalist_leggings', 'leggings').maxDamage(67).material('fractured:survivalist').tag('fractured:survivalist_armor')
+    event.create('fractured:survivalist_boots', 'boots').maxDamage(56).material('fractured:survivalist').tag('fractured:survivalist_armor')
 })
 
 StartupEvents.registry('armor_material', event => {
-    event.create('fractured:conductive').defense({"boots": 0, "leggings": 1, "chestplate": 1, "helmet": 0, "body": 1})
+    event.create('fractured:survivalist').defense({"boots": 1, "leggings": 2, "chestplate": 3, "helmet": 1, "body": 2})
 })
-*/

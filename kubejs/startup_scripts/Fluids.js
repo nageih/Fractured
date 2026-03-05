@@ -1,9 +1,7 @@
 StartupEvents.registry('fluid', event => {
 
-  //Colored Water
-  colors.forEach(color => {
-    event.create(`fractured:${color}_water`, "thin")
-      .tint(0x86A774)
-  })
+  //Fake Casting Titanium
+  event.create('casting:molten_titanium', "thick")
+    .tint(0xBFC1C2)
 
 })

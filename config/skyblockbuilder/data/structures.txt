@@ -10,6 +10,10 @@ fractured:ruined_portal_ocean
 fractured:ruined_portal_swamp
 fractured:stronghold
 fractured:village_desert
+friendsandfoes:citadel
+friendsandfoes:iceologer_cabin
+friendsandfoes:illusioner_shack
+friendsandfoes:illusioner_training_grounds
 gaiadimension:malachite_watchtower
 gaiadimension:mini_tower
 minecraft:ancient_city
@@ -51,7 +55,6 @@ sky_whale_ship:whale
 sky_whale_ship:whalearena
 sky_whale_ship:whalelight
 sky_whale_ship:whaleship
-skyvillages:skyvillage
 undergarden:catacombs
 undergarden:denizen_camp
 undergarden:depleted_mine

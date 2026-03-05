@@ -8,14 +8,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["62C12A869CD6D94A"]
 			id: "7F526021085689F0"
 			tasks: [{
 				id: "7CC2C4263619280C"
 				item: { count: 1, id: "ltxi:raw_niobium" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -10.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7F526021085689F0"]
@@ -25,13 +26,13 @@
 				item: { count: 1, id: "ltxi:niobium_ingot" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"7775064177496889"
-				"211BE3C8BC6FD916"
+				"098CC4DC658E8EB0"
 			]
 			id: "34558283114852CA"
 			tasks: [{
@@ -39,8 +40,8 @@
 				item: { count: 1, id: "ltxi:t4_circuit" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3EF59442607AD0B9"]
@@ -50,8 +51,8 @@
 				item: { count: 1, id: "ltxi:chorus_chemical" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
 			id: "3EF59442607AD0B9"
@@ -60,12 +61,11 @@
 				item: { count: 1, id: "minecraft:chorus_fruit" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.5d
+			x: -9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
-				"550085873851E664"
 				"70C4A083017D917E"
 				"34558283114852CA"
 			]
@@ -75,8 +75,8 @@
 				item: { count: 1, id: "ltxi:t5_circuit" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["42BF7B2D2241E6D4"]
@@ -86,8 +86,8 @@
 				item: { count: 1, id: "ltxi:sculk_chemical" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			id: "42BF7B2D2241E6D4"
@@ -96,18 +96,86 @@
 				item: { count: 1, id: "ltxi:gloom_shroom" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["211BE3C8BC6FD916"]
+			id: "098CC4DC658E8EB0"
+			tasks: [{
+				id: "5E5BA44BC7722F16"
+				item: { count: 1, id: "ltxi:fabricator" }
+				type: "item"
+			}]
+			x: -7.0d
 			y: -3.5d
 		}
 		{
-			id: "550085873851E664"
+			id: "19C6F2DB3B517D91"
 			tasks: [{
-				id: "58C2C274767BDB70"
-				item: { count: 1, id: "minecraft:amethyst_shard" }
+				dimension: "minecraft:the_end"
+				id: "48D663E7FAA0B589"
+				type: "dimension"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C6F2DB3B517D91"]
+			id: "3E013CEEBB0F8005"
+			tasks: [{
+				id: "1A6F8C88E8E30561"
+				item: { count: 1, id: "fractured:main_island_teleporter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CE64DFD725145AF"]
+			id: "62C12A869CD6D94A"
+			tasks: [{
+				id: "351BDE77159D5E66"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EB8182F2A6B326D"]
+			id: "4CE64DFD725145AF"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4FDF0FD3F90D350D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CE64DFD725145AF"]
+			id: "3DA701BEBB148166"
+			tasks: [{
+				id: "3FA2B41463D24412"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E013CEEBB0F8005"]
+			id: "6EB8182F2A6B326D"
+			optional: true
+			tasks: [{
+				id: "1C4ADDCC17FDA5D5"
+				item: { count: 1, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
 		}
 	]
 }

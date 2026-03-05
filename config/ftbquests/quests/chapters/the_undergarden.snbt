@@ -79,7 +79,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -9.5d
 			y: -5.0d
 		}
 		{
@@ -97,18 +97,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["680D6A8EFD2CFF55"]
-			id: "6A86AA19C00F89B7"
-			tasks: [{
-				id: "0C96C80672DF3C4A"
-				item: { count: 1, id: "naturescompass:naturescompass" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["66B703C495554994"]
+			dependencies: [
+				"66B703C495554994"
+				"4955CE697F75E226"
+			]
 			id: "194420C16D42D6CE"
 			tasks: [{
 				id: "6B3C1DBF0F4E4AD6"
@@ -116,13 +108,13 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2D712EC43BA9C655"]
 			id: "02BE5D230D9C3015"
 			tasks: [{
-				id: "6565DA4661CA5842"
+				id: "71AB3414175DE250"
 				item: { count: 1, id: "undergarden:raw_cloggrum" }
 				type: "item"
 			}]
@@ -133,12 +125,12 @@
 			dependencies: ["678E73C49DD812DD"]
 			id: "17EFFCFB078E2B90"
 			tasks: [{
-				id: "3BC8804470A3D161"
+				id: "7DA350741EA94D8F"
 				item: { count: 1, id: "undergarden:froststeel_ingot" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["194420C16D42D6CE"]
@@ -149,7 +141,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["17EFFCFB078E2B90"]
@@ -557,32 +549,72 @@
 			id: "4CA96BE9655913FD"
 			tasks: [{
 				id: "4FE76858D84658FA"
-				item: { count: 1, id: "undergarden:utheric_cluster" }
+				item: { count: 1, id: "undergarden:utheric_shard" }
 				type: "item"
 			}]
 			x: -5.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CA96BE9655913FD"]
 			id: "3FC44FAA98E0C1A8"
 			tasks: [{
 				id: "362E9BB166C8B97C"
-				item: { count: 1, id: "undergarden:utheric_shard" }
+				item: { count: 1, id: "undergarden:utheric_cluster" }
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["680D6A8EFD2CFF55"]
 			id: "6421EB1686AA3752"
+			rewards: [{
+				id: "3F2AF4AEEF796F43"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "491C87F7984B6A5E"
 				item: { count: 1, id: "minecraft:smithing_table" }
 				type: "item"
 			}]
 			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["680D6A8EFD2CFF55"]
+			id: "2943C42746FB64EE"
+			tasks: [{
+				id: "6C1FED13C09A4C91"
+				item: { count: 1, id: "undergarden:cloggrum_bucket" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["680D6A8EFD2CFF55"]
+			id: "4955CE697F75E226"
+			optional: true
+			tasks: [{
+				id: "357E5B82FB0A01B7"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["034F5FADEF2EB690"]
+			id: "12E7DAA088812271"
+			optional: true
+			tasks: [{
+				id: "63B732490963F6AB"
+				item: { count: 1, id: "fractured:dye_extractor" }
+				type: "item"
+			}]
+			x: -4.5d
 			y: -3.0d
 		}
 	]

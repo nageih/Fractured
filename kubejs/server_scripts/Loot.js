@@ -28,6 +28,12 @@ LootJS.modifiers(event => {
   replaceOreDrops('#c:ores/cloggrum', 'fractured:impure_cloggrum')
   replaceOreDrops('#c:ores/froststeel', 'fractured:impure_froststeel')
   replaceOreDrops('#c:ores/utherium', 'undergarden:utheric_shard')
+
+  //Titanium
+  replaceOreDrops('#c:ores/titanium', 'fractured:impure_titanium')
+
+  //Certus Quartz
+  replaceOreDrops('#c:ores/certus_quartz', 'fractured:impure_certus_quartz')
   
   //Function to replace ore drops
   function replaceOreDrops(oreTag, drop) {

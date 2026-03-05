@@ -6,12 +6,18 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'casting:smelting/black_brick' })
   event.remove({ id: 'casting:melting/black_brick/from_clay_block' })
   event.remove({ id: 'casting:melting/black_brick/from_clay' })
+  event.remove({ id: 'casting:tank' })
+
+  //Tank
+  event.shaped('casting:tank', ['AAA', 'A A', 'AAA'], {
+    A: 'casting:black_brick'
+  }).id('fractured:tank')
 
   //Plate Mold
   event.shaped('casting:plate_mold', [' A ', 'ABA', ' A '], { 
     A: 'casting:black_brick',
     B: '#minecraft:wooden_pressure_plates' 
-  }).id('fractures:plate_mold')
+  }).id('fractured:plate_mold')
 
   //Coke Brick
   event.recipes.casting.solidifier('minecraft:bricks', '250x casting:molten_black_brick', 'immersiveengineering:cokebrick').id('fractured:solidifier/coke_brick')
@@ -38,6 +44,8 @@ ServerEvents.recipes(event => {
     if (oreType === 'silver') return;
     if (oreType === 'nickel') return;
     if (oreType === 'aluminum') return;
+    if (oreType === 'certus_quartz') return;
+    if (oreType === 'titanium') return;
 
     event.recipes.casting.melting(`fractured:impure_${oreType}`, `45x casting:molten_${oreType}`, 1000).id(`fractured:melting/impure_${oreType}`)
     event.recipes.casting.melting(`fractured:pure_${oreType}`, `180x casting:molten_${oreType}`, 1000).id(`fractured:melting/pure_${oreType}`)

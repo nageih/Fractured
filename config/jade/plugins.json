@@ -85,6 +85,9 @@
   "unlitcampfire": {
     "campfireinfo": true
   },
+  "gravestone": {
+    "grave": true
+  },
   "balm": {
     "jade": true
   },

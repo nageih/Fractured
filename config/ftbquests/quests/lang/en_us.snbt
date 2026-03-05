@@ -17,9 +17,13 @@
 	quest.00012C8C1EC7B6DA.quest_desc: ["[ \"Drops from \", { \"text\": \"Green Opal Ore\", \"underlined\": true, \"color\": \"green\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"486A68FCF7F4E791\" } } ]"]
 	quest.0158E7C6C7E8A767.quest_desc: ["Crushed &0&lPetcoke&r&r"]
 	quest.018B06C1A5F159DC.quest_desc: ["When in full &8&lFaraday Armor&r&r and standing ontop of a multiblock &e&lLightning Rod&r&r using this item will strike you with &e&lLightning&r&r"]
+	quest.01B652F94D801583.quest_desc: ["Made inside the &lMixer&r"]
+	quest.01C3824E489E75D7.quest_desc: ["Made inside the &lGrinder&r"]
+	quest.01DAEA4A48B7BB4B.quest_desc: ["[ \"Drops from \", { \"text\": \"Titanium Ore\", \"underlined\": true, \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"377B5CB9B8F6562E\" } } ]"]
 	quest.02BE5D230D9C3015.quest_desc: ["Crafted from &#8B4513&lImpure Cloggrum&r &r"]
 	quest.02DA07EE0352087B.quest_desc: ["Made inside the &0&lBlast Furnace&r&r from &9&lFroststeel&r&r"]
 	quest.034F5FADEF2EB690.quest_desc: ["Made inside the &#8B4513&lDrying Table&r&r"]
+	quest.036D85B2500732DE.quest_desc: ["Allows you to make &lPolymer Bars&r"]
 	quest.03B46998B37F4E19.quest_desc: ["Made inside the &#8B4513&lFermenter&r&r"]
 	quest.047D74E10724B489.quest_desc: ["Made inside the &lRestructurer&r"]
 	quest.04C204A509F34264.quest_desc: ["Below the &8&lCoker Unit&r&r there are 2 outputs for &lPetcoke&r"]
@@ -30,9 +34,13 @@
 	]
 	quest.051238EFDB57857E.quest_desc: ["Used to make &lHV Wires&r"]
 	quest.06D4B1E5FE22C9C4.quest_desc: ["&2&lThe Undergarden&r&r is the only other dimension that can be accessed from &lThe Overworld&r. To enter create a portal from &#8B4513&lTreated Stone Bricks&r&r and light with the &lUndergarden Catalyst&r"]
+	quest.06E82AD5B86D8A7F.quest_desc: ["The &lMixer&r is like a mini version of the &0&lMixer&r&r"]
 	quest.072E309B1EAC0618.quest_desc: ["Created with &8&lMolten Stone&r&r and a &0&lPickaxe Mold&r&r inside a &0&lSolidifier&r&r"]
 	quest.07652DF92EF47EEA.quest_desc: ["&2&lSpark Fruit&r&r grows in jungle biomes in &lThe Overworld&r. &c&lNether Warts&r&r can also be struck by &e&lLightning&r&r to create &2&lSpark Fruit&r&r"]
+	quest.07F1BBE40CB19C91.quest_desc: ["Allows the Assembly of high level parts"]
 	quest.08C773C0351D6B12.quest_desc: ["When held near a valid multiblock will show where to place"]
+	quest.08DB10901054DDFA.quest_desc: ["A very important part of creating circuits"]
+	quest.098CC4DC658E8EB0.quest_desc: ["The ultimate crafting table "]
 	quest.0A2B401391509BB1.quest_desc: ["Used to make the &#8B4513&lAlloy Kiln&r&r"]
 	quest.0B44FFCFE70BB1CB.quest_desc: [
 		"The &#8B4513&lBlast Furnace&r&r is not too important at the moment. 27 &#8B4513&lBlast Bricks&r&r in a 3x3x3. Use the &#8B4513&lHammer&r&r on the side to create the multiblock."
@@ -41,6 +49,7 @@
 	]
 	quest.0B5949F7D5E7BB0A.quest_desc: ["Used to collect fluids and move them around the world. &4&lHot&r&r fluids will break this after use"]
 	quest.0B88FF01EB0BD5A5.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
+	quest.0BF39BA3C826C1FD.quest_desc: ["Can be used to create the &lEngineering Press&r"]
 	quest.0C32CE27954E9105.quest_desc: ["A dull dimension contains &lEroding Water&r"]
 	quest.0C32CE27954E9105.title: "Dark Colored Caves"
 	quest.0C721EC44FCA6FDA.quest_desc: ["Shows fluid deposites from a chunk using the &0&lSeismic Survey Tool&r&r"]
@@ -54,8 +63,10 @@
 		"&lBiomes:&r All"
 		"&lTip:&r Easier to find in biomes that have Grass Blocks"
 	]
+	quest.0DEE9173FECFA144.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.0E672826BF9BDC89.quest_desc: ["The &e&lLightning Rod&r&r can be used to catch &e&lLightning Bolts&r&r and convert them into power"]
 	quest.0E84E7D5A4FF626E.quest_desc: ["&#8B4513&lCloggrum Ingots&r&r can be squeezed inside the &#8B4513&lSquuezer&r&r to create &lIron Ingots&r and &5&lVirulent Mix&r&r"]
+	quest.0E95BF55AD32E030.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.0F13C3C6FFAA52DC.quest_desc: ["Low down in the caves you can find &9&lEroding Water&r&r. Can also be obtained through a &0&lDerrick&r&r"]
 	quest.0F5ED9F96D6D8048.quest_desc: ["Can be added to a placed &0&lWindmill&r&r to make it spin faster and produce more RF "]
 	quest.0F64894280306C3D.quest_desc: ["&lWorms&r can be found when using a &lHoe&r on &lGrass Blocks&r. A worm will keep a 3x3 area moisturized. Will also make crops grow slightly faster"]
@@ -69,6 +80,7 @@
 		"Right Click again to remove &e&lEmpty Cartridge&r&r"
 	]
 	quest.107224F16C1E48E5.quest_desc: ["Made inside the &#8B4513&lMixer&r&r from &l&6Gasoline&r&r and &8&lAluminum Dust&r&r"]
+	quest.108141B0EF0C6739.quest_desc: ["&6&lGlow Berries&r&r can also struck by &e&lLightning&r&r to create &2&lVitriol Berries&r&r"]
 	quest.1098BBDB7BBB45DE.quest_desc: ["The &4&lCampfire&r&r can be used to keep you warm as well as cook food and &8&lCobblestone&r&r"]
 	quest.1112F243E43EE85E.quest_desc: ["Ore spawn in giant viens across the worlds. Most ores on the surface will have a colored tree "]
 	quest.113A6412F5F0113D.quest_desc: [
@@ -82,19 +94,30 @@
 	quest.116E654229D0BA5F.title: "Gaia"
 	quest.12571F322C143731.quest_desc: ["Can be used as one of the 2 power sources for the &5&lRestructurer&r&r"]
 	quest.1282A5F5B89A7950.quest_desc: ["Made inside the &1&lSoaking Table&r&r from either &#8B4513&lLog Sheets&r&r, &a&lSugar Cane&r&r or &a&lReeds&r&r"]
+	quest.12E7DAA088812271.quest_desc: ["When used on &z&lColored Stone&r&r will extract that dye from it, with a chance to give you the dye item"]
 	quest.1360426821F58FEA.quest_desc: ["Low down in the caves you can find &5&lPurifying Water&r&r. Can also be obtained through a &0&lDerrick&r&r"]
 	quest.137FCA0C3C680064.quest_desc: ["Crafted &4&lNetherrack Rocks&r&r"]
 	quest.1393BF57965923E5.quest_desc: ["Crafted from &l&#8B4513Sticks&r&r"]
-	quest.13AA5391F7D32AB4.quest_desc: ["A better &lMechanical Compoment&r"]
+	quest.1393BF57965923E5.title: "Planks"
+	quest.13A26C11AC42F2FF.quest_desc: ["Can be used to create the &lLogic Press&r"]
+	quest.13AA5391F7D32AB4.quest_desc: ["A &lReinforced Mechanical Compoment&r"]
+	quest.13E6D929EF66D0E6.quest_desc: ["Cutting &#8B4513&lLogs&r&r on a &#8B4513&lChopping Board&r&r will produce &#8B4513&lTree Bark&r&r and strip the &#8B4513&lLog&r&r"]
 	quest.155A7AA171192C5A.quest_desc: ["The first World that &0&lThe Void&r&r gives access to is the &lFractured Desert&r"]
 	quest.1563637174E457E6.quest_desc: ["&8&lMetallic Dust&r&r can be made inside the &#8B4513&lBlast Furnace&r&r"]
-	quest.15A0B3BB1FC9B3C9.quest_desc: ["Using the &lGyrodyne&r find an area to land in!"]
+	quest.15A0B3BB1FC9B3C9.quest_desc: [
+		"After getting to your floating &lWhale&r in the sky you need to land, the best way is to jump off!"
+		"{@pagebreak}"
+		"Using the &lGyrodyne&r find an area to land in!"
+	]
 	quest.160624940ADFFD1A.quest_desc: ["&lInfused Obsidian&r can be used to create a portal to &lThe Nether&r"]
 	quest.1627529870C8F442.quest_desc: ["From the &0&lDesillation Tower&r&r"]
+	quest.16314D7820DC899B.quest_desc: ["Made inside the &#8B4513&lBottling Machine&r&r"]
 	quest.16536A481A65F9D2.quest_desc: ["Made from &lAcetaldehde&r and &#8B4513&lCreosote Oil&r&r inside a &0&lRefinery&r&r "]
+	quest.16A1DE2C911A27A6.quest_desc: ["Made inside the &lGrinder&r"]
 	quest.16AB4B76A6BD0B37.quest_desc: ["The &#8B4513&lAuto Workbench&r&r can be used to automatically craft the selected recipe from the &9&lBlueprint&r&r"]
 	quest.16AB4B76A6BD0B37.quest_subtitle: "A Placer will make this easier to build..."
 	quest.16AB4B76A6BD0B37.title: "Auto Workbench"
+	quest.16DAFBDB2B420964.quest_desc: ["A semi strong mix useful for armor"]
 	quest.1703989159CD2650.quest_desc: ["A block of Sugilite"]
 	quest.1765270A26662688.quest_desc: ["A block of &l&6Glowstone&r&r"]
 	quest.17D864E1C3813A89.quest_desc: ["Made with the &8&lAtomic Reconstructor&r&r"]
@@ -108,8 +131,7 @@
 		"Requires the &0&lExcavator&r&r"
 	]
 	quest.17E6CA0559A2075A.title: "Iron Ore"
-	quest.17EFFCFB078E2B90.quest_desc: ["Made inside the &0&lBlast Furnace&r&r"]
-	quest.182882F00A11CBEA.quest_desc: ["quartz?"]
+	quest.17EFFCFB078E2B90.quest_desc: ["Made inside the &0&lBlast Furnace&r&r. Makes great tools"]
 	quest.188598D586A3352A.quest_desc: [
 		"&lAmethyst&r"
 		""
@@ -121,16 +143,22 @@
 	quest.18A6302F273F5A6C.quest_desc: ["An alloy of &#FF681F&lCopper&r&r and &#8B4513&lNickel&r&r"]
 	quest.18E2A6B88E47A449.quest_desc: ["[ \"Drops from \", { \"text\": \"Blue Opal Ore\", \"underlined\": true, \"color\": \"blue\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"392E6E0C5A3E48C5\" } } ]"]
 	quest.192FA13D5043F934.quest_desc: ["The &l&lArc Furnace&r&r is a powerful machine that can be used to make some alloys and smelt items. Its very power hungry "]
-	quest.194420C16D42D6CE.quest_desc: ["[ \"Drops from \", { \"text\": \"froststeel Ore\", \"underlined\": true, \"color\": \"blue\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F866D99F716E28B\" } } ]"]
+	quest.194420C16D42D6CE.quest_desc: ["[ \"Drops from \", { \"text\": \"Froststeel Ore\", \"underlined\": true, \"color\": \"blue\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F866D99F716E28B\" } } ]"]
+	quest.1978C0A1FE18504C.quest_desc: ["Made on the &0&lMetal Press&r&r"]
+	quest.19C6F2DB3B517D91.quest_desc: ["This world is really fractured "]
+	quest.19C6F2DB3B517D91.title: "Enter The End"
 	quest.1AC4C846E0F90EA7.quest_desc: ["Grinded &e&lWheat&r&r with a &8&lMortar and Pestle&r&r"]
+	quest.1AC7703FD1B75766.quest_desc: ["[ \"Drops from \", { \"text\": \"Ancient Debris\", \"underlined\": true, \"color\": \"#8b4513\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2FE85C58AA7693AD\" } } ]"]
 	quest.1B960A09F2CE341B.quest_desc: ["&lIron Casing&r can be used to make &lActually Additions&r machines"]
 	quest.1BBC6DDFBEC013A9.quest_desc: ["A better way to craft"]
 	quest.1BBC6DDFBEC013A9.title: "A bigger Crafting Grid"
 	quest.1BC01DAE3349D1A8.quest_desc: ["Generates power based on the temperature difference between adjacent blocks"]
+	quest.1C71A9DF97D202BA.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
 	quest.1C86103C8BC16C91.quest_desc: ["Better wires"]
 	quest.1CA226A22FBD6A9A.quest_desc: ["[ \"Drops from \", { \"text\": \"White Opal Ore\", \"underlined\": true, \"color\": \"white\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"302185C254A81930\" } } ]"]
 	quest.1D2106911904AA10.quest_desc: ["Made inside the &0&lArc Furnace&r &rfrom &8&lImpure Aluminum&r&r"]
 	quest.1D3524C227F3BE28.quest_desc: ["[ \"Drops from \", { \"text\": \"Gold Ore\", \"underlined\": true, \"color\": \"yellow\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70EE32C3CD61C180\" } } ]"]
+	quest.1D738A5A492D5873.quest_desc: ["Made inside the &lElectroCentrifudge&r"]
 	quest.1E04C480ABE974FC.quest_desc: ["Lighting the way"]
 	quest.1F0EE5286380C8ED.quest_desc: ["&1&lWater&r&r and &e&lWheat Flour&r&r can be used to make &e&lDough&r&r"]
 	quest.1F7097E2281424EB.quest_desc: ["Crafted &8&lSmall Coke Coal&r&r"]
@@ -144,6 +172,7 @@
 	]
 	quest.204DBF02939A76C5.quest_desc: ["Drops from the &2Malachite Guard&r"]
 	quest.20E9A18E3608162F.quest_desc: ["Made from &4&lNether Bricks&r&r and &4&lMagma Blocks&r&r"]
+	quest.211BE3C8BC6FD916.quest_desc: ["From &l&9Raw Niobium&r&r"]
 	quest.21272C07AFACC7D0.quest_desc: ["Axe Tree get Wood"]
 	quest.21272C07AFACC7D0.title: "Tree Chopper"
 	quest.212C8F53C6562A70.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
@@ -188,12 +217,12 @@
 	quest.2672CA9065D48B82.quest_desc: ["Can be filled from &1&lWater Sources&r&r. After obtaining can be smelted a few times to make it safer to drink"]
 	quest.2694AFBBDAE85ABA.quest_desc: ["The &8&lCoker Unit&r&r is a massive multiblock structure that is used to turn &1&lWater&r&r and &0&lBitumen&r&r into &#8B4513&lSulfurized Diesel&r&r and &0&lPetcoke&r.&r &0&lPetcoke&r&r is what we are after"]
 	quest.27124894F4012288.quest_desc: ["[ \"Drops from \", { \"text\": \"Nickel Ore\", \"underlined\": true, \"color\": \"#8b4513\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54BB9D8D5916EB6E\" } } ]"]
-	quest.274CFE3FE74E3070.quest_desc: ["from fabricator"]
 	quest.2800B8039514B962.quest_desc: ["A block"]
 	quest.2863B7E6B497FBFC.quest_desc: ["Drops a unique item on death"]
 	quest.2863B7E6B497FBFC.title: "Kill The Guard"
 	quest.2869B1A2A4694060.quest_desc: ["[ \"Found near \", { \"text\": \"Scorched Ore\", \"bold\": true, \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9C19B2677B34EE\" } } ]"]
 	quest.289EC4865E415319.quest_desc: ["Allows the &0&lSolidifier&r&r to make &lWires&r"]
+	quest.2943C42746FB64EE.quest_desc: ["Doesn't break when handling &4&lHot&r&r fluids"]
 	quest.29D4980E7839A493.quest_desc: ["Strong fabric"]
 	quest.2A448251C0169B7E.quest_desc: ["When placed adjacent to a &0&lSimple Controller&r&r will pull the first fluid to its inventory. This can then be used to cast item from different &0&lMolds&r&r"]
 	quest.2B3FE8E65609242B.quest_desc: ["A plate of &8&lAluminum&r&r"]
@@ -206,6 +235,7 @@
 		"&lDimension:&r The Undergarden"
 		"&lBiomes:&r Not Depths"
 	]
+	quest.2D36D8128832B70D.quest_desc: ["Made inside the &lMaterial Infusing Chamber&r"]
 	quest.2D60368F24A4C80C.quest_desc: ["Used to light the &5&lKeystone Portal&r&r to the &5&lGaia Dimension&r&r"]
 	quest.2D712EC43BA9C655.quest_desc: ["[ \"Drops from \", { \"text\": \"Cloggrum Ore\", \"underlined\": true, \"color\": \"#8b4513\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D181FF935A1FE6D\" } } ]"]
 	quest.2DBEE8FAB832D8A1.quest_desc: ["Crafted from &l&#8B4513Twigs&r&r"]
@@ -217,6 +247,7 @@
 	quest.2EB56BE64F07A4FD.quest_desc: ["A better wire to send energy"]
 	quest.2F01B7AB4B4ABC2A.quest_desc: ["Used to make a &8&lMortar and Pestle&r&r"]
 	quest.2F244CF1D13B0F30.quest_desc: ["Allows you to craft &lProjectiles&r"]
+	quest.2F32CDFEB0550FC1.quest_desc: ["A super circuit"]
 	quest.2F3E2008B4143E60.quest_desc: ["A handy way to store drinks"]
 	quest.2F412F937C2BC80F.quest_desc: ["[ \"Drops from \", { \"text\": \"Redstone Ore\", \"underlined\": true, \"color\": \"red\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7336AB92DD4B6785\" } } ]"]
 	quest.2F412F937C2BC80F.title: "Redstone"
@@ -226,11 +257,18 @@
 		""
 		"&lIndication&r: Metal Finder"
 		"&lDimension:&r The Undergarden"
-		"&lBiomes:&r Frostfields and Frosty Smogstem Forest "
+		"&lBiomes:&r All"
 	]
 	quest.2FA278790FAD52EB.quest_desc: ["A &0&lSimple Controller&r&r can be used to melts resources into fluids"]
 	quest.2FB32CECCE3E1A3F.quest_desc: ["At the top of a tower is a mini boss called &2&lMalachite Guard&r&r"]
 	quest.2FB32CECCE3E1A3F.title: "Malachite Watchtower"
+	quest.2FE85C58AA7693AD.quest_desc: [
+		"&lAncient Debris&r"
+		""
+		"&lIndication&r: None"
+		"&lDimension:&r The Nether"
+		"&lBiomes:&r All"
+	]
 	quest.2FF469639655D9DE.quest_desc: ["Allows you to craft &lEngineering Blocks&r"]
 	quest.30012F854E62C251.quest_desc: ["This modpack uses various different portals to access new dimensions. Most portals will show in JEI by checking the uses of the portal block or catalyst "]
 	quest.302185C254A81930.quest_desc: [
@@ -241,11 +279,15 @@
 		"&lBiomes:&r All"
 	]
 	quest.308619C5694C9BC0.quest_desc: ["Made inside the &0&lSqueezer&r&r"]
+	quest.31B498E957946CE4.quest_desc: ["The &lGrinder&r is like a mini version of the &0&lCrusher&r&r"]
 	quest.31C0DC0B9A28D93F.quest_desc: ["Used for &8&lFlint Tools&r&r"]
 	quest.31E93CBE12506CBE.quest_desc: ["The &8&lFermenter&r&r can be used to make &lEthonal&r from organic materials "]
 	quest.32B94B1452E8A054.quest_desc: ["&8&lGravel&r&r is a common resource in the world"]
+	quest.332CB14725979954.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.33BAB6928043C27B.quest_desc: ["A &0&lWindmill&r&r can be used to generate a small amount of RF. Must be connected to a Dynamo"]
 	quest.33BFE6241D31E892.quest_desc: ["Can be found when crushing &e&lSandstone&r&r"]
+	quest.34558283114852CA.quest_desc: ["Made inside the &lElectroCentrifudge&r"]
+	quest.34B34434E6A0ECBD.quest_desc: ["I see you"]
 	quest.34FF1729FBE766A1.quest_desc: ["Crafted &lResidue&r"]
 	quest.3590262C74937C98.quest_desc: [
 		"The &0&lCore Sample Drill&r&r is used to test the ground for resources. "
@@ -261,6 +303,13 @@
 	quest.36D380A56080807F.quest_desc: ["Made inside the &0&lSolidifier&r&r or &#8B4513&lMetal Press&r&r"]
 	quest.3743424EA21CA930.quest_desc: ["Can be used to create a portal the Void"]
 	quest.375F3B305EF70DD6.quest_desc: ["A base lens that can be crafted into other lenses"]
+	quest.377B5CB9B8F6562E.quest_desc: [
+		"&lTitanium Ore&r"
+		""
+		"&lIndication&r: None"
+		"&lDimension:&r The Nether"
+		"&lBiomes:&r All"
+	]
 	quest.380637B4B2FDACDC.quest_desc: ["Smelts a single item"]
 	quest.392E6E0C5A3E48C5.quest_desc: [
 		"&lBlue Opal Ore&r"
@@ -282,15 +331,22 @@
 		"Two &lImpure Ore&r makes one &lIngot&r"
 	]
 	quest.3CC6C32949C4957F.quest_desc: ["&#8B4513&lImpure Nickel&r&r inside a &#8B4513&lSqueezer&r&r will create &#8B4513&lNickel Ingots&r&r"]
+	quest.3D615B46A5CE7379.quest_desc: ["Made inside the &lGrinder&r"]
+	quest.3DA701BEBB148166.quest_desc: ["From the City at the End of the Game"]
+	quest.3E013CEEBB0F8005.quest_desc: ["Teleports you to the center island of &lThe End&r. Prepare for battle"]
+	quest.3E056026D0B86829.quest_desc: ["Made on the &0&lMetal Press&r&r"]
 	quest.3E7AA207262A2655.quest_desc: ["Obtained from breaking ore from the &lMining Lens&r"]
+	quest.3EF59442607AD0B9.quest_desc: ["Spawns on the &lOuter End Islands&r"]
 	quest.3F0837CF53EDC699.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
 	quest.3F1C77F1F7A62AAC.quest_desc: ["After placing &e&lSandstone&r&r in &0&lThe Void&r&r it will become infused and transform into &0&lVoid Infused Sandstone&r&r"]
 	quest.3F59613C98FF78A1.quest_desc: ["Made with the &8&lAtomic Reconstructor&r&r"]
 	quest.3FBDDBDD053EA6FE.quest_desc: ["A useful tool to plant &2&lSeeds&r&r and &2&lCrops&r&r"]
 	quest.3FC44FAA98E0C1A8.quest_desc: ["Crafted from &c&lUtheric Shards&r&r"]
 	quest.416DB413A109C16C.quest_desc: ["&8&lCobblestone&r&r can be turned into &8&lStone&r&r on a &4&lCampfire&r&r"]
+	quest.418613C121E2EA5C.quest_subtitle: "CHANGE ME"
 	quest.4193F2B5376B8AA7.quest_desc: ["An alloy of &e&lGold&r&r and &lSilver&r"]
 	quest.42024C4DAC805D7E.quest_desc: ["Used for &8&lFlint Tools&r&r"]
+	quest.424D10D15BA636FA.quest_desc: ["Made inside the &lMaterial Infusing Chamber&r"]
 	quest.42A092A9A7A686C7.quest_desc: ["A simple &#9AC0CD&lBucket&r,&r must be smelted to use as a &8&lBucket&r&r"]
 	quest.42B9D4EEE31560F8.quest_desc: ["A &8&lBasic Mechanical Component&r&r"]
 	quest.4358A298CABA59D8.quest_desc: ["[ \"Drops from \", { \"text\": \"Aluminum Ore\", \"underlined\": true, \"color\": \"gray\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7961A2CF4801468B\" } } ]"]
@@ -312,6 +368,7 @@
 		"&lDimension:&r Fractured Desert"
 		"&lBiomes:&r All"
 	]
+	quest.44AD52EF3C740231.quest_desc: ["A base for most &lCircuits&r"]
 	quest.44C2DDF2A0528F11.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
 	quest.44DA923F27F905E9.quest_desc: ["Useful for mining"]
 	quest.44E5CA55C8F94FC5.quest_desc: ["A &lPiston&r is a mechanical device used for some multiblocks"]
@@ -331,6 +388,7 @@
 		"&lBiomes:&r All"
 	]
 	quest.4945DEA3DFF190EE.quest_desc: ["&c&lUtheric Clusters&r&r can be squeezed inside the &#8B4513&lSquuezer&r&r to create &c&lRedstone&r&r and &5&lVirulent Mix&r&r"]
+	quest.4955CE697F75E226.quest_desc: ["Allows you to find biomes"]
 	quest.4990FDC07119CD25.quest_desc: ["Made in a &0&lRefinery&r&r from &l&dNaphtha&r&r and &#FF69B4&lBenzol&r&r"]
 	quest.4A29489D7471EE85.quest_desc: ["Made inside the &0&lSolidifier&r&r"]
 	quest.4A398F348DC0D804.quest_desc: ["A simple &6&lCompass&r&r points to your spawn position"]
@@ -347,6 +405,7 @@
 	quest.4CA96BE9655913FD.quest_desc: ["[ \"Drops from \", { \"text\": \"Utherium Ore\", \"underlined\": true, \"color\": \"red\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113A6412F5F0113D\" } } ]"]
 	quest.4CC132E4FA1620DF.quest_desc: ["[ \"Drops from \", { \"text\": \"Red Opal Ore\", \"underlined\": true, \"color\": \"red\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D9D0F0C2F41312D\" } } ]"]
 	quest.4CE264175DE13357.quest_desc: ["Made inside the &lRestructurer&r"]
+	quest.4CE64DFD725145AF.quest_desc: ["The &0&lDragon&r&r protects &lThe End&r"]
 	quest.4D2DDBDE4E24086B.quest_desc: ["&6&lBronze&r&r is a alloy of &#FF681F&lCopper&r&r and &lTin&r and can be made inside the &#8B4513&lAlloy Kiln&r&r"]
 	quest.4D9D0F0C2F41312D.quest_desc: [
 		"&lRed Opal Ore&r"
@@ -366,6 +425,7 @@
 	quest.4FACD7308AB9B1C7.quest_desc: ["A simple blade used to make a &0&lWindmill&r&r"]
 	quest.50609BAFE7E276DC.quest_desc: ["Can be used to cut some items on the &#8B4513&lCutting Board&r&r"]
 	quest.50818EBCACCFA244.quest_desc: ["Can be climbed, also used for a lot of &lImmersive Engineering&r multiblock structures"]
+	quest.5096CA9B6F305AFB.quest_desc: ["&2&lNether Wart&r&r can be found inside &c&lNether Fortresses&r&r"]
 	quest.50BD38056CDC5F59.quest_desc: ["Smelted &8&lGrout Brick&r&r"]
 	quest.51C4160DC51AE895.quest_desc: ["Used to make the &0&lDiesel Generator&r&r"]
 	quest.51E559ACEC3E7EFD.quest_desc: ["The &e&lFractured Desert&r&r is a extremely &4&lHot&r&r area but contains some very useful resources like &e&lGold&r&r, &lSilver&r, &#8B4513&lNickel&r&r and &l&0Oil&r&r"]
@@ -386,6 +446,7 @@
 	]
 	quest.53F38F1BC9168D03.quest_desc: ["Found inside the &0&lFractured Desert&r&r using the &0&lSeismic Survey Tool&r&r"]
 	quest.5439C36F9BDEA027.quest_desc: ["These can be used to move power across a longer distance"]
+	quest.548B920EB3B941F6.quest_desc: ["Used to seperate resources from each other"]
 	quest.54AE70099F87ED5F.quest_desc: ["Used to locate the &2&lMalachite Watchtower&r&r"]
 	quest.54BB9D8D5916EB6E.quest_desc: [
 		"&lNickel Ore&r"
@@ -397,9 +458,11 @@
 	quest.54C066B2880134B5.quest_desc: ["A casing used to create bullets"]
 	quest.54C64C0F22FD7BA0.quest_desc: ["The &5&lGaia Dimension&r&r is full of &5&lGaia Stone&r&r, when broken will need to be smelted into this"]
 	quest.5668C2E4CEF8652D.quest_desc: ["Changes the atomic structure of certain resources"]
+	quest.56F38D74DEFB615E.quest_desc: ["Made inside the &lGrinder&r"]
 	quest.57402B188353AC5C.quest_desc: ["Breaking &2&lLeaves&r&r with &#8B4513&lWooden Shears&r&r will drop the block"]
+	quest.57402B188353AC5C.title: "Leaves"
 	quest.57E4AFCA263E9DEE.quest_desc: ["Its quite horrible in here"]
-	quest.5827207280572149.quest_desc: ["Like the Terracotta Bowl a &lWater Bottle&r can be purified by smelting "]
+	quest.5827207280572149.quest_desc: ["Like the &#8B4513&lTerracotta Bowl&r&r a &1&lWater Bottle&r&r can be purified by smelting "]
 	quest.58A907E969E4539F.quest_desc: ["Smelted &lGrout Ball&r"]
 	quest.58DD564B6A5F8F85.quest_desc: ["The &lMineral Finder&r can be used to find some specific blocks. Like &lLootr Chests&r"]
 	quest.5983FD16ABAAFDEE.quest_desc: ["Allows the &0&lSolidifier&r&r to make &lPlates&r"]
@@ -413,6 +476,7 @@
 	]
 	quest.5A1223F440B9A725.quest_desc: ["The &0&lExcavator&r&r can be used like the &0&lDerrick&r&r to obtain resources from deep underground. Each dimension has there own resources that a &0&lExcavator&r&r can collect"]
 	quest.5BCF20C94A0AB809.quest_desc: ["The &#8B4513&lDrying Table&r&r is used to &6&lDry&r&r items, it can also be &9&lWaterlogged&r&r to make it a &9&lSoaking Table&r&r"]
+	quest.5C263083BCC6D015.quest_desc: ["Used to make &3&lPrinted Engineering Circuit&r&r"]
 	quest.5CFA5014092DF032.quest_desc: ["Used for &8&lFlint Tools&r&r"]
 	quest.5D4891733E44EDD7.quest_desc: ["&l&0The Refinery&r&r is used to refine fluids with other fluids or items to create something new "]
 	quest.5D5B93FF39C2F2E0.quest_desc: ["A block"]
@@ -422,18 +486,27 @@
 	quest.5FE27D8952337B2E.quest_desc: ["Crafted &5&lGaia Stone&r&r"]
 	quest.600B5859D960C6B6.quest_desc: ["Waste from the &5&lRestructurer&r&r"]
 	quest.602BE02C18721B83.title: "gaia"
-	quest.603ED41C2C9E8FD4.quest_desc: ["From mining &lStone&r"]
+	quest.603ED41C2C9E8FD4.quest_desc: ["From mining &lStone&r. Can also be crafted"]
 	quest.6124E218241BC913.quest_desc: ["There are various types of &0&lLocators&r&r, this one allows you to locate the &0&lCatacombs&r&r in &2&lThe Undergarden&r&r"]
 	quest.6134FF1F3194A996.quest_desc: ["A block of gems"]
 	quest.6284C12EBDFC08B8.quest_desc: ["The first &2&lForgotten Template&r&r can be found in the &0&lCatacombs&r&r"]
 	quest.629BFD0436EC491B.quest_desc: ["The &#8B4513&lAlloy Kiln&r&r can be used to make alloys. 8 &#8B4513&lAlloy Bricks&r&r in a 2x2x2. Use the &#8B4513&lHammer&r&r on the side to create the multiblock"]
+	quest.62C12A869CD6D94A.quest_desc: ["Spawns after killing the &0&lEnder Dragon&r&r"]
 	quest.62CBCEEA70E792A5.quest_desc: ["[ \"Drops from \", { \"text\": \"Scorched Ore\", \"bold\": true, \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9C19B2677B34EE\" } } ]"]
+	quest.62DE41B4D9F07102.quest_desc: ["Allows you to craft &lCircuits&r"]
 	quest.62FFBF777A339BC7.quest_desc: ["Another plate"]
 	quest.631673700DFBD026.quest_desc: ["Made with the &8&lAtomic Reconstructor&r&r from various types of &0&lCoal&r&r"]
 	quest.63742CD0E21CB0D7.quest_desc: ["&e&lWheat&r&r can be grown on &l&#8B4513Farmland&r&r from &e&lWheat Seeds&r&r"]
+	quest.63C305D56960EAE4.quest_desc: [
+		"Can be used to break &2&lLeaves&r&r quickly and increase the amount of &2&lSaplings&r&r they drop."
+		""
+		"&2&lSaplings&r&r can be crafted into &#8B4513&lSticks&r&r"
+	]
+	quest.63C4C884F5F3CBF1.quest_desc: ["Fuses materials together"]
 	quest.6421EB1686AA3752.quest_desc: ["Allows crafting with &lTemplates&r"]
 	quest.642735C042F81AE5.quest_desc: ["Made in the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.657377D0ADF42020.quest_desc: ["Crafted &0&lBlack Brick&r&r"]
+	quest.6583E46B220FB4CE.quest_desc: ["Made inside the &#8B4513&lBottling Machine&r&r"]
 	quest.65FE7211D55B6B20.quest_desc: ["Waste from the &0&lDistillation Tower&r&r"]
 	quest.6641774660A1537C.quest_desc: ["From &lMolten Glass&r"]
 	quest.666178BDBA540E78.quest_desc: ["A &#8B4513&lCutting Board&r&r can be used to cut items, place item to be cut on the board and use the required tool to cut "]
@@ -442,29 +515,42 @@
 	quest.66DFE8D9E1F5B27E.quest_desc: ["Obtained after killing the &0&lWither&r&r"]
 	quest.678E73C49DD812DD.quest_desc: ["Crafted from &9&lImpure Froststeel&r&r"]
 	quest.67A2542F9B3A2734.quest_desc: ["Made inside the &0&lSolidifier&r&r from &0&lMolten Coal&r&r and &c&lBricks&r&r"]
-	quest.680C10669B52210B.quest_desc: ["Better than nothing "]
+	quest.680C10669B52210B.quest_desc: ["A better set of armor"]
 	quest.680C10669B52210B.title: "Cloggrum Armor"
 	quest.680D6A8EFD2CFF55.quest_desc: ["Made inside the &0&lBlast Furnace&r&r"]
+	quest.6864F9B4FC5205F8.quest_desc: ["Used to make &6&lPrinted Logic Circuit&r&r"]
 	quest.69363F3E2D0C5E5E.quest_desc: ["A sturdy Bowl"]
 	quest.6946557AF66020B3.quest_desc: ["Made on the &#8B4513&lBottling Machine&r&r"]
 	quest.6970AE453BBEF764.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
 	quest.699D83C8355A2512.quest_desc: ["Many features and integrations are limited, Skills can be used to improve certain stats, modifiers and more on the player"]
-	quest.6A86AA19C00F89B7.quest_desc: ["The &a&lNatures Compass&r&r is a very useful tool for finding specific biomes. Useful for finding the &9&lFrost Biomes&r&r where &9&lFroststeel Ore&r&r is found"]
 	quest.6A8B95354B70F05B.quest_desc: ["Along with the Hunger Bar there is also a &lThirst Bar&r. Certain foods will contain a Thirst value as well "]
+	quest.6A913319711E2524.quest_desc: ["Made inside the &#8B4513&lBottling Machine&r&r"]
 	quest.6B0D5826F139134D.quest_desc: [
 		"&5&lMucklings&r&r spawn in caves inside the &5&lGaia Dimension&r&r."
 		""
 		"Can be used as one of the 2 power sources for the &l&lRestructurer&r&r"
 	]
-	quest.6B6BE81953E51214.quest_desc: ["Allows the &0&lSolidifier&r&r to make &lBlocks&r"]
+	quest.6B0DA003F05F8B3E.quest_desc: ["Made inside the &#8B4513&lBottling Machine&r&r"]
+	quest.6B6BE81953E51214.quest_desc: ["Allows the &0&lSolidifier&r&r to make &lBlocks&r. &lBone Blocks&r can be used to make this"]
 	quest.6BDDD6589A4A72EE.quest_desc: ["A simple bowl"]
 	quest.6C5BB28C0ABA365A.quest_desc: ["When wearing a full &#8B4513&lFaraday Armor Set&r&r exposed wires will no longer damage you"]
 	quest.6C5BB28C0ABA365A.title: "Faraday Armor"
-	quest.6CEC470D9BEF5EB2.quest_desc: ["A mix of &l&eSand,&r&r &l&8Gravel&r&r and &l&8Clay&r&r with a &l&8Mortar and Pestle&r&r"]
+	quest.6CEC470D9BEF5EB2.quest_desc: [
+		"A mix of &l&eSand,&r&r &l&8Gravel&r&r and &l&8Clay&r&r with a &l&8Mortar and Pestle&r&r "
+		""
+		"Placing &#8B4513&lDirt&r&r on a &#8B4513&lCutting Board&r&r and hitting with &lShovel&r will create sometimes get a &7&lClay Ball&r&r"
+	]
+	quest.6D5211FC325ACDC0.quest_desc: ["Can be used to create the &lCalculation Press&r"]
 	quest.6D9AAECB7861D126.quest_desc: ["The &#8B4513&lIndustrial Squeezer&r&r can be used to squeeze items"]
 	quest.6D9AAECB7861D126.quest_subtitle: "A Placer will make this easier to build..."
 	quest.6E1CDA29E7EC877A.quest_desc: ["Used to make the &lDiesel Generator&r"]
+	quest.6E81375E7BD9D6F0.quest_desc: ["Made inside the &5&lRestructurer&r&r. The Crystal can only be ontained from &b&lPure Certus Quartz&r&r"]
 	quest.6E9C51590F835C59.quest_desc: ["The &0&lArc Furnace&r&r requires eletrodes to run"]
+	quest.6EB8182F2A6B326D.quest_desc: [
+		"You may have to respawn the Dragon to kill it. Using 4 of these on the single &0&lBedrock&r&r block on the sides of the struture below will repawn it "
+		"{image:fractured:textures/quests/respawn_dragon.png width:120 height:120 align:center}"
+	]
+	quest.6EC709AAB3032ECC.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.6F6ABB1CA79EA0BA.quest_desc: ["&#8B4513&lIndustrial Hemp Fiber&r&r can be grown on &l&#8B4513Farmland&r&r from &#8B4513&lIndustrial Hemp Seeds&r&r"]
 	quest.6F780BA83D5E0217.quest_desc: ["A &8Mortar and Pestle&r can be used to grind item into dusts"]
 	quest.6F817E513A1A455C.quest_desc: ["Obtained from the &lMining Lens&r"]
@@ -497,6 +583,7 @@
 	quest.73669C0F69532271.quest_desc: ["A block of &e&lPyrite&r&r"]
 	quest.7446C09CFFFCE2A4.quest_desc: ["The &lUndergarden Catalyst&r can be used on a &#8B4513&lTreated Stone Bricks&r&r frame to enter a new dimension "]
 	quest.74B062AAB31C90BA.quest_desc: ["Can be used to light a &4&lCampfire&r&r"]
+	quest.74BED752755FFDCB.quest_desc: [""]
 	quest.74E06C8F351CE970.quest_desc: ["Smelted &e&lDough&r&r"]
 	quest.74F2FA103751F198.quest_desc: ["Used to fill items like bottles and buckets"]
 	quest.7558E1DAAF8DDE1B.quest_desc: ["Made with the &lAtmoic Reconstructor&r"]
@@ -504,9 +591,19 @@
 	quest.7563E424B989D556.title: "Light Colored Caves"
 	quest.758676465392CF65.quest_desc: ["Very strong"]
 	quest.75BAB29740266B80.quest_desc: ["A frame that allows access to the &5&lGaia Dimension&r&r"]
+	quest.75BD9038E158B0A1.quest_desc: ["Provides some protection "]
+	quest.75BD9038E158B0A1.title: "Survivalist Armor"
 	quest.76C95A9B3729EF63.quest_desc: ["Smelted &4&lNetherrack&r&r"]
 	quest.77265536786564DA.quest_desc: ["Requires 2 power sources. Top left requires a &lGlittering Item&r like &5&lSweet Muckballs&r&r the top right requires &lShining Items&r like &5&lPink Essence&r&r"]
 	quest.77623C41F3DFABF5.quest_desc: ["The &0&lOil Tank&r&r is very large tank that allows you to store &0&lOil&r&r"]
+	quest.77FCD77B49E671AD.quest_desc: [
+		"&lCertus Quartz Ore&r"
+		""
+		"&lIndication&r: None"
+		"&lDimension:&r The Nether"
+		"&lBiomes:&r All"
+	]
+	quest.7861808BCEC1C690.quest_desc: ["Crafted from &lTitanium Nuggets&r"]
 	quest.78B20F0D0BE9859B.quest_desc: ["Used to create &lTools&r and &lArmor&r with &#8B4513&lCloggrum&r&r"]
 	quest.795B4DD4B6C94430.quest_desc: ["Used for more multiblocks"]
 	quest.7961A2CF4801468B.quest_desc: [
@@ -530,6 +627,7 @@
 	quest.7C0FB00BF8E36170.quest_desc: ["&0&lImpure Coal&r&r inside a &0&lCoke Oven&r&r, Up to 16 can be placed inside the &l&lCoke Oven&r&r at once"]
 	quest.7C3E713435B5B55D.quest_desc: ["Made in the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.7D23614782D02371.quest_desc: ["Connect to blocks you wanna provide or extract RF from"]
+	quest.7D4AD5DAC52ED6A4.quest_desc: ["Can be used to create the &lControl Press&r"]
 	quest.7D5EDF58B982A037.quest_desc: ["Placing up high and adding a &#8B4513&lWindmill&r&r will allows the &8&lDynamo&r&r to produce RF"]
 	quest.7DA06A5FF2125AFF.quest_desc: [
 		"&lTin Ore&r"
@@ -541,11 +639,15 @@
 	quest.7DAF88FC37E37779.quest_desc: ["Used to light &5&lThe Nether&r&r portal"]
 	quest.7DCC42D86F471F53.quest_desc: ["&l&#8B4513Twigs&r&r can be found in &l&2Plains&r&r and &l&2Forest&r&r biomes"]
 	quest.7DCC42D86F471F53.title: "Twigs"
+	quest.7DD6625A79C23089.quest_desc: ["Used to make &b&lPrinted Calculation Circuit&r&r"]
 	quest.7DDD3FB8B7A1644D.quest_desc: ["Made with the &8&lAtomic Reconstructor&r&r"]
 	quest.7DF17CC8CA995685.quest_desc: ["Crafted &lResidue&r"]
 	quest.7F442D12939B6F22.quest_desc: ["A simple wire. Can be connected to relays and connectors to move RF"]
+	quest.7F526021085689F0.quest_desc: ["Drops from ORE"]
+	quest.7F9344ED4C1BF2C6.quest_desc: ["[ \"Drops from \", { \"text\": \"Certus Quartz Ore\", \"underlined\": true, \"color\": \"blue\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77FCD77B49E671AD\" } } ]"]
 	quest.7FA5C1B532BC2D51.quest_desc: ["Allows the &0&lSolidifier&r&r and &#8B4513&lMetal Press&r&r to create &e&lEmpty Casings&r&r"]
 	quest.7FA5C1B532BC2D51.quest_subtitle: "Requires a texture change"
+	reward_table.592DDE89E23DB2BF.title: "Saplings"
 	task.001D4835F69B70BA.title: "Gold Ore"
 	task.018D47019F6C922B.title: "Naptha"
 	task.01A8F04A95497656.title: "Alloy Kiln"
@@ -562,6 +664,7 @@
 	task.0D42A3FCCFB419BE.title: "Utherium Ore"
 	task.0E0B0F212058F5AB.title: "Industrial Squeezer"
 	task.10C20F1AA88C95C2.title: "Any #c:player_workstations/crafting_tables"
+	task.1119B5090688F959.title: "Any #minecraft:leaves"
 	task.11CEB9EEEA1D9FBC.title: "arc furnace"
 	task.12000DB7AAD88AF5.title: "new dim"
 	task.128AE77AABFAEF02.title: "Scorched Ore"
@@ -571,12 +674,15 @@
 	task.1A506D1233C28998.title: "Green Opal Ore"
 	task.1ABDB18DFDD9B165.title: "oil"
 	task.1C3793325452D55F.title: "overworld"
+	task.1CB2DD889A76F4F7.title: "Certus Quartz Ore"
 	task.1F4C5931E242DF66.title: "Copper Ore"
 	task.208055542104610B.title: "Skills"
 	task.20F2CDCADD447E3C.title: "Any #minecraft:planks"
 	task.22933FB24B04B4DB.title: "Redstone Ore"
 	task.2369B61BC4493A3B.title: "Bottling Machine"
 	task.277A9DFF8FAA8D82.title: "Coke Oven"
+	task.27EB98947AA17149.title: "Titanium Ore"
+	task.280794571C70A14E.title: "nether"
 	task.294050711B7649FA.title: "Scorched Ore"
 	task.2BC65434ED6F7B6A.title: "Landing"
 	task.2CE8147492F1FF16.title: "Any #fractured:twigs"
@@ -610,9 +716,12 @@
 	task.4A6D84EE8237304D.title: "White Opal Ore"
 	task.4B93C2588B245842.title: "Silver Ore"
 	task.4C35BD3AC05BA8D2.title: "Gasoline"
+	task.4CC0A4649FB623E1.title: "Ancient Debris"
+	task.4D9032B5EAD2DA7E.title: "Oxygen"
 	task.4D932C4E5E27E744.title: "Refinery"
 	task.4E2B6822F28715C8.title: "Amethyst"
 	task.5079B0C4E7352CED.title: "Froststeel Ore"
+	task.52E6C4F148BB69E8.title: "Any #minecraft:planks"
 	task.53C5D6374A204502.title: "Red Opal Ore"
 	task.54B9E7076B51BD2B.title: "Coker Unit"
 	task.578EA439B83D9E63.title: "Crusher"

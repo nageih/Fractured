@@ -248,9 +248,6 @@
 			y: -0.5d
 		}
 		{
-			icon: {
-				id: "gaiadimension:red_opal_ore"
-			}
 			id: "4D9D0F0C2F41312D"
 			tasks: [{
 				icon: {
@@ -327,6 +324,63 @@
 			}]
 			x: -10.0d
 			y: -6.5d
+		}
+		{
+			id: "3AA8700481CC2660"
+			tasks: [{
+				id: "280794571C70A14E"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			id: "377B5CB9B8F6562E"
+			tasks: [{
+				icon: {
+					id: "ltxi:titanium_ore"
+				}
+				id: "27EB98947AA17149"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ltxi:titanium_ore"
+				type: "observation"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			id: "2FE85C58AA7693AD"
+			tasks: [{
+				icon: {
+					id: "minecraft:ancient_debris"
+				}
+				id: "4CC0A4649FB623E1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:ancient_debris"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "fractured:certus_quartz_ore"
+			}
+			id: "77FCD77B49E671AD"
+			tasks: [{
+				icon: {
+					id: "fractured:certus_quartz_ore"
+				}
+				id: "1CB2DD889A76F4F7"
+				observe_type: 0
+				timer: 0L
+				to_observe: "fractured:certus_quartz_ore"
+				type: "observation"
+			}]
+			x: -12.0d
+			y: 1.0d
 		}
 	]
 }

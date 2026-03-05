@@ -1,0 +1,19 @@
+{
+  "type": "ltxi:assembling",
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "fractured:void_infused_sandstone"
+    },
+    {
+      "count": 1,
+      "item": "fractured:infused_obsidian"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "fractured:infused_end_stone"
+    }
+  ]
+}

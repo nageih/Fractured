@@ -18,8 +18,8 @@
 				id: "0A3AB0AFE3B97234"
 				type: "dimension"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["57E4AFCA263E9DEE"]
@@ -29,18 +29,8 @@
 				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			id: "0F46373E5AC3BB52"
-			tasks: [{
-				id: "7BBFE0BD786B3E23"
-				structure: "minecraft:bastion_remnant"
-				type: "structure"
-			}]
-			x: 7.5d
-			y: -3.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["59C015047456DBBE"]
@@ -50,8 +40,8 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0D4D7116F1046823"]
@@ -61,8 +51,8 @@
 				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["59C015047456DBBE"]
@@ -73,7 +63,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["59C015047456DBBE"]
@@ -83,8 +73,8 @@
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7A174DC6026D31CD"]
@@ -95,8 +85,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F8A589D8447C213"]
@@ -106,29 +96,11 @@
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
-			id: "182882F00A11CBEA"
-			tasks: [{
-				id: "0527EF97B70772CC"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			id: "63787CF13BDCD812"
-			tasks: [{
-				id: "3B1E57121A8BC432"
-				item: { count: 1, id: "ltxi:raw_titanium" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
+			dependencies: ["1C71A9DF97D202BA"]
 			id: "7861808BCEC1C690"
 			tasks: [{
 				id: "2167BBB9A843ACD7"
@@ -136,7 +108,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7861808BCEC1C690"]
@@ -146,38 +118,35 @@
 				item: { count: 1, id: "ltxi:titanium_gear" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"332CB14725979954"
+				"1978C0A1FE18504C"
+			]
 			id: "31B498E957946CE4"
 			tasks: [{
 				id: "1045434790007C7D"
 				item: { count: 1, id: "ltxi:grinder" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
-			id: "4D3AFD9817E23AEB"
-			tasks: [{
-				id: "5C9DA0F116E4C8ED"
-				item: { count: 1, id: "ltxi:t1_circuit" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["01C3824E489E75D7"]
+			dependencies: [
+				"332CB14725979954"
+				"1978C0A1FE18504C"
+			]
 			id: "63C4C884F5F3CBF1"
 			tasks: [{
 				id: "69C2E7CDC1EAAF90"
 				item: { count: 1, id: "ltxi:material_fusing_chamber" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -188,13 +157,15 @@
 				item: { count: 1, id: "ltxi:carbon_dust" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
 				"63C4C884F5F3CBF1"
-				"548B920EB3B941F6"
+				"01C3824E489E75D7"
+				"16A1DE2C911A27A6"
+				"1D738A5A492D5873"
 			]
 			id: "424D10D15BA636FA"
 			tasks: [{
@@ -202,8 +173,8 @@
 				item: { count: 1, id: "ltxi:slatesteel_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["63C4C884F5F3CBF1"]
@@ -213,8 +184,8 @@
 				item: { count: 1, id: "ltxi:titanium_glass" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -227,19 +198,24 @@
 				item: { count: 1, id: "ltxi:electrocentrifuge" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["4D3AFD9817E23AEB"]
+			dependencies: [
+				"6EC709AAB3032ECC"
+				"0DEE9173FECFA144"
+				"332CB14725979954"
+			]
+			hide_dependency_lines: true
 			id: "2F32CDFEB0550FC1"
 			tasks: [{
 				id: "10CA9462FA6189FA"
 				item: { count: 1, id: "ltxi:t2_circuit" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["424D10D15BA636FA"]
@@ -249,12 +225,11 @@
 				item: { count: 1, id: "ltxi:slatesteel_gear" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.0d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
-				"3E056026D0B86829"
 				"34B34434E6A0ECBD"
 				"33BD68EB4BBFC6EE"
 			]
@@ -264,8 +239,8 @@
 				item: { count: 1, id: "ltxi:assembler" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3D615B46A5CE7379"]
@@ -275,8 +250,8 @@
 				item: { count: 1, id: "ltxi:optical_tech_part" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["07652DF92EF47EEA"]
@@ -286,8 +261,8 @@
 				item: { count: 1, id: "ltxi:electric_chemical" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5096CA9B6F305AFB"]
@@ -297,8 +272,8 @@
 				item: { count: 1, id: "ltxi:spark_fruit" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["036D85B2500732DE"]
@@ -308,19 +283,22 @@
 				item: { count: 1, id: "ltxi:polymer_ingot" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["01B652F94D801583"]
+			dependencies: [
+				"01B652F94D801583"
+				"3E056026D0B86829"
+			]
 			id: "036D85B2500732DE"
 			tasks: [{
 				id: "30C39280C9934460"
 				item: { count: 1, id: "ltxi:chem_lab" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -334,8 +312,8 @@
 				item: { count: 1, id: "ltxi:monomer_chemical" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["31B498E957946CE4"]
@@ -345,32 +323,33 @@
 				item: { count: 1, id: "ltxi:resinous_biomass" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
+			dependencies: [
+				"332CB14725979954"
+				"1978C0A1FE18504C"
+			]
 			id: "06E82AD5B86D8A7F"
 			tasks: [{
 				id: "7DFD460AB9F2C1C8"
 				item: { count: 1, id: "ltxi:mixer" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"108141B0EF0C6739"
-				"31B498E957946CE4"
-			]
+			dependencies: ["108141B0EF0C6739"]
 			id: "38F71FFD0B7A5F0B"
 			tasks: [{
 				id: "3AD885FF96285A6E"
 				item: { count: 1, id: "ltxi:acidic_biomass" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			id: "108141B0EF0C6739"
@@ -379,8 +358,8 @@
 				item: { count: 1, id: "ltxi:vitriol_berries" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38F71FFD0B7A5F0B"]
@@ -390,37 +369,259 @@
 				item: { count: 1, id: "ltxi:viridic_acid_bucket" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["6D5211FC325ACDC0"]
+			id: "7DD6625A79C23089"
+			tasks: [{
+				id: "6C907E883070C630"
+				item: { count: 1, id: "ae2:calculation_processor_press" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BF39BA3C826C1FD"]
+			id: "5C263083BCC6D015"
+			tasks: [{
+				id: "729B965E7F08DF13"
+				item: { count: 1, id: "ae2:engineering_processor_press" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F59613C98FF78A1"]
+			id: "0BF39BA3C826C1FD"
+			tasks: [{
+				id: "6D89C7819D801A99"
+				item: { count: 1, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C263083BCC6D015"]
+			id: "16314D7820DC899B"
+			tasks: [{
+				id: "3EF98C3A17A5B767"
+				item: { count: 1, id: "ae2:printed_engineering_processor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16314D7820DC899B"]
+			id: "6EC709AAB3032ECC"
+			tasks: [{
+				id: "258896CFE737ECD0"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E81375E7BD9D6F0"]
+			id: "6D5211FC325ACDC0"
+			tasks: [{
+				id: "1B91827C2D2A81A4"
+				item: { count: 1, id: "ae2:quartz_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DD6625A79C23089"]
+			id: "6A913319711E2524"
+			tasks: [{
+				id: "2F09712E3C2EDE0A"
+				item: { count: 1, id: "ae2:printed_calculation_processor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A913319711E2524"]
+			id: "0DEE9173FECFA144"
+			tasks: [{
+				id: "0A44F9D980D65086"
+				item: { count: 1, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57E4AFCA263E9DEE"]
+			id: "1AC7703FD1B75766"
+			tasks: [{
+				id: "34AB03126E76C22C"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57E4AFCA263E9DEE"]
+			id: "01DAEA4A48B7BB4B"
+			tasks: [{
+				id: "56CC3AF0EE8FD1CA"
+				item: { count: 1, id: "fractured:impure_titanium" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57E4AFCA263E9DEE"]
+			id: "7F9344ED4C1BF2C6"
+			tasks: [{
+				id: "3879EE52B5AA4029"
+				item: { count: 1, id: "fractured:impure_certus_quartz" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F9344ED4C1BF2C6"]
+			id: "6E81375E7BD9D6F0"
+			tasks: [{
+				id: "1CC7EB6127558A98"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01DAEA4A48B7BB4B"]
+			id: "1C71A9DF97D202BA"
+			tasks: [{
+				id: "41982C7F965F51CF"
+				item: { count: 1, id: "ltxi:titanium_nugget" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C71A9DF97D202BA"]
+			id: "7D4AD5DAC52ED6A4"
+			tasks: [{
+				id: "7A999EB95852CB7B"
+				item: { count: 1, id: "ltxi:titanium_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D4AD5DAC52ED6A4"]
+			id: "6C004BB810B8F2D9"
+			tasks: [{
+				id: "7C464D00E9E1E6A1"
+				item: { count: 1, id: "fractured:control_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C004BB810B8F2D9"]
+			id: "6B0DA003F05F8B3E"
+			tasks: [{
+				id: "1D152BA596AD67F7"
+				item: { count: 1, id: "fractured:printed_control_circuit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B0DA003F05F8B3E"
+				"16314D7820DC899B"
+				"6A913319711E2524"
+			]
+			id: "332CB14725979954"
+			tasks: [{
+				id: "497970AA2767686B"
+				item: { count: 1, id: "ltxi:t1_circuit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31B498E957946CE4"]
+			id: "16A1DE2C911A27A6"
+			tasks: [{
+				id: "64AFC75E630F0908"
+				item: { count: 1, id: "ltxi:deepslate_dust" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["548B920EB3B941F6"]
+			icon: {
+				id: "ltxi:oxygen_bucket"
+			}
+			id: "1D738A5A492D5873"
+			tasks: [{
+				id: "4D9032B5EAD2DA7E"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"66DFE8D9E1F5B27E"
+				"07F1BBE40CB19C91"
+			]
 			id: "418613C121E2EA5C"
 			tasks: [{
 				id: "4B24DBC4972D292A"
 				item: { count: 1, id: "ltxi:t3_circuit" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.0d
+			x: 15.5d
+			y: -0.5d
 		}
 		{
-			id: "098CC4DC658E8EB0"
+			dependencies: ["418613C121E2EA5C"]
+			id: "73907FD573EDC3F1"
 			tasks: [{
-				id: "5E5BA44BC7722F16"
-				item: { count: 1, id: "ltxi:fabricator" }
+				id: "1CB88CA5B5F624FB"
+				item: { count: 1, id: "fractured:end_catalyst" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.0d
+			x: 16.5d
+			y: -1.0d
 		}
 		{
-			id: "274CFE3FE74E3070"
+			dependencies: ["418613C121E2EA5C"]
+			id: "05CC0E75356103F3"
 			tasks: [{
-				id: "798AB40CF1E0C635"
-				type: "checkmark"
+				id: "75601F50288D3B26"
+				item: { count: 1, id: "fractured:infused_end_stone" }
+				type: "item"
 			}]
-			x: 13.5d
-			y: 5.0d
+			x: 16.5d
+			y: 0.0d
 		}
 	]
 }

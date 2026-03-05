@@ -51,6 +51,13 @@ StartupEvents.registry('block', event => {
     .stoneSoundType()
     .fullBlock(true);
 
+  //End Portal Frame
+  event.create('fractured:infused_end_stone')
+    .hardness(0.8)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .stoneSoundType()
+    .fullBlock(true);
+
   //Scorching Ore
   event.create('fractured:scorching_ore')
     .hardness(0.8)
@@ -59,5 +66,13 @@ StartupEvents.registry('block', event => {
     .tagBoth(['c:ores/scorching', 'c:ores'])
     .fullBlock(true);
 
+  //Certus Quartz Ore (What year is it?)
+  event.create('fractured:certus_quartz_ore')
+    .hardness(0.8)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .stoneSoundType()
+    .tagBoth(['c:ores/certus_quartz', 'c:ores'])
+    .fullBlock(true);
+      
 
 })

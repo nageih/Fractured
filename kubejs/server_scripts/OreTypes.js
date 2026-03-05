@@ -17,4 +17,8 @@ const oreTypes = [
     'aluminum',
     'osmium',
 
+    //Misc
+    'certus_quartz',
+    'titanium'
+
 ]

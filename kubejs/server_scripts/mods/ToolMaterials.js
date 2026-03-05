@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         ).id(`fractured:metal_press/${material}_pickaxe_head`)
 
 
-        event.shapeless(`${pickaxe}`, [`fractured:${material}_pickaxe_head`, '#c:rods/wooden']).id(`fractured:crafting/${material}_pickaxe`)
+        event.shapeless(`${pickaxe}`, [`fractured:${material}_pickaxe_head`, '#c:rods/wooden', '#fractured:bindings']).id(`fractured:crafting/${material}_pickaxe`)
         event.remove({output: `${pickaxe}`})
         
         //Axe
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
             "1000"
         ).id(`fractured:metal_press/${material}_axe_head`)
 
-        event.shapeless(`${axe}`, [`fractured:${material}_axe_head`, '#c:rods/wooden']).id(`fractured:crafting/${material}_axe`)
+        event.shapeless(`${axe}`, [`fractured:${material}_axe_head`, '#c:rods/wooden', '#fractured:bindings']).id(`fractured:crafting/${material}_axe`)
         event.remove({output: `${axe}`})
 
 
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
             "1000"
         ).id(`fractured:metal_press/${material}_shovel_head`)
 
-        event.shapeless(`${shovel}`, [`fractured:${material}_shovel_head`, '#c:rods/wooden']).id(`fractured:crafting/${material}_shovel`)
+        event.shapeless(`${shovel}`, [`fractured:${material}_shovel_head`, '#c:rods/wooden', '#fractured:bindings']).id(`fractured:crafting/${material}_shovel`)
         event.remove({output: `${shovel}`})
 
         //Hoe
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
             "1000"
         ).id(`fractured:metal_press/${material}_hoe_head`)
 
-        event.shapeless(`${hoe}`, [`fractured:${material}_hoe_head`, '#c:rods/wooden']).id(`fractured:crafting/${material}_hoe`)
+        event.shapeless(`${hoe}`, [`fractured:${material}_hoe_head`, '#c:rods/wooden', '#fractured:bindings']).id(`fractured:crafting/${material}_hoe`)
         event.remove({output: `${hoe}`})
         
         //Sword
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
             "1000"
         ).id(`fractured:metal_press/${material}_sword_blade`)
 
-        event.shapeless(`${sword}`, [`fractured:${material}_sword_blade`, '#c:rods/wooden']).id(`fractured:crafting/${material}_sword`)
+        event.shapeless(`${sword}`, [`fractured:${material}_sword_blade`, '#c:rods/wooden', '#fractured:bindings']).id(`fractured:crafting/${material}_sword`)
         event.remove({output: `${sword}`})
     }
 })

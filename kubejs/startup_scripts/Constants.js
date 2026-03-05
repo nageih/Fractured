@@ -21,7 +21,12 @@ const oreTypes = [
 
     //Undergarden
     'cloggrum',
-    'froststeel'
+    'froststeel',
+
+    //Misc
+    'certus_quartz',
+    'titanium'
+
 
 ]
 

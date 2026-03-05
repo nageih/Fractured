@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"gravestone:obituary","components":{"gravestone:death":{"PlayerUUID":[1109753370,2103592887,-2023103023,62750564],"DeathID":[1403525018,708594938,-1707387243,-1485379044]}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:mini_charcoal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionstick:wooden_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:wooden_shears","components":{"minecraft:damage":18}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wheat_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:coil_lv"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:dynamo"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

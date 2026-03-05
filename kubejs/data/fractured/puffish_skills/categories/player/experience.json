@@ -74,6 +74,83 @@
 					}
 				]
 			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_small_xp_food": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#fractured:small_xp_foods"
+								}
+							}
+						]
+					},
+					"is_medium_xp_food": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#fractured:medium_xp_foods"
+								}
+							}
+						]
+					},
+					"is_large_xp_food": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#fractured:large_xp_foods"
+								}
+							}
+						]
+					},
+					"is_extreme_xp_food": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#fractured:extreme_xp_foods"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_small_xp_food",
+						"expression": "2"
+					},
+					{
+						"condition": "is_medium_xp_food",
+						"expression": "4"
+					},
+					{
+						"condition": "is_large_xp_food",
+						"expression": "7"
+					},
+					{
+						"condition": "is_extreme_xp_food",
+						"expression": "11"
+					}
+				]
+			}
 		}
 	]
 }

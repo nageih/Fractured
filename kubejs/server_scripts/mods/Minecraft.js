@@ -12,16 +12,43 @@ ServerEvents.recipes(event => {
   event.replaceInput({id: 'minecraft:hopper'}, 'minecraft:iron_ingot', '#c:plates/iron')
   event.replaceInput({id: 'minecraft:smithing_table'}, 'minecraft:iron_ingot', '#c:ingots/cloggrum')
 
+  //Rocks to Blocks
+  event.shaped('minecraft:cobblestone', [' A ', 'ABA', ' A '], {
+    A: 'projectvibrantjourneys:rocks',
+    B: 'opolisutilities:leafy_string'
+  }).id('fractured:cobblestone')
+
+  event.shaped('minecraft:mossy_cobblestone', [' A ', 'ABA', ' A '], {
+    A: 'projectvibrantjourneys:mossy_rocks',
+    B: 'opolisutilities:leafy_string'
+  }).id('fractured:mossy_cobblestone')
+
+  event.shaped('minecraft:sandstone', [' A ', 'ABA', ' A '], {
+    A: 'projectvibrantjourneys:sandstone_rocks',
+    B: 'opolisutilities:leafy_string'
+  }).id('fractured:sandstone')
+
+  event.shaped('minecraft:red_sandstone', [' A ', 'ABA', ' A '], {
+    A: 'projectvibrantjourneys:red_sandstone_rocks',
+    B: 'opolisutilities:leafy_string'
+  }).id('fractured:red_sandstone')
+
+  //Sticks
+  event.shaped('8x minecraft:stick', ['A', 'A'], { A: '#minecraft:logs' }).id('fractured:sticks')
+
   //Oak Planks
   event.shaped('minecraft:oak_planks', ['AA', 'AA'], { A: '#c:rods/wooden' }).id('fractured:oak_planks')
 
   //Netherrack 
-  event.shaped('minecraft:netherrack', ['AA', 'AA'], { A: 'fractured:netherrack_rocks' }).id('fractured:netherrack')
+  event.shaped('minecraft:netherrack', [' A ', 'ABA', ' A '], { 
+    A: 'fractured:netherrack_rocks',
+    B: 'opolisutilities:leafy_string'
+  }).id('fractured:netherrack')
 
   //Compass
   event.shaped('minecraft:compass', [' A ', 'ABA', ' A '], {
     A: '#c:ingots/bronze',
-    B: '#c:dusts/copper'
+    B: 'fractured:metallic_dust'
   }).id('minecraft:compass')
 
   //Campfire

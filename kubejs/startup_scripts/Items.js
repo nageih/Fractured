@@ -3,6 +3,7 @@ Platform.getInfo('fractured').name = 'Fractured'
 StartupEvents.registry('item', event => {
 
     //Misc
+    event.create('fractured:survivalist_compound')
     event.create('fractured:pestle')
     event.create('fractured:mortar_and_pestle')
     event.create('fractured:dried_leaves')
@@ -11,10 +12,14 @@ StartupEvents.registry('item', event => {
     event.create('fractured:grout_brick')
     event.create('fractured:small_coal_coke')
     event.create('fractured:netherrack_rocks')
+    event.create('fractured:dye_extractor').maxStackSize(1).maxDamage(127).tooltip('Used to extract dyes from certain blocks. Right-click on a valid block to extract its dye.')
     event.create('fractured:blueprint_paper')
     event.create('fractured:wheat_flour').tag(['c:wheat_flour', 'c:dusts'])
     event.create('fractured:lightning_charge')
     event.create('fractured:malachite_heart')
+    event.create('fractured:control_press')
+    event.create('fractured:printed_control_circuit')
+    event.create('fractured:main_island_teleporter')
 
     //Template
     event.create('fractured:cloggrum_template')
@@ -25,10 +30,11 @@ StartupEvents.registry('item', event => {
     event.create('fractured:colored_catalyst')
     event.create('fractured:gaia_catalyst')
     event.create('fractured:nether_catalyst')
+    event.create('fractured:end_catalyst')
 
     //Tool Binding
-    event.create('fractured:leafy_binding')
-    event.create('fractured:reinforced_binding')
+    event.create('fractured:leafy_binding').tag('fractured:bindings')
+    event.create('fractured:reinforced_binding').tag('fractured:bindings')
 
     //Locators
     event.create('fractured:catacombs_locator').maxStackSize(16).tooltip('Right-click to locate a Catacombs inside the Undergarden')

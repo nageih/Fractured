@@ -6,6 +6,14 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'gaiadimension:purifier' })
   event.remove({ id: 'gaiadimension:keystone_block' })
 
+  //Titanium
+  addRestructuringRecipe('fractured:impure_titanium', 'ltxi:titanium_nugget', 'ltxi:titanium_nugget')
+  addRestructuringRecipe('fractured:pure_titanium', '2x ltxi:titanium_nugget', '2x ltxi:titanium_nugget')
+
+  //Certus Quartz
+  addRestructuringRecipe('fractured:impure_certus_quartz', 'ae2:certus_quartz_dust', 'ae2:certus_quartz_dust')
+  addRestructuringRecipe('fractured:pure_certus_quartz', 'ae2:certus_quartz_crystal', 'ae2:certus_quartz_dust')
+
   //Keystone Block
   event.shaped('gaiadimension:keystone_block', ['ABA', 'BCB', 'ABA'], {
     A: 'undergarden:froststeel_ingot',
@@ -26,7 +34,6 @@ ServerEvents.recipes(event => {
     addPurifierRecipe( `fractured:impure_${oreType}`, `fractured:pure_${oreType}`, `fractured:pure_${oreType}`)
   })
 
-
   //Purifier Function
   function addPurifierRecipe(input, output, byproduct) {
     event.custom({
@@ -36,7 +43,18 @@ ServerEvents.recipes(event => {
       "experience": 0.1,
       "ingredient": Ingredient.of(input).toJson(),
       "result": Item.of(output).toJson()
-    }).id(`fractured:purifier/${output.split(':')[1]}`)
+    }).id(`fractured:purifier/${output.split(':')[1]}_from_${input.split(':')[1]}`)
   }
 
+  //Restructuring Function
+  function addRestructuringRecipe(input, output, byproduct) {
+    event.custom({
+      "type": "gaiadimension:restructuring",
+      "byproduct": Item.of(byproduct).toJson(),
+      "cookingtime": 200,
+      "experience": 0.1,
+      "ingredient": Ingredient.of(input).toJson(),
+      "result": Item.of(output).toJson()
+    }).id(`fractured:restructuring/${output.split(':')[1]}_from_${input.split(':')[1]}`)
+  }
 })

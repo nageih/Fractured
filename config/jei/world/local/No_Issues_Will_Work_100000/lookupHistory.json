@@ -1,5 +1,23 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ltxi:fabricator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:t3_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:t4_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:niobium_ore_pebbles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:niobium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:raw_niobium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:birch_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:netherite_scrap"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ancient_debris"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:pure_certus_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:impure_certus_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:impure_titanium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:plate_duroplast"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:printed_calculation_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:calculation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:engineering_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"opolisutilities:crook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"colors:white_marble"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersive_aircraft:airship"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

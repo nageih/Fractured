@@ -1,7 +1,8 @@
+# Ignore everything by default
+
 *
 
-
-!.gitignore
+# Directories that should always be included
 
 !kubejs/
 !kubejs/**
@@ -15,6 +16,9 @@
 !changelogs/
 !changelogs/**
 
+# Files that should always be included
+
+!.gitignore
 !README.md
 !LICENSE.md
 !TODO.md

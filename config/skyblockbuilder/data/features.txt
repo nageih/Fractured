@@ -119,11 +119,6 @@ deeperdarker:surface_gloomslate
 deeperdarker:surface_sculk_stone
 deeperdarker:tree_echo
 deeperdarker:water_edge_blooming
-draconicevolution:chaos_island
-draconicevolution:end_comet
-draconicevolution:end_draconium_ore
-draconicevolution:nether_draconium_ore
-draconicevolution:overworld_draconium_ore
 farmersdelight:patch_brown_mushroom_colony
 farmersdelight:patch_red_mushroom_colony
 farmersdelight:patch_sandy_shrub
@@ -151,6 +146,7 @@ fractured:purple_stone
 fractured:red_stone
 fractured:white_stone
 fractured:yellow_stone
+friendsandfoes:buttercup_patch
 gaiadimension:aura_crystal_growth
 gaiadimension:aura_shoots
 gaiadimension:aura_tree
@@ -518,8 +514,6 @@ projectvibrantjourneys:warped_nettle
 projectvibrantjourneys:watergrass
 projectvibrantjourneys:white_wildflowers
 projectvibrantjourneys:yellow_wildflowers
-resourcefish:nest
-totemic:cedar
 undergarden:amorous_bristle_patch
 undergarden:ancient_root
 undergarden:ancient_root_extra

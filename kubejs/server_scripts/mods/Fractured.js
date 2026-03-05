@@ -12,6 +12,39 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of(output.id, 2), ingredients[0]).id(r.getId())
   })  
 
+  //Dye Extractor
+  event.shaped('fractured:dye_extractor', [' AA', ' BA', 'B  '], {
+    A: 'minecraft:paper',
+    B: '#c:rods/wooden'
+  }).id('fractured:dye_extractor')
+
+  //Survivalist Compound
+  event.shapeless('fractured:survivalist_compound', ['opolisutilities:leafy_string', 'projectvibrantjourneys:rocks', 'farmersdelight:tree_bark']).id('fractured:survivalist_compound')
+
+  //Survivalist Armor 
+  event.shaped('fractured:survivalist_helmet', ['AAA', 'A A', '   '], {
+    A: 'fractured:survivalist_compound'
+  }).id('fractured:survivalist_helmet')
+
+  event.shaped('fractured:survivalist_chestplate', ['A A', 'AAA', 'AAA'], {
+    A: 'fractured:survivalist_compound'
+  }).id('fractured:survivalist_chestplate')
+  
+  event.shaped('fractured:survivalist_leggings', ['AAA', 'A A', 'A A'], {
+    A: 'fractured:survivalist_compound'
+  }).id('fractured:survivalist_leggings')
+  
+  event.shaped('fractured:survivalist_boots', ['   ', 'A A', 'A A'], {
+    A: 'fractured:survivalist_compound'
+  }).id('fractured:survivalist_boots')
+  
+  //End Catalyst
+  event.shaped('fractured:end_catalyst', ['ABA', 'BCB', 'ABA'], { 
+    A: 'minecraft:ender_pearl',
+    B: 'minecraft:obsidian',
+    C: 'ltxi:t3_circuit'
+  }).id('fractured:end_catalyst')
+
   //Infused Obsidian
   event.shaped('5x fractured:infused_obsidian', ['ABC', 'DDD', 'CBA'], { 
     A: 'gaiadimension:albite_block',
@@ -40,19 +73,12 @@ ServerEvents.recipes(event => {
     B: 'minecraft:compass'
   }).id('fractured:catacombs_locator')
 
-
   //Gaia Catalyst
   event.shaped('fractured:gaia_catalyst', ['ABA', 'BCB', 'ABA'], { 
     A: 'minecraft:iron_block',
     B: 'minecraft:redstone_block',
     C: 'minecraft:glowstone'
   }).id('fractured:gaia_catalyst')
-
-  //Cloggrum Template
-  event.shaped('fractured:cloggrum_template', ['ABA', 'ABA', 'AAA'], {
-    A: 'undergarden:cloggrum_ingot',
-    B: 'undergarden:depthrock'
-  }).id('fractured:cloggrum_template')
 
   //Wheat Flour
   event.shapeless('fractured:wheat_flour', ['fractured:mortar_and_pestle', 'minecraft:wheat'])
@@ -68,7 +94,7 @@ ServerEvents.recipes(event => {
   }).id('fractured:pestle')
 
   //Grout Dust
-  event.shapeless('fractured:grout_dust', ['fractured:mortar_and_pestle', '#c:sands', 'minecraft:gravel', 'minecraft:clay_ball'])
+  event.shapeless('2x fractured:grout_dust', ['fractured:mortar_and_pestle', '#c:sands', 'minecraft:gravel', 'minecraft:clay_ball'])
     .keepIngredient('fractured:mortar_and_pestle').id('fractured:grout_ball_from_dust')
 
   //Leafy Binding

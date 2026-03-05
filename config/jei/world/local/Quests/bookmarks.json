@@ -11,5 +11,10 @@
   {"ingredient":{"id":"minecraft:cauldron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ltxi:t2_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ltxi:titanium_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"gaiadimension:agate_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"gaiadimension:agate_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:calculation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:engineering_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:logic_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:silicon_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:logic_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

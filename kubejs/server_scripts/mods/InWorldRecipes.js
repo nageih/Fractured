@@ -3,7 +3,7 @@
 ServerEvents.recipes(event => {
 
   //Void Infused Sandstone
-  createInWorldConversion("minecraft:sand", "fractured:void_infused_sandstone", true, 200, "minecraft:the_nether")
+  createInWorldConversion("minecraft:sandstone", "fractured:void_infused_sandstone", true, 100, "javd:void")
 
   //In World Conversion Function
   function createInWorldConversion(blockToConvert, convertedBlock, popItem, duration, dimension) {
@@ -68,4 +68,47 @@ ServerEvents.recipes(event => {
     ]
   }).id('fractured:lightning_crafting/spark_fruit')
 
+  //Vitriol Berries
+  event.custom({
+    "type": "inworldrecipes:lightning_crafting",
+    "dropped_item":
+    {
+      "item": "minecraft:glow_berries",
+      "count": 1
+      
+    },
+    "results": [
+      {
+        "item": {
+          "count": 1,
+          "id": "ltxi:vitriol_berries"
+        }
+      }
+    ]
+  }).id('fractured:lightning_crafting/vitriol_berries')
+
+  //Dyes
+  colors.forEach(color => {
+    createDyeExtractorRecipe(`colors:${color}_stone`, 'fractured:dye_extractor', 'minecraft:stone', `minecraft:${color}_dye`, 0.25)
+
+  });
+
+
+  //Dye Extractor
+  function createDyeExtractorRecipe(input, heldItem, outputState, outputItem, outputItemChance) {
+    event.recipes.inworldrecipes.block_interaction(
+      "right",                        
+      input,
+      heldItem, 
+      false, 
+      false, 
+      true, 
+      false      
+    ).outputBlockState(outputState)
+    .results([
+      [outputItem, outputItemChance]
+    ])
+
+  }
+  
 })

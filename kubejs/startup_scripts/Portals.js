@@ -65,4 +65,13 @@ PortalEvents.register(event => {
     .portalTexture('default')
     .tint(0xFF0000)
 
+  //Void -> End
+  event.create()
+    .returnDim('javd:void', true)
+    .setDestination('minecraft:the_end')
+    .frameBlock('fractured:infused_end_stone') 
+    .lightWithItem('fractured:end_catalyst')
+    .portalTexture('default')
+    .tint(0xDAE1A3)
+
 })

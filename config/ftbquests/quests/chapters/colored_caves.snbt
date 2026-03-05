@@ -299,17 +299,13 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["5A1223F440B9A725"]
-			icon: {
-				id: "minecraft:redstone"
-			}
 			id: "2F412F937C2BC80F"
 			tasks: [{
 				id: "17BB620A01521BA1"
 				type: "checkmark"
 			}]
-			x: 14.0d
-			y: -5.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1D2106911904AA10"]

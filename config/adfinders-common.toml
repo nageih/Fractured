@@ -2,7 +2,7 @@
 	#How far from a player in horizontal plane ores can be found
 	# Default: 6
 	# Range: 1 ~ 64
-	scanRadius = 32
+	scanRadius = 64
 	#How far from a player in vertical plane ore veins can be found
 	# Default: 32
 	# Range: 1 ~ 384
@@ -28,7 +28,7 @@
 	#How far from a player in horizontal plane ores can be found
 	# Default: 8
 	# Range: 1 ~ 64
-	scanRadius = 32
+	scanRadius = 64
 	#How far from a player in vertical plane ore veins can be found
 	# Default: 48
 	# Range: 1 ~ 384
@@ -54,7 +54,7 @@
 	#How far from a player in horizontal plane ores can be found
 	# Default: 7
 	# Range: 1 ~ 64
-	scanRadius = 4
+	scanRadius = 64
 	#How far from a player in vertical plane ore veins can be found
 	# Default: 40
 	# Range: 1 ~ 384

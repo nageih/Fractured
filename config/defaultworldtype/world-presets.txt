@@ -1,0 +1,11 @@
+10 possible world-presets found:
+- "minecraft:amplified"
+- "minecraft:debug_all_block_states"
+- "minecraft:flat"
+- "fractured:fractured"
+- "hexlands:hexlands"
+- "hexlands:hexlands_overworld_only"
+- "minecraft:large_biomes"
+- "minecraft:normal"
+- "minecraft:single_biome_surface"
+- "skyblockbuilder:skyblock"

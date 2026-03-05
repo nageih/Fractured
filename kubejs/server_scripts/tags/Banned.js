@@ -11,7 +11,15 @@ ServerEvents.tags("item", event => {
         'minecraft:wooden_hoe', 
         'minecraft:wooden_axe', 
         'minecraft:wooden_pickaxe', 
-        'minecraft:wooden_shovel'
+        'minecraft:wooden_shovel',
+        'ae2:inscriber',
+        'opolisutilities:cloche',
+        'opolisutilities:catalogue',
+        'alltheores:copper_ore_hammer',
+        'alltheores:iron_ore_hammer',
+        'alltheores:bronze_ore_hammer',
+        'alltheores:invar_ore_hammer',
+        'alltheores:platinum_ore_hammer',
 
 
 
