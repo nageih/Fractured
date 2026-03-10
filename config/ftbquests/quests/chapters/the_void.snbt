@@ -15,8 +15,8 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -9.5d
+			x: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6D9AAECB7861D126"]
@@ -26,8 +26,8 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.5d
+			x: -8.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["36D380A56080807F"]
@@ -37,8 +37,8 @@
 				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -11.0d
+			x: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0E84E7D5A4FF626E"]
@@ -50,38 +50,6 @@
 			}]
 			x: -6.5d
 			y: -10.0d
-		}
-		{
-			dependencies: [
-				"0E84E7D5A4FF626E"
-				"4945DEA3DFF190EE"
-			]
-			id: "44E5CA55C8F94FC5"
-			tasks: [{
-				id: "26BF93B1A8D6A901"
-				item: { count: 1, id: "minecraft:piston" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["44E5CA55C8F94FC5"]
-			icon_scale: 3.0d
-			id: "46370408BEF8E9E9"
-			shape: "none"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:metal_press"
-				}
-				id: "3C5E01C3A9AB9A96"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:metal_press"
-				type: "observation"
-			}]
-			x: -7.5d
-			y: -7.5d
 		}
 		{
 			dependencies: ["36D380A56080807F"]
@@ -310,6 +278,53 @@
 			}]
 			x: 2.0d
 			y: -11.0d
+		}
+		{
+			dependencies: [
+				"4945DEA3DFF190EE"
+				"4EDC56C8B657F932"
+			]
+			id: "5D9DA22BCDBD38E3"
+			tasks: [{
+				id: "4C4A8EAC075E5D9E"
+				item: { count: 1, id: "toms_storage:inventory_connector" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5D9DA22BCDBD38E3"]
+			id: "7C5AF877EE13E99B"
+			tasks: [{
+				id: "25E3592DCABE47B6"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7C5AF877EE13E99B"]
+			id: "3433CDEB94AEE841"
+			tasks: [{
+				id: "687070246D2492F0"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5D9DA22BCDBD38E3"]
+			id: "77F8C899886003CB"
+			tasks: [{
+				id: "296DD6FB2117EBF0"
+				item: { count: 1, id: "toms_storage:inventory_cable" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.0d
 		}
 	]
 }

@@ -179,7 +179,7 @@
 				item: { count: 1, id: "alltheores:steel_rod" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -4.0d
 		}
 		{
@@ -480,8 +480,8 @@
 				item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -495,7 +495,6 @@
 			}
 			icon_scale: 3.0d
 			id: "16AB4B76A6BD0B37"
-			invisible: true
 			shape: "none"
 			size: 1.0d
 			tasks: [{
@@ -616,6 +615,42 @@
 			}]
 			x: -4.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["50818EBCACCFA244"]
+			icon_scale: 3.0d
+			id: "7562409EB10B88F6"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:shelf"
+				}
+				id: "2470CEBC6F1D4E6F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:shelf"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C3E713435B5B55D"]
+			icon_scale: 3.0d
+			id: "46370408BEF8E9E9"
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:metal_press"
+				}
+				id: "3C5E01C3A9AB9A96"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:metal_press"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: -4.5d
 		}
 	]
 }

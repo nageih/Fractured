@@ -286,6 +286,7 @@
 	quest.332CB14725979954.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.33BAB6928043C27B.quest_desc: ["A &0&lWindmill&r&r can be used to generate a small amount of RF. Must be connected to a Dynamo"]
 	quest.33BFE6241D31E892.quest_desc: ["Can be found when crushing &e&lSandstone&r&r"]
+	quest.3433CDEB94AEE841.quest_desc: ["View and Craft all in one place"]
 	quest.34558283114852CA.quest_desc: ["Made inside the &lElectroCentrifudge&r"]
 	quest.34B34434E6A0ECBD.quest_desc: ["I see you"]
 	quest.34FF1729FBE766A1.quest_desc: ["Crafted &lResidue&r"]
@@ -371,7 +372,6 @@
 	quest.44AD52EF3C740231.quest_desc: ["A base for most &lCircuits&r"]
 	quest.44C2DDF2A0528F11.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
 	quest.44DA923F27F905E9.quest_desc: ["Useful for mining"]
-	quest.44E5CA55C8F94FC5.quest_desc: ["A &lPiston&r is a mechanical device used for some multiblocks"]
 	quest.44EDE021C512D153.quest_desc: ["Crafted &6&lBlaze Rod&r&r"]
 	quest.45669B659283B60E.quest_desc: ["The best wire"]
 	quest.4585D98E2FBCBF05.quest_desc: ["&2&lLeaves&r&r can be turned into &#8B4513&lDried Leaves&r&r inside the &#8B4513&lDrying Table&r&r"]
@@ -481,6 +481,7 @@
 	quest.5D4891733E44EDD7.quest_desc: ["&l&0The Refinery&r&r is used to refine fluids with other fluids or items to create something new "]
 	quest.5D5B93FF39C2F2E0.quest_desc: ["A block"]
 	quest.5D7C475BDB7FB0E8.quest_desc: ["&2&lLeafy Binding&r&r can be used to craft basic tools from &8&lFlint Heads&r&r and &#8B4513&lSticks&r&r"]
+	quest.5D9DA22BCDBD38E3.quest_desc: ["The &#8B4513&lInventory Connector&r&r can be connected to inventories, these can then be viewed "]
 	quest.5DA1F9B26A151E13.quest_desc: ["Made inside the &lRefinery&r, there is a couple of way to make this"]
 	quest.5E8367DFAF5747C8.quest_desc: ["&lBlueprint Paper&r is used to make various different Bl&lueprints&r which are used in the &lEngineer's Workbench&r"]
 	quest.5FE27D8952337B2E.quest_desc: ["Crafted &5&lGaia Stone&r&r"]
@@ -587,6 +588,8 @@
 	quest.74E06C8F351CE970.quest_desc: ["Smelted &e&lDough&r&r"]
 	quest.74F2FA103751F198.quest_desc: ["Used to fill items like bottles and buckets"]
 	quest.7558E1DAAF8DDE1B.quest_desc: ["Made with the &lAtmoic Reconstructor&r"]
+	quest.7562409EB10B88F6.quest_desc: ["The &lStorage Shelf&r is a multiblock that can be used to store &lCrates&r on. Crates provide storage for items"]
+	quest.7562409EB10B88F6.title: "Storage Shelf"
 	quest.7563E424B989D556.quest_desc: ["A vibrant dimension contains &lPurifying Water&r"]
 	quest.7563E424B989D556.title: "Light Colored Caves"
 	quest.758676465392CF65.quest_desc: ["Very strong"]
@@ -596,6 +599,7 @@
 	quest.76C95A9B3729EF63.quest_desc: ["Smelted &4&lNetherrack&r&r"]
 	quest.77265536786564DA.quest_desc: ["Requires 2 power sources. Top left requires a &lGlittering Item&r like &5&lSweet Muckballs&r&r the top right requires &lShining Items&r like &5&lPink Essence&r&r"]
 	quest.77623C41F3DFABF5.quest_desc: ["The &0&lOil Tank&r&r is very large tank that allows you to store &0&lOil&r&r"]
+	quest.77F8C899886003CB.quest_desc: ["Can be used to connect &#8B4513&lInventory Connectors&r&r across distances"]
 	quest.77FCD77B49E671AD.quest_desc: [
 		"&lCertus Quartz Ore&r"
 		""
@@ -626,6 +630,7 @@
 	quest.7BD529298480E2FC.quest_desc: ["Obtained from breaking ore from the &lMining Lens&r"]
 	quest.7C0FB00BF8E36170.quest_desc: ["&0&lImpure Coal&r&r inside a &0&lCoke Oven&r&r, Up to 16 can be placed inside the &l&lCoke Oven&r&r at once"]
 	quest.7C3E713435B5B55D.quest_desc: ["Made in the &#8B4513&lEngineer's Workbench&r&r"]
+	quest.7C5AF877EE13E99B.quest_desc: ["View all connected inventories in one place!"]
 	quest.7D23614782D02371.quest_desc: ["Connect to blocks you wanna provide or extract RF from"]
 	quest.7D4AD5DAC52ED6A4.quest_desc: ["Can be used to create the &lControl Press&r"]
 	quest.7D5EDF58B982A037.quest_desc: ["Placing up high and adding a &#8B4513&lWindmill&r&r will allows the &8&lDynamo&r&r to produce RF"]
@@ -680,6 +685,7 @@
 	task.20F2CDCADD447E3C.title: "Any #minecraft:planks"
 	task.22933FB24B04B4DB.title: "Redstone Ore"
 	task.2369B61BC4493A3B.title: "Bottling Machine"
+	task.2470CEBC6F1D4E6F.title: "Shelf"
 	task.277A9DFF8FAA8D82.title: "Coke Oven"
 	task.27EB98947AA17149.title: "Titanium Ore"
 	task.280794571C70A14E.title: "nether"

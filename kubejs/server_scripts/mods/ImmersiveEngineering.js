@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_chestplate' })
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_leggings' })
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_boots' })
+  event.remove({ id: 'immersiveengineering:crafting/fluid_pipe' })
   event.remove({input: 'immersiveengineering:hammer', output: '#c:dusts'})
   event.remove({input: 'immersiveengineering:hammer', output: '#c:plates'})
 
@@ -36,6 +37,10 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/thermoelectric_generator' }, '#c:plates/constantan', '#c:plates/iron')
   event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, '#c:plates/copper', '#c:plates/constantan')
   
+  //Fluid Pipe
+  event.shaped('8x immersiveengineering:fluid_pipe', ['AAA', '   ', 'AAA'], {
+    A: '#c:ingots/steel'
+  }).id('fractured:fluid_pipe')
 
   //Titanium Gear
   event.recipes.immersiveengineering.metal_press(

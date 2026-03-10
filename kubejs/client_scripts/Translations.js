@@ -6,8 +6,7 @@ ClientEvents.lang("en_us", event => {
     event.renameItem('undergarden:catalyst', 'Undergarden Catalyst')
 
     event.renameBlock('immersiveengineering:rs_engineering', 'Controller Engineering Block')
-
-
+        
 
 
 })

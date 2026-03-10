@@ -33,6 +33,14 @@ ServerEvents.recipes(event => {
     B: 'opolisutilities:leafy_string'
   }).id('fractured:red_sandstone')
 
+  //Piston 
+  event.shaped('minecraft:piston', ['AAA', 'BCB', 'BDB'], {
+    D: '#c:ingots/steel',
+    A: '#minecraft:planks',
+    C: 'undergarden:utheric_cluster',
+    B: '#c:cobblestones'
+  }).id('fractured:piston')
+
   //Sticks
   event.shaped('8x minecraft:stick', ['A', 'A'], { A: '#minecraft:logs' }).id('fractured:sticks')
 

@@ -86,5 +86,8 @@
   "portals:portal_name_provider": null,
   "powerscale:alchemy_set": null,
   "powerscale:mob": null,
+  "toms_storage:inventory_config": null,
+  "toms_storage:inventory_connector": null,
+  "toms_storage:inventory_hopper": null,
   "unlitcampfire:campfireinfo": null
 }

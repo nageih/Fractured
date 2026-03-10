@@ -7,6 +7,16 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' })
   event.remove({ id: 'immersiveengineering:crafting/rs_engineering' })
 
+  
+  //This is needed to prevent a crash that happens
+  event.recipes.immersiveengineering.blueprint(
+    'engineering_blocks',
+    TagOutputJS.ofItemStack('1x minecraft:cobblestone'),
+    [
+        IngredientWithSizeJS.ofItemStack('1x minecraft:cobblestone'),
+    ]
+  ).id('fractured:air')
+
   //Redstone Engineering Block
   event.recipes.immersiveengineering.blueprint(
     'engineering_blocks',
@@ -36,6 +46,9 @@ ServerEvents.recipes(event => {
         IngredientWithSizeJS.ofItemStack('3x alltheores:steel_ingot'),
     ]
   ).id('fractured:heavy_engineering')
+
+  
+  
 
   //Blueprint Recipe
   event.shaped('immersiveengineering:blueprint[immersiveengineering:blueprint="engineering_blocks"]', ['AAA', 'BBB', 'CCC'], {

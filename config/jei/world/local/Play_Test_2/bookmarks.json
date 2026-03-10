@@ -7,5 +7,9 @@
   {"ingredient":{"id":"opolisutilities:wooden_shears","components":{"minecraft:damage":18}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:wheat_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:coil_lv"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"immersiveengineering:dynamo"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"immersiveengineering:dynamo"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"undergarden:raw_froststeel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:blueprint","components":{"immersiveengineering:blueprint":"engineering_blocks"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"toms_storage:inventory_connector"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
