@@ -2,8 +2,14 @@
 
 ServerEvents.recipes(event => {
 
+  //Void Block
+  createInWorldConversion('alltheores:steel_block', "fractured:void_block", false, 100, "javd:void")
+
+  //Void Planks
+  createInWorldConversion('immersiveengineering:treated_wood_horizontal', "fractured:void_planks", false, 100, "javd:void")
+
   //Void Infused Sandstone
-  createInWorldConversion("minecraft:sandstone", "fractured:void_infused_sandstone", true, 100, "javd:void")
+  createInWorldConversion("minecraft:sandstone", "fractured:void_infused_sandstone", false, 100, "javd:void")
 
   //In World Conversion Function
   function createInWorldConversion(blockToConvert, convertedBlock, popItem, duration, dimension) {
@@ -110,5 +116,26 @@ ServerEvents.recipes(event => {
     ])
 
   }
-  
+
+  //Forgotten Template
+  event.custom({
+  "type": "inworldrecipes:drop_item_in_fluid",
+    "dropped_items": [
+      {
+        "count": 1,
+        "item": "undergarden:forgotten_upgrade_smithing_template"
+      }
+    ],
+    "fluid": "undergarden:virulent_mix_source",
+    "consume_fluid": true,
+    "results": [
+      {
+        "item": {
+          "count": 2,
+          "id": "undergarden:forgotten_upgrade_smithing_template"
+        }
+      }
+    ]
+  }).id('fractured:drop_item_in_fluid/forgotten_template')
+    
 })

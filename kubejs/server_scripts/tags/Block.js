@@ -14,5 +14,14 @@ ServerEvents.tags("block", event => {
         event.add(`fractured:colored_stone`, `colors:${color}_stone`)
     })
 
+    //Smart Crafting Inventories
+    event.add('smartcrafting:whitelisted_storage', [
+        'immersiveengineering:crate',
+        'immersiveengineering:reinforced_crate',
+        'toms_storage:inventory_connector' 
+    ])
+
+    //Nether Portal Frames
+    event.remove('bblcore:nether_portal_frame', 'minecraft:obsidian')
 
 })

@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'undergarden:blast_raw_cloggrum' })
   event.remove({ id: 'undergarden:smelt_raw_froststeel' })
   event.remove({ id: 'undergarden:blast_raw_froststeel' })
+  event.remove({ id: 'undergarden:forgotten_upgrade_smithing_template' })
   
   event.remove({ id: 'undergarden:cloggrum_helmet' })
   event.remove({ id: 'undergarden:cloggrum_chestplate' })

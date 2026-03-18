@@ -1,0 +1,5 @@
+{
+  "type": "immersiveengineering:thermoelectric_source",
+  "singleBlock": "undergarden:froststeel_block",
+  "tempKelvin": 20
+}

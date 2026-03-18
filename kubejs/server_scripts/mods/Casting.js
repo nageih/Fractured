@@ -7,6 +7,26 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'casting:melting/black_brick/from_clay_block' })
   event.remove({ id: 'casting:melting/black_brick/from_clay' })
   event.remove({ id: 'casting:tank' })
+  event.remove({ id: 'casting:mixer' })
+
+  //Simple Mixer
+  event.shaped('casting:mixer', ['AAA', 'BCB', 'AAA'], {
+    A: 'casting:black_bricks',
+    B: 'casting:tank',
+    C: 'undergarden:forgotten_nugget'
+  }).id('fractured:simple_mixer')
+
+  //Void Stone
+  event.recipes.casting.solidifier('#c:stones', '100x fractured:void_fuel', 'fractured:void_stone').id('fractured:solidifier/void_stone')
+
+  //Void Fuel Because casting is the best mod 
+  event.recipes.casting.mixing('250x fractured:void_fuel', 
+    [
+      '250x undergarden:virulent_mix_source',
+      '250x immersiveengineering:ethanol',
+      '250x immersiveengineering:redstone_acid'
+    ]
+  ).id('fractured:mixing/void_fuel')
 
   //Tank
   event.shaped('casting:tank', ['AAA', 'A A', 'AAA'], {
@@ -18,9 +38,6 @@ ServerEvents.recipes(event => {
     A: 'casting:black_brick',
     B: '#minecraft:wooden_pressure_plates' 
   }).id('fractured:plate_mold')
-
-  //Coke Brick
-  event.recipes.casting.solidifier('minecraft:bricks', '250x casting:molten_black_brick', 'immersiveengineering:cokebrick').id('fractured:solidifier/coke_brick')
   
   //Empty Casing
   event.recipes.casting.solidifier('#c:molds/bullet', '45x casting:molten_constantan', 'immersiveengineering:empty_casing').id('fractured:solidifier/empty_casing')

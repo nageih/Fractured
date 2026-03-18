@@ -1,6 +1,6 @@
 {
 	"fortune+0.1": {
-		"title": "+0.1 Fortune",
+		"title": "+0.1 Fortune (1 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -26,10 +26,11 @@
 		],
 		"metadata": {
 			"icon": "y0m5a4e2agzzn532"
-		}
+		},
+		"cost": 1
 	},
 	"fortune+0.2": {
-		"title": "+0.2 Fortune",
+		"title": "+0.2 Fortune (3 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -55,10 +56,11 @@
 		],
 		"metadata": {
 			"icon": "w34goy17wp2pcl1b"
-		}
+		},
+		"cost": 3
 	},
 	"fortune+0.3": {
-		"title": "+0.3 Fortune",
+		"title": "+0.3 Fortune (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -84,10 +86,11 @@
 		],
 		"metadata": {
 			"icon": "x7fzzc8obyxt3wxr"
-		}
+		},
+		"cost": 5
 	},
 	"mining_speed+3%": {
-		"title": "Adds 3% Mining Speed",
+		"title": "Adds 3% Mining Speed (1 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -113,10 +116,11 @@
 		],
 		"metadata": {
 			"icon": "sy9ce1hhyq0cm6o4"
-		}
+		},
+		"cost": 1
 	},
 	"mining_speed+4%": {
-		"title": "Adds 4% Mining Speed",
+		"title": "Adds 4% Mining Speed (3 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -142,10 +146,11 @@
 		],
 		"metadata": {
 			"icon": "e5373k2273acm1m0"
-		}
+		},
+		"cost": 3
 	},
 	"mining_speed+5%": {
-		"title": "Adds 5% Mining Speed",
+		"title": "Adds 5% Mining Speed (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -171,10 +176,11 @@
 		],
 		"metadata": {
 			"icon": "15mkp25h40gpkpj0"
-		}
+		},
+		"cost": 5
 	},
 	"health+0.5": {
-		"title": "Adds Half a Heart of Max Health",
+		"title": "Adds Half a Heart of Max Health (3 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -200,10 +206,11 @@
 		],
 		"metadata": {
 			"icon": "oid8sdncscw46jue"
-		}
+		},
+		"cost": 3
 	},
 	"health+1": {
-		"title": "Adds 1 Heart of Max Health",
+		"title": "Adds 1 Heart of Max Health (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -229,10 +236,11 @@
 		],
 		"metadata": {
 			"icon": "22oiz6oty2ryop4d"
-		}
+		},
+		"cost": 5
 	},
 	"stamina+3%": {
-		"title": "+3% Stamina",
+		"title": "+3% Stamina (1 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -258,10 +266,11 @@
 		],
 		"metadata": {
 			"icon": "h7sfp3t8tmoa62pi"
-		}
+		},
+		"cost": 1
 	},
 	"stamina+4%": {
-		"title": "+4% Stamina",
+		"title": "+4% Stamina (3 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -287,10 +296,11 @@
 		],
 		"metadata": {
 			"icon": "s6d8h3xzyr40ltai"
-		}
+		},
+		"cost": 3
 	},
 	"stamina+5%": {
-		"title": "+5% Stamina",
+		"title": "+5% Stamina (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -316,10 +326,11 @@
 		],
 		"metadata": {
 			"icon": "ekzarlqf2q4mmcfo"
-		}
+		},
+		"cost": 5
 	},
 	"healing+1%": {
-		"title": "+1% Healing",
+		"title": "+1% Healing (1 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -345,10 +356,11 @@
 		],
 		"metadata": {
 			"icon": "i9ba5ov332vv7rjb"
-		}
+		},
+		"cost": 1
 	},
 	"healing+2%": {
-		"title": "+2% Healing",
+		"title": "+2% Healing (3 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -374,10 +386,11 @@
 		],
 		"metadata": {
 			"icon": "gv4smj4on62b4qpa"
-		}
+		},
+		"cost": 3
 	},
 	"healing+3%": {
-		"title": "+3% Healing",
+		"title": "+3% Healing (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -403,10 +416,11 @@
 		],
 		"metadata": {
 			"icon": "v1uo8wu9xfbzhw6g"
-		}
+		},
+		"cost": 5
 	},
 	"movement_speed+3%": {
-		"title": "+3% Movement Speed",
+		"title": "+3% Movement Speed (1 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -432,10 +446,11 @@
 		],
 		"metadata": {
 			"icon": "4fuo6f0i1glpd9d6"
-		}
+		},
+		"cost": 1
 	},
 	"movement_speed+4%": {
-		"title": "+4% Movement Speed",
+		"title": "+4% Movement Speed (3 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -461,10 +476,11 @@
 		],
 		"metadata": {
 			"icon": "sp2h44wgq7k05ish"
-		}
+		},
+		"cost": 3
 	},
 	"movement_speed+5%": {
-		"title": "+5% Movement Speed",
+		"title": "+5% Movement Speed (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -490,10 +506,11 @@
 		],
 		"metadata": {
 			"icon": "d0lv8umjkq9nksu5"
-		}
+		},
+		"cost": 5
 	},
 	"luck+0.1": {
-		"title": "+0.1 Luck",
+		"title": "+0.1 Luck (1 Point)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -519,10 +536,11 @@
 		],
 		"metadata": {
 			"icon": "93rqawq5g4wyf748"
-		}
+		},
+		"cost": 1
 	},
 	"luck+0.2": {
-		"title": "+0.2 Luck",
+		"title": "+0.2 Luck (3 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -548,10 +566,11 @@
 		],
 		"metadata": {
 			"icon": "2hupa7et18c1ro9g"
-		}
+		},
+		"cost": 3
 	},
 	"luck+0.3": {
-		"title": "+0.3 Luck",
+		"title": "+0.3 Luck (5 Points)",
 		"frame": {
 			"type": "texture",
 			"data": {
@@ -577,7 +596,8 @@
 		],
 		"metadata": {
 			"icon": "6i27npy1zcnml3wu"
-		}
+		},
+		"cost": 5
 	},
 	"tree_faller": {
 		"title": "Tree Capitator (10 Points)",

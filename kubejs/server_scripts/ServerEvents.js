@@ -1,5 +1,19 @@
 //Server Events
 
+//Set gamerules
+ServerEvents.loaded(event => {
+
+  if (event.server.persistentData.gameRules) return
+  event.server.gameRules.set("doTraderSpawning", false)
+  event.server.gameRules.set("doInsomnia", false)
+  event.server.gameRules.set("playersNetherPortalDefaultDelay", 20)
+  event.server.persistentData.gameRules = true
+
+})
+
+
+//Spawning Gyrodynes when player falls into the void and giving them a warning message beforehand. Also gives them a title and subtitle when they spawn in the ship. Only happens once per player.
+
 PlayerEvents.tick(event => {
     let player = event.player
     let server = event.server
@@ -116,7 +130,12 @@ ItemEvents.rightClicked('fractured:main_island_teleporter', event => {
     
 })
 
-
+//Portable Seismic Survey Tool
+ItemEvents.rightClicked('fractured:portable_seismic_survey_tool', event => {
+    const { player, level, hand, item } = event
+    if (level.clientSide) return
+    event.server.runCommand(`execute as ${player.uuid} at ${player.uuid} run ip reservoir get`)
+})
 
 
 //Locators

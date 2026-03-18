@@ -1,0 +1,18 @@
+#Maximum number of hits the player will take after respawning.
+# Default: 13
+# Range: > 0
+maxHits = 0
+#The maximum amount of damage the player will take on each hit.
+# Default: 3
+# Range: > 0
+maxHitDamage = 0
+#Minimum number of effects to apply on death.
+# Default: 1
+# Range: > 0
+minEffects = 1
+#Maximum number of effects to apply on death.
+# Default: 3
+# Range: > 0
+maxEffects = 3
+#A list of items to log on common setup.
+items = ["minecraft:slowness|30%|60-180s", "minecraft:blindness|10%|30-60s", "minecraft:poison|3%|5-15s"]

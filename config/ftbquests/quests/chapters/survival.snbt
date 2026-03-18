@@ -65,8 +65,8 @@
 				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -223,7 +223,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -364,8 +364,8 @@
 				item: { count: 1, id: "flintrequired:flint_hoe" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3FBDDBDD053EA6FE"]
@@ -383,8 +383,8 @@
 				item: { count: 1, id: "actuallyadditions:worm" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3FBDDBDD053EA6FE"]
@@ -402,8 +402,8 @@
 				item: { count: 1, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["15A0B3BB1FC9B3C9"]
@@ -814,6 +814,44 @@
 			}]
 			x: 4.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["466288CFF3BB3295"]
+			id: "304820ECB11897F0"
+			rewards: [{
+				id: "5648904BA2145E34"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18F181C1DAFD45A2"
+				item: { count: 1, id: "minecraft:green_wool" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["304820ECB11897F0"]
+			id: "0DA7A14111B86009"
+			rewards: [{
+				id: "08AEA703BA887EF3"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "346E302EC6A0B272"
+				item: { count: 1, id: "minecraft:green_bed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 }

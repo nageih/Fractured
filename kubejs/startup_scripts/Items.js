@@ -20,6 +20,11 @@ StartupEvents.registry('item', event => {
     event.create('fractured:control_press')
     event.create('fractured:printed_control_circuit')
     event.create('fractured:main_island_teleporter')
+    event.create('fractured:void_chest')
+    event.create('fractured:void_bucket')
+    event.create('fractured:void_ingot').tag(['c:ingots','c:ingots/void'])
+    event.create('fractured:portable_seismic_survey_tool')
+
 
     //Template
     event.create('fractured:cloggrum_template')
@@ -31,6 +36,7 @@ StartupEvents.registry('item', event => {
     event.create('fractured:gaia_catalyst')
     event.create('fractured:nether_catalyst')
     event.create('fractured:end_catalyst')
+    event.create('fractured:overworld_catalyst')
 
     //Tool Binding
     event.create('fractured:leafy_binding').tag('fractured:bindings')

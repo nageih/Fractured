@@ -2,6 +2,20 @@ StartupEvents.registry('block', event => {
 
   //Misc
 
+  //Void Block
+  event.create('fractured:void_block')
+    .hardness(1.3)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .soundType('metal')
+    .fullBlock(true);
+
+  //Void Planks
+  event.create('fractured:void_planks')
+    .hardness(0.8)
+    .tagBlock('minecraft:mineable/axe')
+    .woodSoundType()
+    .fullBlock(true);
+
   //Dark Fused Stone
   event.create('fractured:dark_fused_stone')
     .hardness(0.8)
@@ -34,7 +48,7 @@ StartupEvents.registry('block', event => {
   event.create('fractured:forgotten_sandstone')
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
-    .sandSoundType()
+    .stoneSoundType()
     .fullBlock(true);
 
   //Undergarden Portal Frame
@@ -53,6 +67,13 @@ StartupEvents.registry('block', event => {
 
   //End Portal Frame
   event.create('fractured:infused_end_stone')
+    .hardness(0.8)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .stoneSoundType()
+    .fullBlock(true);
+
+  //Overworld Portal Frame
+  event.create('fractured:overworld_portal_frame')
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()

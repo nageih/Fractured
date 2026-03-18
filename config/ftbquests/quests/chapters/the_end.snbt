@@ -177,5 +177,37 @@
 			x: -14.5d
 			y: -3.5d
 		}
+		{
+			id: "7778A6C3645571EF"
+			tasks: [{
+				id: "1813148C1298626C"
+				item: { count: 1, id: "fractured:overworld_portal_frame" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7778A6C3645571EF"]
+			id: "7E85F08E7F6C04E1"
+			tasks: [{
+				id: "6DE17F78857426C5"
+				item: { count: 1, id: "fractured:overworld_catalyst" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E85F08E7F6C04E1"]
+			id: "6626446279F6CC45"
+			tasks: [{
+				dimension: "mythica:mythica"
+				id: "1442ECBCED3FB755"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
 	]
 }

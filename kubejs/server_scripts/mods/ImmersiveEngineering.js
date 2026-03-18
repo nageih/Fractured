@@ -22,6 +22,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_leggings' })
   event.remove({ id: 'immersiveengineering:crafting/armor_faraday_boots' })
   event.remove({ id: 'immersiveengineering:crafting/fluid_pipe' })
+  event.remove({ id: 'immersiveengineering:crafting/rs_engineering' })
+  event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' })
+  event.remove({ id: 'immersiveengineering:crafting/light_engineering' })
   event.remove({input: 'immersiveengineering:hammer', output: '#c:dusts'})
   event.remove({input: 'immersiveengineering:hammer', output: '#c:plates'})
 
@@ -37,6 +40,31 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/thermoelectric_generator' }, '#c:plates/constantan', '#c:plates/iron')
   event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, '#c:plates/copper', '#c:plates/constantan')
   
+  //Time Steel
+  event.recipes.immersiveengineering.alloy(
+    TagOutputJS.ofItemStack("tempad:time_steel"),
+    IngredientWithSizeJS.ofItemStack("fractured:void_ingot"),
+    IngredientWithSizeJS.ofItemStack("alltheores:electrum_ingot"),
+  ).id("fractured:time_steel_ingot")
+
+  //RS Engineering (Controller Engineering Block)
+  event.shaped('2x immersiveengineering:rs_engineering', [' A ', 'ABA', ' A '], {
+    A: '#c:ingots/copper',
+    B: 'undergarden:utheric_cluster'
+  }).id('fractured:controller_engineering_block')
+
+  //Heavy Engineering Block
+  event.shaped('2x immersiveengineering:heavy_engineering', [' A ', 'ABA', ' A '], {
+    A: '#c:ingots/steel',
+    B: 'immersiveengineering:component_steel'
+  }).id('fractured:heavy_engineering_block')
+
+  //Light Engineering Block
+  event.shaped('2x immersiveengineering:light_engineering', [' A ', 'ABA', ' A '], {
+    A: '#c:ingots/bronze',
+    B: 'immersiveengineering:component_iron'
+  }).id('fractured:light_engineering_block')
+
   //Fluid Pipe
   event.shaped('8x immersiveengineering:fluid_pipe', ['AAA', '   ', 'AAA'], {
     A: '#c:ingots/steel'
@@ -198,11 +226,11 @@ ServerEvents.recipes(event => {
     B: 'immersiveengineering:stick_treated',
     C: '#c:rods/steel'
   }).id('fractured:windmill_blade')
-
+  
   //Gold, Silver, Nickel 
-  addSqueezerRecipe('minecraft:gold_ingot', 'minecraft:empty', 0,  '4x fractured:impure_gold')
-  addSqueezerRecipe('alltheores:silver_ingot', 'minecraft:empty', 0,  '4x fractured:impure_silver')
-  addSqueezerRecipe('alltheores:nickel_ingot', 'minecraft:empty', 0,  '4x fractured:impure_nickel')
+  addSqueezerRecipe('minecraft:gold_ingot', 'minecraft:empty', 4000,  'fractured:impure_gold')
+  addSqueezerRecipe('alltheores:silver_ingot', 'minecraft:empty', 4000,  'fractured:impure_silver')
+  addSqueezerRecipe('alltheores:nickel_ingot', 'minecraft:empty', 4000,  'fractured:impure_nickel')
 
   //Redstone
   addSqueezerRecipe('minecraft:redstone', '125x undergarden:virulent_mix_source', 4000, 'undergarden:utheric_cluster')
@@ -221,6 +249,17 @@ ServerEvents.recipes(event => {
   //Metallic Dust
   addBlastFurnaceRecipe('fractured:metallic_dust', 'alltheores:bronze_ingot', 20 * 10)
 
+  //Coke Brick
+  event.shaped('3x immersiveengineering:cokebrick', [' A ', 'ABA', ' A '], {
+    A: 'fractured:impure_coal',
+    B: 'minecraft:bricks'
+  }).id('fractured:coke_brick_impure')
+
+  event.shaped('6x immersiveengineering:cokebrick', [' A ', 'ABA', ' A '], {
+    A: 'fractured:pure_coal',
+    B: 'minecraft:bricks'
+  }).id('fractured:coke_brick_pure')
+
   //Kiln Brick
   event.shaped('4x immersiveengineering:alloybrick', ['AB', 'BA'], {
     A: 'immersiveengineering:cokebrick',
@@ -238,10 +277,10 @@ ServerEvents.recipes(event => {
   event.shapeless('immersiveengineering:coal_coke', ['2x fractured:small_coal_coke']).id('fractured:coke_from_small_coal_coke')
 
   //Squeezer Function
-  function addSqueezerRecipe(output, outputFluid, outputFluidAmount, input) {
+  function addSqueezerRecipe(output, outputFluid, energy, input) {
       event.recipes.immersiveengineering.squeezer(
         IngredientWithSizeJS.ofItemStack(input),
-        outputFluidAmount,
+        energy,
         Fluid.of(outputFluid),
         TagOutputJS.ofItemStack(output)
     ).id(`fractured:squeezer/${output.split(':')[1]}`)

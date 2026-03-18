@@ -11,5 +11,13 @@
   {"ingredient":{"id":"undergarden:raw_froststeel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:blueprint","components":{"immersiveengineering:blueprint":"engineering_blocks"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"toms_storage:inventory_connector"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"toms_storage:inventory_connector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:catacombs_locator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:ethanol"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:diamond_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:light_bulb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"strainers:iron_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:biodiesel"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:blueprint","components":{"immersiveengineering:blueprint":"circuits"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:tank"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

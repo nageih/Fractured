@@ -12,6 +12,38 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of(output.id, 2), ingredients[0]).id(r.getId())
   })  
 
+  //Portable Seismic Survey Tool
+  event.shaped('fractured:portable_seismic_survey_tool', [' A ', 'ABA', ' A '], { 
+    A: 'immersivepetroleum:survey_result',
+    B: 'immersivepetroleum:seismic_survey'
+  }).id('fractured:portable_seismic_survey_tool')
+
+  //Forgotten Catalyst
+  event.shaped('fractured:forgotten_catalyst', ['ABA', 'BCB', 'ABA'], { 
+    A: 'undergarden:forgotten_ingot',
+    B: 'fractured:void_ingot',
+    C: 'fractured:void_infused_sandstone' 
+  }).id('fractured:forgotten_catalyst')
+
+  //Void Block 
+  event.shaped('fractured:void_block', ['AAA', 'AAA', 'AAA'], {
+    A: 'fractured:void_ingot'
+  }).id('fractured:void_block')
+
+  //Void Ingot
+  event.shapeless('9x fractured:void_ingot', ['fractured:void_block']).id('fractured:void_ingot')
+
+  //Void Bucket
+  event.shaped('fractured:void_bucket', ['ABA', ' A '], { 
+    A: 'fractured:void_planks',
+    B: '#c:buckets'
+  }).id('fractured:void_bucket')
+
+  //Void Chest
+  event.shaped('fractured:void_chest', ['AAA', 'A A', 'AAA'], { 
+    A: 'fractured:void_planks'
+  }).id('fractured:void_chest')
+
   //Dye Extractor
   event.shaped('fractured:dye_extractor', [' AA', ' BA', 'B  '], {
     A: 'minecraft:paper',

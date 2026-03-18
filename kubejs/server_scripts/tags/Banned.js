@@ -20,6 +20,8 @@ ServerEvents.tags("item", event => {
         'alltheores:bronze_ore_hammer',
         'alltheores:invar_ore_hammer',
         'alltheores:platinum_ore_hammer',
+        'opolisutilities:smart_crafting_table',
+
 
 
 

@@ -6,8 +6,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,6 +52,18 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "dimstorage": {
+    "dim_block_base": true,
+    "dim_tank": true
+  },
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "anchor": true,
+    "metronome": true,
+    "workstation": true,
+    "timedoor": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -61,14 +73,6 @@
   },
   "ftbquests": {
     "barrier": true
-  },
-  "toms_storage": {
-    "inventory_hopper": true,
-    "inventory_config": true,
-    "inventory_connector": true
-  },
-  "pipez": {
-    "pipe": true
   },
   "portals": {
     "portal_name_provider": true
@@ -90,15 +94,12 @@
   "unlitcampfire": {
     "campfireinfo": true
   },
-  "gravestone": {
-    "grave": true
-  },
   "balm": {
     "jade": true
   },
-  "powerscale": {
-    "mob": true,
-    "alchemy_set": true
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
   },
   "ae2": {
     "part_icon": true,
@@ -111,5 +112,20 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "gravestone": {
+    "grave": true
+  },
+  "powerscale": {
+    "mob": true,
+    "alchemy_set": true
   }
 }

@@ -6,11 +6,18 @@ ServerEvents.recipes(event => {
   event.remove({id: 'opolisutilities:leafy_string'})
   event.remove({id: 'opolisutilities:sticks'})
   event.remove({id: 'opolisutilities:crook'})
+  event.remove({id: 'opolisutilities:resource_generator'})
+
+  //Resource Generator
+  event.shaped('opolisutilities:resource_generator', ['AAA', 'B B', 'AAA'], {
+    A: 'fractured:void_ingot',
+    B: 'fractured:void_chest'
+  }).id('fractured:resource_generator')
 
   //Crook
   event.shaped('opolisutilities:crook', ['AA', ' A'], {
     A: '#c:rods/wooden'
-  }).id('opolisutilities:crook')
+  }).id('fractured:crook')
 
   //Soaked Paper
   event.recipes.opolisutilities.soaking_table('opolisutilities:soaked_paper', 'minecraft:sugar_cane', 100).id('fractured:soaked_paper_from_sugar_cane')

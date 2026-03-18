@@ -16,6 +16,17 @@ ServerEvents.recipes(event => {
     ]
   ).id('fractured:conveyor')
 
+  //Extracting Conveyor
+  event.recipes.immersiveengineering.blueprint(
+    'conveyor',
+    TagOutputJS.ofItemStack('immersiveengineering:conveyor_extract'),
+    [
+        IngredientWithSizeJS.ofItemStack('immersiveengineering:conveyor_basic'),
+        IngredientWithSizeJS.ofItemStack('immersiveengineering:strip_curtain'),
+        IngredientWithSizeJS.ofItemStack('alltheores:bronze_ingot'),
+    ]
+  ).id('fractured:conveyor_extract')
+
   //Blueprint Recipe
   event.shaped('immersiveengineering:blueprint[immersiveengineering:blueprint="conveyor"]', ['AAA', 'BBB', 'CCC'], {
     A: '#c:ingots/copper',

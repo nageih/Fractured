@@ -6,8 +6,8 @@ PortalEvents.register(event => {
   event.create()
     .returnDim('minecraft:overworld', true)
     .setDestination('javd:void')
-    .frameBlock('actuallyadditions:void_crystal_block') 
-    .lightWithFluid('immersiveengineering:ethanol')
+    .frameBlock('fractured:void_stone') 
+    .lightWithFluid('fractured:void_fuel')
     .portalTexture('nether')
     .tint(0x000000)
   
@@ -73,5 +73,14 @@ PortalEvents.register(event => {
     .lightWithItem('fractured:end_catalyst')
     .portalTexture('default')
     .tint(0xDAE1A3)
+
+  //Void -> Overworld
+  event.create()
+    .returnDim('javd:void', true)
+    .setDestination('mythica:mythica')
+    .frameBlock('fractured:overworld_portal_frame') 
+    .lightWithItem('fractured:overworld_catalyst')
+    .portalTexture('default')
+    .tint(0x2AB700)
 
 })

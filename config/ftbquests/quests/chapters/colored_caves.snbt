@@ -125,7 +125,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["308619C5694C9BC0"]
@@ -299,15 +299,6 @@
 			y: -2.5d
 		}
 		{
-			id: "2F412F937C2BC80F"
-			tasks: [{
-				id: "17BB620A01521BA1"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["1D2106911904AA10"]
 			id: "051238EFDB57857E"
 			tasks: [{
@@ -339,24 +330,6 @@
 			}]
 			x: 21.5d
 			y: -4.0d
-		}
-		{
-			id: "61B95235E4EB6035"
-			tasks: [{
-				id: "694DE9E78780339E"
-				type: "checkmark"
-			}]
-			x: 28.0d
-			y: 1.0d
-		}
-		{
-			id: "130BF2471D959BE5"
-			tasks: [{
-				id: "3BCAC4B5C22275EB"
-				type: "checkmark"
-			}]
-			x: 29.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["35AB32FC4B2A3726"]
@@ -541,6 +514,17 @@
 			}]
 			x: 30.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["3AA74BF539A3C21B"]
+			id: "3D6D697E9BD2DE80"
+			tasks: [{
+				id: "5D2EA817A5BE891F"
+				item: { count: 1, id: "flightblocks:flight_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
 		}
 	]
 }

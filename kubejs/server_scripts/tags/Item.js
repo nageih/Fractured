@@ -12,7 +12,9 @@ ServerEvents.tags("item", event => {
     //Twigs
     event.add('fractured:twigs', ['projectvibrantjourneys:birch_twigs', 'projectvibrantjourneys:twigs'])
 
-
+    //Nether Portal Frames
+    event.remove('bblcore:nether_portal_frame', 'minecraft:obsidian')
+    
     //Food Tags
 
     event.add('fractured:small_xp_foods', [

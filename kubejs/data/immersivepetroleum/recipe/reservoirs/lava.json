@@ -5,7 +5,7 @@
     "list": []
   },
   "dimensions": {
-    "isBlacklist": true,
+    "isBlacklist": false,
     "list": [
       "minecraft:the_nether"
     ]

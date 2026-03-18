@@ -76,8 +76,8 @@
 				to_observe: "immersiveengineering:fermenter"
 				type: "observation"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["36D380A56080807F"]
@@ -121,16 +121,17 @@
 		{
 			dependencies: ["33BFE6241D31E892"]
 			id: "6124E218241BC913"
+			optional: true
 			tasks: [{
 				id: "15E0B8C3F984AB58"
 				item: { count: 1, id: "fractured:catacombs_locator" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -10.0d
+			x: 0.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["6124E218241BC913"]
+			dependencies: ["33BFE6241D31E892"]
 			id: "6284C12EBDFC08B8"
 			tasks: [{
 				id: "694F096C232AF8A0"
@@ -149,7 +150,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["3F1C77F1F7A62AAC"]
@@ -159,19 +160,18 @@
 				item: { count: 1, id: "fractured:forgotten_sandstone" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 10.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["2DC95FFEDAB612B1"]
 			id: "1B960A09F2CE341B"
 			tasks: [{
 				id: "19EA33483E37EB2A"
 				item: { count: 1, id: "actuallyadditions:iron_casing" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -10.0d
+			x: 12.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["1B960A09F2CE341B"]
@@ -181,8 +181,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 14.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["5668C2E4CEF8652D"]
@@ -192,8 +192,8 @@
 				item: { count: 1, id: "actuallyadditions:void_crystal" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -10.0d
+			x: 15.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["631673700DFBD026"]
@@ -203,30 +203,19 @@
 				item: { count: 1, id: "actuallyadditions:void_crystal_block" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: -9.0d
+			x: 16.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["31E93CBE12506CBE"]
-			id: "03B46998B37F4E19"
-			tasks: [{
-				id: "00EB29B14DDCAB7A"
-				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["3743424EA21CA930"]
+			dependencies: ["239E3139E48235D2"]
 			id: "2291DE8F2FE8D438"
 			tasks: [{
 				dimension: "javd:void"
 				id: "71ED2C9186283834"
 				type: "dimension"
 			}]
-			x: 10.5d
-			y: -7.5d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2291DE8F2FE8D438"]
@@ -236,8 +225,8 @@
 				item: { count: 1, id: "fractured:void_infused_sandstone" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.5d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			id: "3D01CAC5DAB437F7"
@@ -245,10 +234,11 @@
 				id: "0AFA3950B4425302"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -7.5d
+			x: 18.5d
+			y: -9.0d
 		}
 		{
+			dependencies: ["7EC9EE5BE91C7CC5"]
 			id: "0995D9D8B64CCE33"
 			tasks: [{
 				id: "123FAEBC2D80313F"
@@ -256,17 +246,18 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -8.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["743FA61E24C26BBB"]
 			id: "239E3139E48235D2"
 			tasks: [{
 				id: "6B5C18ED0A0D74B7"
 				item: { count: 1, id: "fractured:void_stone" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -12.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6124E218241BC913"]
@@ -277,7 +268,7 @@
 				type: "structure"
 			}]
 			x: 2.0d
-			y: -11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -325,6 +316,242 @@
 			}]
 			x: -4.0d
 			y: -13.0d
+		}
+		{
+			dependencies: ["2DC95FFEDAB612B1"]
+			id: "2C73F8B0A8370E41"
+			tasks: [{
+				id: "69AF998E9A48F3B4"
+				item: { count: 1, id: "undergarden:forgotten_nugget" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["795B4DD4B6C94430"]
+			icon_scale: 3.0d
+			id: "6E11D5DFC8C64F28"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:mixer"
+				}
+				id: "7CCCB53780475D1C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:mixer"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["31E93CBE12506CBE"]
+			icon: {
+				id: "immersiveengineering:ethanol_bucket"
+			}
+			id: "1D8D1DC74B3C3ADB"
+			tasks: [{
+				id: "244DF30173962FB6"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E11D5DFC8C64F28"]
+			icon: {
+				id: "immersiveengineering:redstone_acid_bucket"
+			}
+			id: "4209913428F5F428"
+			tasks: [{
+				id: "5592F0869569DBAA"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["36D380A56080807F"]
+			id: "12705C61FC3F848F"
+			rewards: [{
+				id: "293D1CF77DE2527F"
+				item: {
+					count: 1
+					id: "placers:sheetmetal_tank_placer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4428BCB721DB5DCC"
+				item: { count: 1, id: "immersiveengineering:fluid_pump" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2C73F8B0A8370E41"]
+			id: "00B2C447F5E3DF91"
+			tasks: [{
+				id: "2B7177B6B92219A6"
+				item: { count: 1, id: "casting:mixer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4209913428F5F428"
+				"00B2C447F5E3DF91"
+				"1D8D1DC74B3C3ADB"
+			]
+			icon: {
+				id: "fractured:void_fuel_bucket"
+			}
+			id: "743FA61E24C26BBB"
+			tasks: [{
+				id: "104CC4F6F3D8B202"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2291DE8F2FE8D438"]
+			id: "21D13EF5C1AC11E8"
+			tasks: [{
+				id: "47C1361D95D4DE53"
+				item: { count: 1, id: "fractured:void_planks" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["21D13EF5C1AC11E8"]
+			id: "12B0E741F9AA57B0"
+			tasks: [{
+				id: "68D3EE0AD6621B41"
+				item: { count: 1, id: "fractured:void_chest" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12B0E741F9AA57B0"]
+			id: "0C9F5684C88B01E0"
+			tasks: [{
+				id: "0A19B699A2C1109D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer_1x1)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["21D13EF5C1AC11E8"]
+			id: "4E70399CD84A2DF5"
+			tasks: [{
+				id: "050CA0C2C8B42E38"
+				item: { count: 1, id: "fractured:void_bucket" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E70399CD84A2DF5"]
+			id: "0B71DEB4F77207C7"
+			tasks: [{
+				id: "5C981663B2FC9F66"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:fluid_drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2291DE8F2FE8D438"]
+			id: "4705E0B5AE882C32"
+			tasks: [{
+				id: "099538B04B92BB4F"
+				item: { count: 1, id: "fractured:void_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4705E0B5AE882C32"]
+			id: "7EC9EE5BE91C7CC5"
+			tasks: [{
+				id: "505962D6C9E3C21D"
+				item: { count: 1, id: "fractured:void_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7EC9EE5BE91C7CC5"
+				"12B0E741F9AA57B0"
+			]
+			id: "6DE049C47027762E"
+			tasks: [{
+				id: "3F48EB59088EF493"
+				item: { count: 1, id: "opolisutilities:resource_generator" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E70399CD84A2DF5"]
+			id: "759301934AA3C1B1"
+			tasks: [{
+				id: "6D5C2E6158B5F1DB"
+				item: { count: 1, id: "opolisutilities:fluid_generator" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DE049C47027762E"]
+			id: "795FD1CC9CE8998A"
+			tasks: [{
+				id: "1AB4D63504942AF4"
+				item: { count: 1, id: "cloche:cloche" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4945DEA3DFF190EE"]
+			id: "4A8F0B76F90E98DF"
+			tasks: [{
+				id: "6DEEB34A5C15CA98"
+				item: { count: 1, id: "immersiveengineering:furnace_heater" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4A8F0B76F90E98DF"]
+			id: "428A3130107930B9"
+			tasks: [{
+				id: "6ABEA02E65615915"
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.5d
 		}
 	]
 }

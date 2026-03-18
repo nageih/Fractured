@@ -483,14 +483,15 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["44C2DDF2A0528F11"]
 			id: "34FF1729FBE766A1"
 			tasks: [{
 				id: "5B0FB5695770252C"
 				item: { count: 1, id: "gaiadimension:bismuth_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6970AE453BBEF764"]

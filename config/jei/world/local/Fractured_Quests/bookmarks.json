@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"tempad:chronometer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tempad:chronon_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

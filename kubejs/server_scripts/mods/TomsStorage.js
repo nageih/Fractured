@@ -11,6 +11,15 @@ ServerEvents.recipes(event => {
   //Replace Input
   event.replaceInput({mod: 'flintrequired'}, 'flintrequired:plant_fiber', 'fractured:leafy_binding')
 
+  //Inventory Cable Connector
+  event.shaped('toms_storage:inventory_connector', ['ABA', 'BCB', 'ABA'], {
+    A: '#minecraft:logs',
+    B: 'minecraft:redstone',
+    C: 'woodenhopper:wooden_hopper',
+  }).id('fractured:inventory_connector')
+
+  //Storage Terminal
+
   //Inventory Connector
   event.shaped('toms_storage:inventory_connector', ['ABA', 'BCB', 'ABA'], {
     A: '#minecraft:logs',
