@@ -678,5 +678,37 @@
   "290404:5826850": {
     "mod_name": "Unknown (290404)",
     "version": "Unknown"
+  },
+  "331936:7476597": {
+    "mod_name": "Citadel",
+    "version": "citadel-2.7.0-1.21.1.jar"
+  },
+  "1454545:7765922": {
+    "mod_name": "BBL Fixes",
+    "version": "bblfixes-1.21.1-1.0.1.jar"
+  },
+  "361276:7769881": {
+    "mod_name": "Lootr (Forge & NeoForge)",
+    "version": "lootr-neoforge-1.21.1-1.11.37.118.jar"
+  },
+  "1205426:7767452": {
+    "mod_name": "Advanced Loot Info",
+    "version": "AdvancedLootInfo-neoforge-1.21.1-1.8.2.jar"
+  },
+  "289412:7775452": {
+    "mod_name": "FTB Quests (NeoForge)",
+    "version": "ftb-quests-neoforge-2101.1.23.jar"
+  },
+  "446691:7772814": {
+    "mod_name": "Skyblock Builder",
+    "version": "SkyblockBuilder-21.1.26.jar"
+  },
+  "379849:7777879": {
+    "mod_name": "The Undergarden",
+    "version": "The_Undergarden-1.21.1-0.9.5.jar"
+  },
+  "290404:7734709": {
+    "mod_name": "Flopper",
+    "version": "flopper-1.21.1-neoforge-1.1.8-213.jar"
   }
 }
