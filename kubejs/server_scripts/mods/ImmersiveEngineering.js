@@ -39,6 +39,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/wirecutter' }, 'minecraft:iron_ingot', '#c:ingots/steel')
   event.replaceInput({ id: 'immersiveengineering:crafting/thermoelectric_generator' }, '#c:plates/constantan', '#c:plates/iron')
   event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, '#c:plates/copper', '#c:plates/constantan')
+  event.replaceInput({ id: 'immersiveengineering:crafting/coil_hv' }, 'minecraft:iron_ingot', 'actuallyadditions:void_crystal_block')
   
   //Time Steel
   event.recipes.immersiveengineering.alloy(
@@ -156,6 +157,23 @@ ServerEvents.recipes(event => {
     D: 'strainers:eroding_water_bucket',
     E: 'immersiveengineering:light_engineering'
   }).id('fractured:sample_drill')
+
+  //Iron Casing
+  event.recipes.immersiveengineering.arc_furnace(
+    [
+      TagOutputJS.ofItemStack("actuallyadditions:iron_casing")
+    ],
+    IngredientWithSizeJS.ofItemStack("actuallyadditions:wood_casing"),
+    200,
+    8192,
+    [
+      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot"),
+      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot"),
+      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot"),
+      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot")
+    ],
+    []
+  ).id('fractured:arc_furnace/iron_casing')
 
   //Aluminum Ingot
   event.recipes.immersiveengineering.arc_furnace(

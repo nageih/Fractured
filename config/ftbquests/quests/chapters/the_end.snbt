@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "4C6CA59E34F8B51F"
+	icon: {
+		id: "minecraft:end_stone"
+	}
 	id: "07C561B1E198D1D8"
 	order_index: 8
 	quest_links: [ ]
@@ -178,14 +181,15 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["74BED752755FFDCB"]
 			id: "7778A6C3645571EF"
 			tasks: [{
 				id: "1813148C1298626C"
 				item: { count: 1, id: "fractured:overworld_portal_frame" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7778A6C3645571EF"]
@@ -195,8 +199,8 @@
 				item: { count: 1, id: "fractured:overworld_catalyst" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E85F08E7F6C04E1"]
@@ -206,8 +210,8 @@
 				id: "1442ECBCED3FB755"
 				type: "dimension"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: -3.0d
+			y: 0.5d
 		}
 	]
 }

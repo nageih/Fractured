@@ -1,0 +1,38 @@
+{
+  "type": "ltxi:fabricating",
+  "energy_required": 2500000,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "fractured:end_catalyst"
+    },
+    {
+      "count": 1,
+      "item": "fractured:nether_catalyst"
+    },
+    {
+      "count": 1,
+      "item": "fractured:gaia_catalyst"
+    },
+    {
+      "count": 1,
+      "item": "fractured:colored_catalyst"
+    },
+    {
+      "count": 1,
+      "item": "fractured:forgotten_catalyst"
+    },
+    {
+      "count": 1,
+      "item": "undergarden:crumbling_catalyst"
+    },
+    {
+      "count": 1,
+      "item": "undergarden:catalyst"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "fractured:overworld_catalyst"
+  }
+}

@@ -448,10 +448,11 @@
 		{
 			id: "15A0B3BB1FC9B3C9"
 			rewards: [{
-				id: "4BCD600280C08CDE"
+				count: 8
+				id: "72A5B5DCAE733433"
 				item: {
 					count: 1
-					id: "shops:copper_coin"
+					id: "minecraft:apple"
 				}
 				type: "item"
 			}]

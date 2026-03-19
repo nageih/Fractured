@@ -27,10 +27,11 @@
 	quest.047D74E10724B489.quest_desc: ["Made inside the &lRestructurer&r"]
 	quest.04C204A509F34264.quest_desc: ["Below the &8&lCoker Unit&r&r there are 2 outputs for &lPetcoke&r"]
 	quest.04D8E2A4D39A368C.quest_desc: [
-		"After some time the &lOil&r from the &lDerrick&r will stop being produced. "
+		"After some time the &0&lOil&r&r from the &#8B4513&lDerrick&r&r will stop being produced. "
 		""
-		"This is when the &lPumpjack&r comes in. Placing the Fluid Pipe of the &lPumpjack&r structure over the well will allow the Pumpjack to continue to produce oil"
+		"This is when the &#8B4513&lPumpjack&r&r comes in. Placing the Fluid Pipe of the &#8B4513&lPumpjack&r&r structure over the well will allow the &#8B4513&lPumpjack&r&r to continue to produce oil"
 	]
+	quest.04D8E2A4D39A368C.quest_subtitle: "A Placer will make this easier to build..."
 	quest.051238EFDB57857E.quest_desc: ["Used to make &lHV Wires&r"]
 	quest.06D4B1E5FE22C9C4.quest_desc: ["&2&lThe Undergarden&r&r is the only other dimension that can be accessed from &lThe Overworld&r. To enter create a portal from &#8B4513&lTreated Stone Bricks&r&r and light with the &lUndergarden Catalyst&r"]
 	quest.06E82AD5B86D8A7F.quest_desc: ["The &lMixer&r is like a mini version of the &0&lMixer&r&r"]
@@ -90,7 +91,7 @@
 	quest.107224F16C1E48E5.quest_desc: ["Made inside the &#8B4513&lMixer&r&r from &l&6Gasoline&r&r and &8&lAluminum Dust&r&r"]
 	quest.108141B0EF0C6739.quest_desc: ["&6&lGlow Berries&r&r can also struck by &e&lLightning&r&r to create &2&lVitriol Berries&r&r"]
 	quest.1098BBDB7BBB45DE.quest_desc: ["The &4&lCampfire&r&r can be used to keep you warm as well as cook food and &8&lCobblestone&r&r"]
-	quest.1112F243E43EE85E.quest_desc: ["Ore spawn in giant viens across the worlds. Most ores on the surface will have a colored tree "]
+	quest.1112F243E43EE85E.quest_desc: ["Ores spawn in giant veins across the worlds. Most ores on the surface will have a colored tree "]
 	quest.113A6412F5F0113D.quest_desc: [
 		"&lUtherium Ore&r"
 		""
@@ -391,6 +392,7 @@
 		""
 		"Once that is completed the &#8B4513&lDerrick&r&r will produce &lCrude Oil&r"
 	]
+	quest.442D87AC4B7041CB.quest_subtitle: "A Placer will make this easier to build..."
 	quest.448C910C045496D9.quest_desc: [
 		"&lSilver Ore&r"
 		""
@@ -483,7 +485,7 @@
 	quest.531CAB0179ABDD1D.quest_desc: [
 		"[\"This pack uses Ultimine, Holding \", {\"keybind\": \"key.ftbultimine\", \"color\": \"aqua\", \"bold\": true }, \" will allow you to break multiple blocks at once!\"]"
 		""
-		"[\"More blocks are unlocked inside the Ultimine Skill Tree, prees \", {\"keybind\": \"key.puffish_skills.open\", \"color\": \"aqua\", \"bold\": true }, \" to open&l\"]"
+		"[\"More blocks are unlocked inside the Ultimine Skill Tree, press \", {\"keybind\": \"key.puffish_skills.open\", \"color\": \"aqua\", \"bold\": true }, \" to open\"]"
 	]
 	quest.533046C9D725CF41.quest_desc: [
 		"Welcome to Fractured a 1.21.1 Modpack. Travel across dimensions to obtain different resources. Can you find your way back to the overworld?"
@@ -597,7 +599,7 @@
 	quest.6C35687F7AC91797.quest_desc: [
 		"Follow the &lQuest Book&r, it will help you progress through the modpack. "
 		""
-		"New &lQuests&r only show when you have copmpleted the previous ones!"
+		"New &lQuests&r only show when you have completed the previous ones!"
 	]
 	quest.6C5BB28C0ABA365A.quest_desc: ["When wearing a full &#8B4513&lFaraday Armor Set&r&r exposed wires will no longer damage you"]
 	quest.6C5BB28C0ABA365A.title: "Faraday Armor"
@@ -670,9 +672,10 @@
 	quest.75BD9038E158B0A1.quest_desc: ["Provides some protection "]
 	quest.75BD9038E158B0A1.title: "Survivalist Armor"
 	quest.76C95A9B3729EF63.quest_desc: ["Smelted &4&lNetherrack&r&r"]
-	quest.76EAA695594BBCA8.quest_desc: ["No need to place anymore !"]
+	quest.76EAA695594BBCA8.quest_desc: ["No need to place anymore! &lRight Click&r to see whats in the area"]
 	quest.77265536786564DA.quest_desc: ["Requires 2 power sources. Top left requires a &lGlittering Item&r like &5&lSweet Muckballs&r&r the top right requires &lShining Items&r like &5&lPink Essence&r&r"]
 	quest.77623C41F3DFABF5.quest_desc: ["The &0&lOil Tank&r&r is very large tank that allows you to store &0&lOil&r&r"]
+	quest.77623C41F3DFABF5.quest_subtitle: "A Placer will make this easier to build..."
 	quest.7778A6C3645571EF.quest_desc: ["Almost home time"]
 	quest.77F8C899886003CB.quest_desc: ["Can be used to connect &#8B4513&lInventory Connectors&r&r across distances"]
 	quest.77FCD77B49E671AD.quest_desc: [

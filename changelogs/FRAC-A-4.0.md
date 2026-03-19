@@ -41,5 +41,3 @@
 
 # Mods
 <!-- MODS_CHANGELOG -->
-# Mods
-<!-- MODS_CHANGELOG -->
