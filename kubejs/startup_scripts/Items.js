@@ -23,6 +23,7 @@ StartupEvents.registry('item', event => {
     event.create('fractured:void_chest')
     event.create('fractured:void_bucket')
     event.create('fractured:void_ingot').tag(['c:ingots','c:ingots/void'])
+    event.create('fractured:void_staff')
     event.create('fractured:portable_seismic_survey_tool')
 
 

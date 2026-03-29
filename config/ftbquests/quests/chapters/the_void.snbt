@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4F1130825B5C9A51"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_void"
@@ -828,6 +829,25 @@
 			}]
 			x: -6.0d
 			y: -12.5d
+		}
+		{
+			dependencies: ["7EC9EE5BE91C7CC5"]
+			id: "418F6CE3159E1019"
+			rewards: [{
+				id: "699E2A73366A3AFD"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A9666132F8131AE"
+				item: { count: 1, id: "fractured:void_staff" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
 		}
 	]
 }

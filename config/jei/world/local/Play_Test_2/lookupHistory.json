@@ -1,5 +1,9 @@
 [
   {"version":1},
+  {"ingredient":{"id":"fractured:overworld_portal_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:overworld_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:void_staff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"casting:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:chronon_battery"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:chronometer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:chronon_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -95,9 +99,5 @@
   {"ingredient":{"id":"strainers:strainer_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"strainers:wooden_strainer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"strainers:wooden_mesh"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"strainers:iron_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"strainers:copper_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"strainers:tin_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"strainers:silver_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"strainers:nickel_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"strainers:iron_ore_piece"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

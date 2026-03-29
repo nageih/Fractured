@@ -5,14 +5,22 @@ ServerEvents.recipes(event => {
   //Remove
   event.remove({id: 'opolisutilities:leafy_string'})
   event.remove({id: 'opolisutilities:sticks'})
+  event.remove({id: 'opolisutilities:chests'})
   event.remove({id: 'opolisutilities:crook'})
   event.remove({id: 'opolisutilities:resource_generator'})
+  event.remove({id: 'opolisutilities:fluid_generator'})
 
   //Resource Generator
   event.shaped('opolisutilities:resource_generator', ['AAA', 'B B', 'AAA'], {
     A: 'fractured:void_ingot',
     B: 'fractured:void_chest'
   }).id('fractured:resource_generator')
+
+  //Fluid Generator
+  event.shaped('opolisutilities:fluid_generator', ['AAA', 'B B', 'AAA'], {
+    A: 'fractured:void_ingot',
+    B: 'fractured:void_bucket'
+  }).id('fractured:fluid_generator')
 
   //Crook
   event.shaped('opolisutilities:crook', ['AA', ' A'], {

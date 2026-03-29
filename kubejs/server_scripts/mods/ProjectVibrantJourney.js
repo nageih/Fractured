@@ -8,4 +8,8 @@ ServerEvents.recipes(event => {
   event.remove({id: 'projectvibrantjourneys:mossy_cobblestone_from_mossy_rocks'})
   event.remove({id: 'projectvibrantjourneys:sandstone_from_sandstone_rocks'})
   event.remove({id: 'projectvibrantjourneys:red_sandstone_from_red_sandstone_rocks'})
+  event.remove({id: 'projectvibrantjourneys:stick_from_twigs'})
+  event.remove({id: 'projectvibrantjourneys:stick_from_birch_twigs'})
+
+  event.shapeless('2x minecraft:stick', ['#fractured:twigs'])
 })

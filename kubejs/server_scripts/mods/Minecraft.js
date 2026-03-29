@@ -33,6 +33,11 @@ ServerEvents.recipes(event => {
     B: 'opolisutilities:leafy_string'
   }).id('fractured:red_sandstone')
 
+  //Chests
+  event.shaped('2x minecraft:chest', ['AAA', 'A A', 'AAA'], {
+    A: '#minecraft:logs'
+  }).id('fractured:chest')
+
   //Piston 
   event.shaped('minecraft:piston', ['AAA', 'BCB', 'BDB'], {
     D: '#c:ingots/steel',

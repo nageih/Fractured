@@ -12,6 +12,12 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of(output.id, 2), ingredients[0]).id(r.getId())
   })  
 
+  //Void Staff
+  event.shaped('fractured:void_staff[casting:teleporting=16]', ['  A', ' B ', 'B  '], {
+    A: 'fractured:void_block',
+    B: 'fractured:void_ingot',
+  }).id('fractured:void_staff')
+
   //Portable Seismic Survey Tool
   event.shaped('fractured:portable_seismic_survey_tool', [' A ', 'ABA', ' A '], { 
     A: 'immersivepetroleum:survey_result',

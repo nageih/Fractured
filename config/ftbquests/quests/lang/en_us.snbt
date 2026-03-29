@@ -50,6 +50,8 @@
 		"The &#8B4513&lBlast Furnace&r&r uses certain fuels like &8&lCoke Coal&r&r and &0&lCharcoal&r&r"
 	]
 	quest.0B44FFCFE70BB1CB.quest_subtitle: "A Placer will make this easier to build..."
+	quest.0B4C1D9669A4EB40.quest_desc: ["Where can i find this ore?"]
+	quest.0B4C1D9669A4EB40.title: "Fractured Desert"
 	quest.0B5949F7D5E7BB0A.quest_desc: ["Used to collect fluids and move them around the world. &4&lHot&r&r fluids will break this after use"]
 	quest.0B71DEB4F77207C7.quest_desc: ["Can be used to store a large amount of a single &lFluid&r"]
 	quest.0B71DEB4F77207C7.title: "Fluid Drawer"
@@ -164,7 +166,7 @@
 	quest.1978C0A1FE18504C.quest_desc: ["Made on the &0&lMetal Press&r&r"]
 	quest.19C6F2DB3B517D91.quest_desc: ["This world is really fractured "]
 	quest.19C6F2DB3B517D91.title: "Enter The End"
-	quest.1AC4C846E0F90EA7.quest_desc: ["Grinded &e&lWheat&r&r with a &8&lMortar and Pestle&r&r"]
+	quest.1AC4C846E0F90EA7.quest_desc: ["Grind &e&lWheat&r&r with a &8&lMortar and Pestle&r&r"]
 	quest.1AC7703FD1B75766.quest_desc: ["[ \"Drops from \", { \"text\": \"Ancient Debris\", \"underlined\": true, \"color\": \"#8b4513\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2FE85C58AA7693AD\" } } ]"]
 	quest.1B960A09F2CE341B.quest_desc: ["&lIron Casing&r can be used to make &lActually Additions&r machines"]
 	quest.1BBC6DDFBEC013A9.quest_desc: ["A better way to craft"]
@@ -223,7 +225,7 @@
 	]
 	quest.239E3139E48235D2.quest_desc: ["&0&lVoid Stone&r&r can be made in the &0&lSolidifier&r&r "]
 	quest.24747FD6A775EA7C.quest_desc: ["Used to craft more complex items using various different kinds of &9&lBlueprints&r&r"]
-	quest.24A114B1FF9BFA2A.quest_desc: ["&#8B4513&lPlanks&r&r and &#8B4513&lLogs&r&r can be coated with &#8B4513&lCresosote Oil&r&r to treat them"]
+	quest.24A114B1FF9BFA2A.quest_desc: ["&#8B4513&lPlanks&r&r and &#8B4513&lLogs&r&r can be coated with &#8B4513&lCreosote Oil&r&r to treat them"]
 	quest.24BD90F101BA0BA0.quest_desc: ["The &lImmersive Engineering Hammer&r can be used to create multiblocks"]
 	quest.251D072997733335.quest_desc: [
 		"&lFractured &ralso contains some optional &lResource Packs&r found in the &lPause Menu&r -> Options -> &lResource Packs&r"
@@ -283,7 +285,7 @@
 		"&lDimension:&r The Undergarden"
 		"&lBiomes:&r All"
 	]
-	quest.2FA278790FAD52EB.quest_desc: ["A &0&lSimple Controller&r&r can be used to melts resources into fluids"]
+	quest.2FA278790FAD52EB.quest_desc: ["A &0&lSimple Controller&r&r can be used to melt resources into fluids"]
 	quest.2FB32CECCE3E1A3F.quest_desc: ["At the top of a tower is a mini boss called &2&lMalachite Guard&r&r"]
 	quest.2FB32CECCE3E1A3F.title: "Malachite Watchtower"
 	quest.2FE85C58AA7693AD.quest_desc: [
@@ -293,7 +295,6 @@
 		"&lDimension:&r The Nether"
 		"&lBiomes:&r All"
 	]
-	quest.2FF469639655D9DE.quest_desc: ["Allows you to craft &lEngineering Blocks&r"]
 	quest.30012F854E62C251.quest_desc: ["This modpack uses various different portals to access new dimensions. Most portals will show in JEI by checking the uses of the portal block or catalyst "]
 	quest.302185C254A81930.quest_desc: [
 		"&lWhite Opal Ore&r"
@@ -351,6 +352,8 @@
 	quest.3A23A0E025F92399.quest_desc: ["Crushed up &8&lAluminum&r&r"]
 	quest.3AA74BF539A3C21B.quest_desc: ["Made inside the &lHigh-Pressure Refinery&r"]
 	quest.3AA80E55D058794B.quest_desc: ["Smelted &5&lGummy Glitter Block&r&r"]
+	quest.3AA8700481CC2660.quest_desc: ["Where can i find this ore?"]
+	quest.3AA8700481CC2660.title: "The Nether"
 	quest.3B21ABDBDE404D3C.quest_desc: [
 		"&lImpure Tin&r can be melted into &lMolten Tin&r inside the &0&lSimple Controller&r&r"
 		""
@@ -369,10 +372,13 @@
 	quest.3F0837CF53EDC699.quest_desc: ["Made inside the &5&lRestructurer&r&r"]
 	quest.3F1C77F1F7A62AAC.quest_desc: ["After placing &e&lSandstone&r&r in &0&lThe Void&r&r it will become infused and transform into &0&lVoid Infused Sandstone&r&r"]
 	quest.3F59613C98FF78A1.quest_desc: ["Made with the &8&lAtomic Reconstructor&r&r"]
+	quest.3F96B6D6EB1EC002.quest_desc: ["Where can i find this ore?"]
+	quest.3F96B6D6EB1EC002.title: "Undergarden Ores"
 	quest.3FBDDBDD053EA6FE.quest_desc: ["A useful tool to plant &2&lSeeds&r&r and &2&lCrops&r&r"]
 	quest.3FC44FAA98E0C1A8.quest_desc: ["Crafted from &c&lUtheric Shards&r&r"]
 	quest.416DB413A109C16C.quest_desc: ["&8&lCobblestone&r&r can be turned into &8&lStone&r&r on a &4&lCampfire&r&r"]
 	quest.418613C121E2EA5C.quest_subtitle: "CHANGE ME"
+	quest.418F6CE3159E1019.quest_desc: ["The &0&lVoid Staff&r&r can be used to &lTeleport&r a distance of 128 blocks. To use right click on the side or top of a block you want to teleport to "]
 	quest.4193F2B5376B8AA7.quest_desc: ["An alloy of &e&lGold&r&r and &lSilver&r"]
 	quest.42024C4DAC805D7E.quest_desc: ["Used for &8&lFlint Tools&r&r"]
 	quest.4209913428F5F428.quest_desc: ["Made inside the &#8B4513&lMixer&r&r"]
@@ -416,6 +422,8 @@
 	quest.466288CFF3BB3295.quest_desc: ["Placing &l&2Leaves&r&r on a &#8B4513&lCutting Board&r&r and hitting with &8&lFlint Knife&r&r will create &l&2Leafy String&r&r"]
 	quest.46C29603CFCAC866.quest_desc: ["Obtained from breaking ore from the &lMining Lens&r"]
 	quest.4705E0B5AE882C32.quest_desc: ["After placing a &#8B4513&lSteel Block&r&r in &0&lThe Void&r&r it will become infused and transform into &0&lVoid Block&r&r"]
+	quest.47C012CF702A5B79.quest_desc: ["Where can i find this ore?"]
+	quest.47C012CF702A5B79.title: "Overworld Ores"
 	quest.47D4236FDFBCBAF8.quest_desc: ["&e&lImpure Gold&r&r inside a &#8B4513&lSqueezer&r&r will create &e&lGold Ingots&r&r"]
 	quest.486A6441CB3DB058.quest_desc: ["Works like a &lHopper&r but for &lFluids&r instead"]
 	quest.486A68FCF7F4E791.quest_desc: [
@@ -446,7 +454,7 @@
 	quest.4CC132E4FA1620DF.quest_desc: ["[ \"Drops from \", { \"text\": \"Red Opal Ore\", \"underlined\": true, \"color\": \"red\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D9D0F0C2F41312D\" } } ]"]
 	quest.4CE264175DE13357.quest_desc: ["Made inside the &lRestructurer&r"]
 	quest.4CE64DFD725145AF.quest_desc: ["The &0&lDragon&r&r protects &lThe End&r"]
-	quest.4D2DDBDE4E24086B.quest_desc: ["&6&lBronze&r&r is a alloy of &#FF681F&lCopper&r&r and &lTin&r and can be made inside the &#8B4513&lAlloy Kiln&r&r"]
+	quest.4D2DDBDE4E24086B.quest_desc: ["&6&lBronze&r&r is an alloy of &#FF681F&lCopper&r&r and &lTin&r and can be made inside the &#8B4513&lAlloy Kiln&r&r"]
 	quest.4D9D0F0C2F41312D.quest_desc: [
 		"&lRed Opal Ore&r"
 		""
@@ -525,7 +533,7 @@
 	quest.59CA276966083BB6.quest_desc: [
 		"&#8B4513&lTreated Wood&r&r, &8&lStone Bricks&r&r and &6&lBronze&r&r can be crafted into &#8B4513&lTreated Stone Bricks&r&r"
 		""
-		"This bricks can be used to make a &lPortal Frame&r"
+		"These bricks can be used to make a &lPortal Frame&r"
 	]
 	quest.5A1223F440B9A725.quest_desc: ["The &0&lExcavator&r&r can be used like the &0&lDerrick&r&r to obtain resources from deep underground. Each dimension has there own resources that a &0&lExcavator&r&r can collect"]
 	quest.5BCF20C94A0AB809.quest_desc: ["The &#8B4513&lDrying Table&r&r is used to &6&lDry&r&r items, it can also be &9&lWaterlogged&r&r to make it a &9&lSoaking Table&r&r"]
@@ -541,7 +549,8 @@
 	quest.5E8367DFAF5747C8.quest_desc: ["&lBlueprint Paper&r is used to make various different Bl&lueprints&r which are used in the &lEngineer's Workbench&r"]
 	quest.5FE27D8952337B2E.quest_desc: ["Crafted &5&lGaia Stone&r&r"]
 	quest.600B5859D960C6B6.quest_desc: ["Waste from the &5&lRestructurer&r&r"]
-	quest.602BE02C18721B83.title: "gaia"
+	quest.602BE02C18721B83.quest_desc: ["Where can i find this ore?"]
+	quest.602BE02C18721B83.title: "Gaia"
 	quest.603ED41C2C9E8FD4.quest_desc: ["From mining &lStone&r. Can also be crafted"]
 	quest.6124E218241BC913.quest_desc: ["There are various types of &0&lLocators&r&r, this one allows you to locate the &0&lCatacombs&r&r in &2&lThe Undergarden&r&r"]
 	quest.6134FF1F3194A996.quest_desc: ["A block of gems"]
@@ -606,7 +615,7 @@
 	quest.6CEC470D9BEF5EB2.quest_desc: [
 		"A mix of &l&eSand,&r&r &l&8Gravel&r&r and &l&8Clay&r&r with a &l&8Mortar and Pestle&r&r "
 		""
-		"Placing &#8B4513&lDirt&r&r on a &#8B4513&lCutting Board&r&r and hitting with &lShovel&r will create sometimes get a &7&lClay Ball&r&r"
+		"Placing &#8B4513&lDirt&r&r on a &#8B4513&lCutting Board&r&r and hitting with &lShovel&r will have a chance to get a &7&lClay Ball&r&r"
 	]
 	quest.6D5211FC325ACDC0.quest_desc: ["Can be used to create the &lCalculation Press&r"]
 	quest.6D9AAECB7861D126.quest_desc: ["The &#8B4513&lIndustrial Squeezer&r&r can be used to squeeze items"]
@@ -703,11 +712,13 @@
 	quest.79B6EE2999A6FA80.quest_desc: ["Made with &lWire Cutters&r"]
 	quest.7A174DC6026D31CD.quest_desc: ["Drops from &l&0Wither Skeletons&r&r. &lBeheading&r will help a lot"]
 	quest.7A3425385A3BD05D.quest_desc: ["A simple tool for collecting &#8B4513&lLogs&r&r from trees"]
+	quest.7A73FA318B1F6C16.quest_desc: ["Where can i find this ore?"]
+	quest.7A73FA318B1F6C16.title: "Colored Caves"
 	quest.7A8B5734CC8462E2.quest_desc: ["A powerful cartridge"]
 	quest.7AE3960855D995CE.quest_desc: ["This is the &lFuel Source&r for the &0&lSimple Controller&r&r. Place adjacent and use a source of &lFuel&r like &4&lLava&r&r"]
 	quest.7B191F638F9C0CED.quest_desc: ["[ \"Drops from \", { \"text\": \"Iron Ore\", \"underlined\": true, \"color\": \"white\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17E6CA0559A2075A\" } } ]"]
 	quest.7BD529298480E2FC.quest_desc: ["Obtained from breaking ore from the &lMining Lens&r"]
-	quest.7C0FB00BF8E36170.quest_desc: ["&0&lImpure Coal&r&r inside a &0&lCoke Oven&r&r, Up to 16 can be placed inside the &l&lCoke Oven&r&r at once"]
+	quest.7C0FB00BF8E36170.quest_desc: ["&0&lImpure Coal&r&r can be placed inside the &8&lCoke Oven&r&r. Up to 16 can be processed at once"]
 	quest.7C3E713435B5B55D.quest_desc: ["Made in the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.7C5AF877EE13E99B.quest_desc: ["View all connected inventories in one place!"]
 	quest.7C9C63FEAEFB21A3.quest_desc: ["A plate of &8&lSteel&r&r"]
@@ -830,6 +841,7 @@
 	task.602F5222F0246EAF.title: "Auto Workbench"
 	task.60CD980D59FCFAF9.title: "ways to travel to differen opolis packs"
 	task.60F17481ACEBA5B4.title: "White Opal Ore"
+	task.62206090F5594825.title: "end"
 	task.641A616B320915ED.title: "caves"
 	task.694DE9E78780339E.title: "LIGHTNING CRAFINT?????"
 	task.69B06E281546397C.title: "Tin Ore"
