@@ -23,4 +23,26 @@
 - Log to Chest recipe now makes 2 Chests
 
 # Mods
-<!-- MODS_CHANGELOG -->
+<details>
+  <summary>Added (2)</summary>
+
+- Default Options (defaultoptions-neoforge-1.21.1-21.1.5.jar)
+- Extreme sound muffler - (Neo)Forge (ExtremeSoundMuffler-3.55_NeoForge-1.21.jar)
+
+</details>
+
+<details>
+  <summary>Updated (10)</summary>
+
+- SuperMartijn642's Core Lib: Unknown → supermartijn642corelib-1.1.21-neoforge-mc1.21.jar
+- Cyclops Core: Unknown → cyclopscore-1.21.1-neoforge-1.29.0-962.jar
+- JourneyMap: Unknown → journeymap-neoforge-1.21.1-6.0.0-beta.59.jar
+- EntityJS: Unknown → entityjs-1.4.5-1.21.jar
+- Large Ore Deposits: Unknown → AdLods-1.21.1-9.1.3.0-NeoForge-build.0768.jar
+- Farmer's Delight: Unknown → FarmersDelight-1.21.1-1.2.11.jar
+- ForgeEndertech: Unknown → ForgeEndertech-1.21.1-12.1.2.0-NeoForge-build.0768.jar
+- ATO - All the Ores: Unknown → alltheores-3.2.0_neoforge_1.21.1.jar
+- Entity Culling Fabric/Forge: Unknown → entityculling-neoforge-1.10.0-mc1.21.1.jar
+- Flopper: flopper-1.21.1-neoforge-1.1.8-213.jar → flopper-1.21.1-neoforge-1.1.8-216.jar
+
+</details>

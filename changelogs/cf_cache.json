@@ -710,5 +710,53 @@
   "290404:7734709": {
     "mod_name": "Flopper",
     "version": "flopper-1.21.1-neoforge-1.1.8-213.jar"
+  },
+  "454372:7783425": {
+    "mod_name": "SuperMartijn642's Core Lib",
+    "version": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar"
+  },
+  "232131:6972485": {
+    "mod_name": "Default Options",
+    "version": "defaultoptions-neoforge-1.21.1-21.1.5.jar"
+  },
+  "232758:7786075": {
+    "mod_name": "Cyclops Core",
+    "version": "cyclopscore-1.21.1-neoforge-1.29.0-962.jar"
+  },
+  "32274:7824057": {
+    "mod_name": "JourneyMap",
+    "version": "journeymap-neoforge-1.21.1-6.0.0-beta.59.jar"
+  },
+  "967617:7801738": {
+    "mod_name": "EntityJS",
+    "version": "entityjs-1.4.5-1.21.jar"
+  },
+  "318833:7794290": {
+    "mod_name": "Large Ore Deposits",
+    "version": "AdLods-1.21.1-9.1.3.0-NeoForge-build.0768.jar"
+  },
+  "398521:7801529": {
+    "mod_name": "Farmer's Delight",
+    "version": "FarmersDelight-1.21.1-1.2.11.jar"
+  },
+  "244844:7794259": {
+    "mod_name": "ForgeEndertech",
+    "version": "ForgeEndertech-1.21.1-12.1.2.0-NeoForge-build.0768.jar"
+  },
+  "363363:7690930": {
+    "mod_name": "Extreme sound muffler - (Neo)Forge",
+    "version": "ExtremeSoundMuffler-3.55_NeoForge-1.21.jar"
+  },
+  "405593:7825464": {
+    "mod_name": "ATO - All the Ores",
+    "version": "alltheores-3.2.0_neoforge_1.21.1.jar"
+  },
+  "448233:7813017": {
+    "mod_name": "Entity Culling Fabric/Forge",
+    "version": "entityculling-neoforge-1.10.0-mc1.21.1.jar"
+  },
+  "290404:7786061": {
+    "mod_name": "Flopper",
+    "version": "flopper-1.21.1-neoforge-1.1.8-216.jar"
   }
 }
