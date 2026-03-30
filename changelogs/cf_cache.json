@@ -758,5 +758,9 @@
   "290404:7786061": {
     "mod_name": "Flopper",
     "version": "flopper-1.21.1-neoforge-1.1.8-216.jar"
+  },
+  "532169:7714899": {
+    "mod_name": "Energy Meter",
+    "version": "energymeter-neoforge-1.21.1-0.4.0.jar"
   }
 }
