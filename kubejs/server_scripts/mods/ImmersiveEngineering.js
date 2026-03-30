@@ -25,6 +25,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersiveengineering:crafting/rs_engineering' })
   event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' })
   event.remove({ id: 'immersiveengineering:crafting/light_engineering' })
+  event.remove({ id: 'immersiveengineering:crafting/redstone_acid' })
   event.remove({input: 'immersiveengineering:hammer', output: '#c:dusts'})
   event.remove({input: 'immersiveengineering:hammer', output: '#c:plates'})
 
@@ -76,7 +77,7 @@ ServerEvents.recipes(event => {
     TagOutputJS.ofItemStack("ltxi:titanium_gear"),
     IngredientWithSizeJS.ofTag("c:ingots/titanium", 4),
     "casting:gear_mold",
-    "1000"
+    "2400"
   ).id("fractured:titanium_gear")
 
   //Slatesteel Gear
@@ -84,7 +85,7 @@ ServerEvents.recipes(event => {
     TagOutputJS.ofItemStack("ltxi:slatesteel_gear"),
     IngredientWithSizeJS.ofTag("c:ingots/slatesteel", 4),
     "casting:gear_mold",
-    "1000"
+    "2400"
   ).id("fractured:slatesteel_gear")
 
   //Faraday Armor
@@ -235,7 +236,7 @@ ServerEvents.recipes(event => {
       TagOutputJS.ofItemStack("2x immersiveengineering:empty_casing"),
       IngredientWithSizeJS.ofTag("c:ingots/constantan"),
       "immersiveengineering:mold_bullet_casing",
-      "1000"
+      "2400"
   ).id("fractured:bullet_casing")
 
   //Windmill Blade
@@ -319,4 +320,50 @@ ServerEvents.recipes(event => {
     ).id(`fractured:blast_furnace/${output.split(':')[1]}`)
   }
 
+  //Replacment for All The Ores Metal Press recipes from Techopolis 3, thanks ben
+  createMetalPressRecipes('aluminum', 'c:ingots/aluminum')
+  createMetalPressRecipes('lead', 'c:ingots/lead')
+  createMetalPressRecipes('nickel', 'c:ingots/nickel')
+  createMetalPressRecipes('osmium', 'c:ingots/osmium')
+  createMetalPressRecipes('platinum', 'c:ingots/platinum')
+  createMetalPressRecipes('silver', 'c:ingots/silver')
+  createMetalPressRecipes('tin', 'c:ingots/tin')
+  createMetalPressRecipes('uranium', 'c:ingots/uranium')
+  createMetalPressRecipes('zinc', 'c:ingots/zinc')
+  createMetalPressRecipes('iridium', 'c:ingots/iridium')
+  createMetalPressRecipes('steel', 'c:ingots/steel')
+  createMetalPressRecipes('invar', 'c:ingots/invar')
+  createMetalPressRecipes('electrum', 'c:ingots/electrum')
+  createMetalPressRecipes('bronze', 'c:ingots/bronze')
+  createMetalPressRecipes('constantan', 'c:ingots/constantan')
+  createMetalPressRecipes('signalum', 'c:ingots/signalum')
+  createMetalPressRecipes('lumium', 'c:ingots/lumium')
+  createMetalPressRecipes('enderium', 'c:ingots/enderium')
+  createMetalPressRecipes('copper', 'c:ingots/copper')
+  createMetalPressRecipes('iron', 'c:ingots/iron')
+  createMetalPressRecipes('gold', 'c:ingots/gold')
+  createMetalPressRecipes('diamond', 'c:gems/diamond')
+  createMetalPressRecipes('netherite', 'c:ingots/netherite')
+  createMetalPressRecipes('brass', 'c:ingots/brass')
+
+  function createMetalPressRecipes(type, inputItem) {
+
+    event.custom({
+        "type": "immersiveengineering:metal_press", "energy": 2400, "input": { "tag": inputItem },
+        "mold": "casting:plate_mold", "result": { "item": `alltheores:${type}_plate` }
+    }).id(`fractured:ie/metal_press/plate_${type}`)
+    event.remove(`immersiveengineering:metalpress/plate_${type}`)
+
+    event.custom({
+        "type": "immersiveengineering:metal_press", "energy": 2400, "input": { "basePredicate": { "tag": inputItem }, "count": 4 },
+        "mold": "casting:gear_mold", "result": { "item": `alltheores:${type}_gear` }
+    }).id(`fractured:ie/metal_press/gear_${type}`)
+    event.remove(`immersiveengineering:metalpress/gear_${type}`)
+
+    event.custom({
+        "type": "immersiveengineering:metal_press", "energy": 2400, "input": { "tag": inputItem },
+        "mold": "casting:rod_mold", "result": { "basePredicate": { "item": `alltheores:${type}_rod` }, "count": 2 }
+    }).id(`fractured:ie/metal_press/rod_${type}`)
+    event.remove(`immersiveengineering:metalpress/rod_${type}`)
+  }
 })

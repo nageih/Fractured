@@ -58,11 +58,8 @@ LootJS.modifiers(event => {
 
   let leaves = Ingredient.of('#minecraft:leaves').itemIds
   leaves.forEach(leaf => {
-    event.addBlockModifier(leaf).removeLoot('*').addAlternativesLoot(
-        
-    LootEntry.of(leaf).when(c =>
-            c.matchTool(ItemFilter.anyOf(ItemFilter.hasEnchantment("minecraft:silk_touch")))),
-          
+    event.addBlockModifier(leaf).addAlternativesLoot(
+                  
     LootEntry.of('minecraft:stick').applyOreBonus("minecraft:fortune").when(c =>
         c.matchTool(ItemFilter.not(ItemFilter.hasEnchantment("minecraft:silk_touch")))).randomChance(0.2)
     )
