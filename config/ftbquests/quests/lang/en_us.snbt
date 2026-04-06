@@ -44,6 +44,11 @@
 	quest.0995D9D8B64CCE33.quest_desc: ["Used to light the portal from &0&lThe Void&r&r to the &6&lFractured Desert&r&r"]
 	quest.0A2B401391509BB1.quest_desc: ["Used to make the &#8B4513&lAlloy Kiln&r&r"]
 	quest.0AB0F571939CEB37.quest_desc: ["An &lImporter&r can be connected to an &lExporter&r using the &lConnector&r"]
+	quest.0AC1A73200A329F8.quest_desc: [
+		"Using Flasks you can make some special potions that effect the difficulty of the game."
+		""
+		" There are also some that can give you more speed, and attacking power!"
+	]
 	quest.0B44FFCFE70BB1CB.quest_desc: [
 		"The &#8B4513&lBlast Furnace&r&r is not too important at the moment. 27 &#8B4513&lBlast Bricks&r&r in a 3x3x3. Use the &#8B4513&lHammer&r&r on the side to create the multiblock."
 		""
@@ -75,7 +80,7 @@
 	quest.0DA7A14111B86009.quest_desc: ["Sets your respawn point, thats it "]
 	quest.0DEE9173FECFA144.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.0E672826BF9BDC89.quest_desc: ["The &e&lLightning Rod&r&r can be used to catch &e&lLightning Bolts&r&r and convert them into power"]
-	quest.0E84E7D5A4FF626E.quest_desc: ["&#8B4513&lCloggrum Ingots&r&r can be squeezed inside the &#8B4513&lSquuezer&r&r to create &lIron Ingots&r and &5&lVirulent Mix&r&r"]
+	quest.0E84E7D5A4FF626E.quest_desc: ["&#8B4513&lCloggrum Ingots&r&r can be squeezed inside the &#8B4513&lSqueezer&r&r to create &lIron Ingots&r and &5&lVirulent Mix&r&r"]
 	quest.0E95BF55AD32E030.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.0EF9A2E31C4BCD93.quest_desc: ["Stores &lChronon Energy&r"]
 	quest.0F13C3C6FFAA52DC.quest_desc: ["Low down in the caves you can find &9&lEroding Water&r&r. Can also be obtained through a &0&lDerrick&r&r"]
@@ -307,7 +312,7 @@
 	quest.308619C5694C9BC0.quest_desc: ["Made inside the &0&lSqueezer&r&r"]
 	quest.31B498E957946CE4.quest_desc: ["The &lGrinder&r is like a mini version of the &0&lCrusher&r&r"]
 	quest.31C0DC0B9A28D93F.quest_desc: ["Used for &8&lFlint Tools&r&r"]
-	quest.31E93CBE12506CBE.quest_desc: ["The &8&lFermenter&r&r can be used to make &lEthonal&r from organic materials "]
+	quest.31E93CBE12506CBE.quest_desc: ["The &8&lFermenter&r&r can be used to make &lEthanol&r from organic materials "]
 	quest.31E93CBE12506CBE.quest_subtitle: "A Placer will make this easier to build..."
 	quest.32B94B1452E8A054.quest_desc: ["&8&lGravel&r&r is a common resource in the world"]
 	quest.332CB14725979954.quest_desc: ["Made on the &#8B4513&lEngineer's Workbench&r&r"]
@@ -433,7 +438,7 @@
 		"&lDimension:&r Gaia"
 		"&lBiomes:&r All"
 	]
-	quest.4945DEA3DFF190EE.quest_desc: ["&c&lUtheric Clusters&r&r can be squeezed inside the &#8B4513&lSquuezer&r&r to create &c&lRedstone&r&r and &5&lVirulent Mix&r&r"]
+	quest.4945DEA3DFF190EE.quest_desc: ["&c&lUtheric Clusters&r&r can be squeezed inside the &#8B4513&lSqueezer&r&r to create &c&lRedstone&r&r and &5&lVirulent Mix&r&r"]
 	quest.4955CE697F75E226.quest_desc: ["Allows you to find biomes"]
 	quest.4990FDC07119CD25.quest_desc: ["Made in a &0&lRefinery&r&r from &l&dNaphtha&r&r and &#FF69B4&lBenzol&r&r"]
 	quest.4A255446CFF13ABA.quest_desc: ["Allows &lRouters&r to work cross dimensions"]
@@ -448,7 +453,7 @@
 	quest.4C9134C28A42A024.quest_desc: [
 		"The &lImmersive Controller&r gives you an easy way to place multiblock structures in world."
 		""
-		"Simply place this where you want to put a mutliblock and hold a &lPlacer&r in your hand to view the structure in wolrd"
+		"Simply place this where you want to put a mutliblock and hold a &lPlacer&r in your hand to view the structure in world"
 	]
 	quest.4CA96BE9655913FD.quest_desc: ["[ \"Drops from \", { \"text\": \"Utherium Ore\", \"underlined\": true, \"color\": \"red\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113A6412F5F0113D\" } } ]"]
 	quest.4CC132E4FA1620DF.quest_desc: ["[ \"Drops from \", { \"text\": \"Red Opal Ore\", \"underlined\": true, \"color\": \"red\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D9D0F0C2F41312D\" } } ]"]
@@ -571,6 +576,7 @@
 	quest.63C4C884F5F3CBF1.quest_desc: ["Fuses materials together"]
 	quest.6421EB1686AA3752.quest_desc: ["Allows crafting with &lTemplates&r"]
 	quest.642735C042F81AE5.quest_desc: ["Made in the &#8B4513&lEngineer's Workbench&r&r"]
+	quest.643F9F032A3E0B7A.quest_desc: ["The longer you play the pack and the more you advance the harder mobs will get!"]
 	quest.657377D0ADF42020.quest_desc: ["Crafted &0&lBlack Brick&r&r"]
 	quest.6583E46B220FB4CE.quest_desc: ["Made inside the &#8B4513&lBottling Machine&r&r"]
 	quest.65FE7211D55B6B20.quest_desc: ["Waste from the &0&lDistillation Tower&r&r"]
@@ -722,6 +728,7 @@
 	quest.7C3E713435B5B55D.quest_desc: ["Made in the &#8B4513&lEngineer's Workbench&r&r"]
 	quest.7C5AF877EE13E99B.quest_desc: ["View all connected inventories in one place!"]
 	quest.7C9C63FEAEFB21A3.quest_desc: ["A plate of &8&lSteel&r&r"]
+	quest.7CB849679C2D9D0A.quest_desc: ["Used to light the &l&zColored Cave Portals &r&r"]
 	quest.7D23614782D02371.quest_desc: ["Connect to blocks you wanna provide or extract RF from"]
 	quest.7D4AD5DAC52ED6A4.quest_desc: ["Can be used to create the &lControl Press&r"]
 	quest.7D5EDF58B982A037.quest_desc: ["Placing up high and adding a &#8B4513&lWindmill&r&r will allows the &8&lDynamo&r&r to produce RF"]
@@ -843,6 +850,7 @@
 	task.60F17481ACEBA5B4.title: "White Opal Ore"
 	task.62206090F5594825.title: "end"
 	task.641A616B320915ED.title: "caves"
+	task.6558495010C1CDF5.title: "Mobs"
 	task.694DE9E78780339E.title: "LIGHTNING CRAFINT?????"
 	task.69B06E281546397C.title: "Tin Ore"
 	task.6A187A35442E1E10.title: "Cloggrum Ore"

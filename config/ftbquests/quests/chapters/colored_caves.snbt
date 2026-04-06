@@ -282,7 +282,7 @@
 				item: { count: 1, id: "fractured:dark_fused_stone" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -301,11 +301,11 @@
 				item: { count: 1, id: "fractured:light_fused_stone" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["366FE08EE4DF27C2"]
+			dependencies: ["7CB849679C2D9D0A"]
 			id: "7563E424B989D556"
 			rewards: [{
 				id: "0D8DDE8EB3B8D021"
@@ -320,11 +320,11 @@
 				id: "430DADC73C27CA01"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["212CBDF483B50883"]
+			dependencies: ["7CB849679C2D9D0A"]
 			id: "0C32CE27954E9105"
 			rewards: [{
 				id: "65617BD9681CAD3D"
@@ -339,7 +339,7 @@
 				id: "58F157A22C9F10F4"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -4.5d
 		}
 		{
@@ -358,7 +358,7 @@
 				item: { count: 1, id: "strainers:purifying_water_bucket" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -3.5d
 		}
 		{
@@ -377,7 +377,7 @@
 				item: { count: 1, id: "strainers:eroding_water_bucket" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -399,7 +399,7 @@
 				item: { count: 1, id: "immersiveengineering:sample_drill" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -424,7 +424,7 @@
 				to_observe: "immersiveengineering:excavator"
 				type: "observation"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -4.0d
 		}
 		{
@@ -443,7 +443,7 @@
 				item: { count: 1, id: "fractured:impure_aluminum" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.5d
 			y: -4.0d
 		}
 		{
@@ -462,7 +462,7 @@
 				item: { count: 1, id: "alltheores:aluminum_ingot" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: -4.0d
 		}
 		{
@@ -483,7 +483,7 @@
 				id: "367F5105EEC975B7"
 				type: "checkmark"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: -2.5d
 		}
 		{
@@ -502,7 +502,7 @@
 				item: { count: 1, id: "immersiveengineering:wire_aluminum" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.5d
 			y: -4.0d
 		}
 		{
@@ -521,7 +521,7 @@
 				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
 				type: "item"
 			}]
-			x: 20.0d
+			x: 21.0d
 			y: -4.0d
 		}
 		{
@@ -543,7 +543,7 @@
 				item: { count: 1, id: "immersiveengineering:coil_hv" }
 				type: "item"
 			}]
-			x: 21.5d
+			x: 22.5d
 			y: -4.0d
 		}
 		{
@@ -568,7 +568,7 @@
 				to_observe: "immersiveengineering:lightning_rod"
 				type: "observation"
 			}]
-			x: 23.5d
+			x: 24.5d
 			y: -4.0d
 		}
 		{
@@ -591,7 +591,7 @@
 				item: { count: 1, id: "fractured:lightning_charge" }
 				type: "item"
 			}]
-			x: 25.5d
+			x: 26.5d
 			y: -2.0d
 		}
 		{
@@ -610,7 +610,7 @@
 				item: { count: 1, id: "alltheores:aluminum_plate" }
 				type: "item"
 			}]
-			x: 20.0d
+			x: 21.0d
 			y: -2.5d
 		}
 		{
@@ -649,7 +649,7 @@
 					type: "item"
 				}
 			]
-			x: 23.0d
+			x: 24.0d
 			y: -2.0d
 		}
 		{
@@ -673,7 +673,7 @@
 				id: "199C02FAB99E142C"
 				type: "checkmark"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: -0.5d
 		}
 		{
@@ -692,7 +692,7 @@
 				item: { count: 1, id: "alltheores:aluminum_dust" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.5d
 			y: -1.5d
 		}
 		{
@@ -734,7 +734,7 @@
 				id: "4C35BD3AC05BA8D2"
 				type: "checkmark"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: -0.5d
 		}
 		{
@@ -774,7 +774,7 @@
 				item: { count: 1, id: "gaiadimension:keystone_block" }
 				type: "item"
 			}]
-			x: 30.0d
+			x: 31.0d
 			y: -2.5d
 		}
 		{
@@ -793,7 +793,7 @@
 				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
-			x: 27.0d
+			x: 28.0d
 			y: -2.0d
 		}
 		{
@@ -812,7 +812,7 @@
 				item: { count: 1, id: "minecraft:glowstone" }
 				type: "item"
 			}]
-			x: 28.5d
+			x: 29.5d
 			y: -2.0d
 		}
 		{
@@ -831,7 +831,7 @@
 				item: { count: 1, id: "fractured:gaia_catalyst" }
 				type: "item"
 			}]
-			x: 30.0d
+			x: 31.0d
 			y: -1.5d
 		}
 		{
@@ -888,7 +888,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -6.0d
 		}
 		{
@@ -907,7 +907,7 @@
 				item: { count: 1, id: "actuallyadditions:void_crystal" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.5d
 			y: -6.0d
 		}
 		{
@@ -926,8 +926,22 @@
 				item: { count: 1, id: "actuallyadditions:void_crystal_block" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.5d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"366FE08EE4DF27C2"
+				"212CBDF483B50883"
+			]
+			id: "7CB849679C2D9D0A"
+			tasks: [{
+				id: "6B6EE6D99DBDA48C"
+				item: { count: 1, id: "fractured:colored_catalyst" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
 		}
 	]
 }

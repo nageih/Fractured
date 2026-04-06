@@ -193,6 +193,22 @@ ServerEvents.recipes(event => {
     []
   ).id('fractured:arc_furnace/aluminum_ingot')
 
+  event.recipes.immersiveengineering.arc_furnace(
+    [
+      TagOutputJS.ofItemStack("4x alltheores:aluminum_ingot")
+    ],
+    IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
+    200,
+    8192,
+    [
+      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
+      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
+      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
+      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum")
+    ],
+    []
+  ).id('fractured:arc_furnace/aluminum_ingot')
+
   //Light Fused Stone
   event.recipes.immersiveengineering.arc_furnace(
     [
@@ -247,9 +263,13 @@ ServerEvents.recipes(event => {
   }).id('fractured:windmill_blade')
   
   //Gold, Silver, Nickel 
-  addSqueezerRecipe('minecraft:gold_ingot', 'minecraft:empty', 4000,  'fractured:impure_gold')
-  addSqueezerRecipe('alltheores:silver_ingot', 'minecraft:empty', 4000,  'fractured:impure_silver')
-  addSqueezerRecipe('alltheores:nickel_ingot', 'minecraft:empty', 4000,  'fractured:impure_nickel')
+  addSqueezerRecipe('minecraft:gold_ingot', 'minecraft:empty', 4000,  '4x fractured:impure_gold')
+  addSqueezerRecipe('alltheores:silver_ingot', 'minecraft:empty', 4000,  '4x fractured:impure_silver')
+  addSqueezerRecipe('alltheores:nickel_ingot', 'minecraft:empty', 4000,  '4x fractured:impure_nickel')
+
+  addSqueezerRecipe('minecraft:gold_ingot', 'minecraft:empty', 4000,  'fractured:pure_gold')
+  addSqueezerRecipe('alltheores:silver_ingot', 'minecraft:empty', 4000,  'fractured:pure_silver')
+  addSqueezerRecipe('alltheores:nickel_ingot', 'minecraft:empty', 4000,  'fractured:pure_nickel')
 
   //Redstone
   addSqueezerRecipe('minecraft:redstone', '125x undergarden:virulent_mix_source', 4000, 'undergarden:utheric_cluster')

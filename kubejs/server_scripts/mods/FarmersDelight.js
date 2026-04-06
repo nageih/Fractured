@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'farmersdelight:cutting/gravel'})
   event.remove({id: 'farmersdelight:wheat_dough_from_water'})
   event.remove({id: 'farmersdelight:wheat_dough_from_egg'})
+  event.remove({id: 'farmersdelight:paper_from_tree_bark'})
 
   //Replace Input
   event.replaceInput({id: 'farmersdelight:flint_knife'}, 'minecraft:flint', 'flintrequired:flint_knife_head')

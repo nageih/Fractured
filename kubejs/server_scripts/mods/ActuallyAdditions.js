@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
   event.remove({ type: 'actuallyadditions:mining_lens' })
   event.remove({ id: 'actuallyadditions:laser/crystalize_void_crystal' })
   event.remove({ id: 'actuallyadditions:laser/crystalize_void_crystal_block' })
+  event.remove({ id: 'actuallyadditions:rice_paper' })
   
   //Black Quartz
   event.shaped('actuallyadditions:black_quartz', [' A ', 'ABA', ' A '], {

@@ -12,6 +12,14 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of(output.id, 2), ingredients[0]).id(r.getId())
   })  
 
+  //Colored Catalyst
+  event.shaped('fractured:colored_catalyst', ['ABA', 'CDC', 'ABA'], {
+    A: '#c:dyes',
+    B: 'fractured:dark_fused_stone',
+    C: 'fractured:light_fused_stone',
+    D: 'immersivepetroleum:petcoke'
+  }).id('fractured:colored_catalyst')
+
   //Void Staff
   event.shaped('fractured:void_staff[casting:teleporting=16]', ['  A', ' B ', 'B  '], {
     A: 'fractured:void_block',

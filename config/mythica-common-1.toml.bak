@@ -3,13 +3,6 @@
 	#Use the block tag mythica:portal_frame_blocks to determine what blocks portals can be built with
 	#If value entered here is not a valid block it will default to generating minecraft:reinforced_deepslate
 	"Return Portal Frame Block ID" = "minecraft:reinforced_deepslate"
-	#If true, mythic dust will be consumed when used to create a mythica portal
-	#If false, mythic dust will not be consumed on use
-	"Consume Dust On Use" = true
-	#The dimension resource location that mythica portals can connect with.
-	#Mythica portals can only be created in Mythica and the specified dimension.
-	#Default is minecraft:overworld
-	"Mythica Portal Dimension" = "minecraft:overworld"
 
 [terrablender_biome_settings]
 	#Determines how modded biomes from other mods using terrablender are handled in mythica
@@ -33,3 +26,10 @@
 	#A list of biome resource locations to blacklist from being copied to mythica
 	#Example: ["modid:biome_name1", "modid:biome_name2"]
 	"Biome Blacklist" = []
+	#If true, mythic dust will be consumed when used to create a mythica portal
+	#If false, mythic dust will not be consumed on use
+	"Consume Dust On Use" = true
+	#The dimension resource location that mythica portals can connect with.
+	#Mythica portals can only be created in Mythica and the specified dimension.
+	#Default is minecraft:overworld
+	"Mythica Portal Dimension" = "minecraft:overworld"

@@ -126,7 +126,7 @@ detailed_logging = false
 
 		[difficulty.local_difficulty.parts]
 			from_players = "WEIGHTED_AVERAGE_PLAYER_DIFFICULTY(256)"
-			from_distance = "0.0025 * DISTANCE_FROM_SPAWN() + 0.25 * DEPTH_BELOW(64)"
+			from_distance = "10"
 			lunar_multipliers = "LUNAR_CYCLES(1.1, 1.075, 1.05, 1.0, 0.95, 1.0, 1.05, 1.075)"
 			group_bonus = "1 + 0.05 * (LOCAL_PLAYER_COUNT(128) - 1)"
 

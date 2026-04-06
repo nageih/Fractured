@@ -22,5 +22,6 @@
   {"ingredient":{"id":"casting:tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"alltheores:zinc_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:copper_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"alltheores:aluminum_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"alltheores:aluminum_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:impure_silver"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

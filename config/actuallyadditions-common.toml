@@ -25,9 +25,9 @@
 	#Should Actually Additions Loot generate in dungeons?
 	villageAndDungeonLoot = true
 	#Should right-clicking a bowl on water blocks create a water bowl?
-	waterBowl = true
+	waterBowl = false
 	#Should the water bowl spill if you don't sneak while using it?
-	waterBowlSpilling = true
+	waterBowlSpilling = false
 	#Should Tiny Coal and Tiny Charcoal be craftable
 	tinyCoal = true
 	#Turn this on to make recipes for items from the mod really hard. (This is a joke feature poking fun at the whole FTB Infinity Expert Mode style of playing. You shouldn't really turn this on as it makes the mod completely unplayable.)

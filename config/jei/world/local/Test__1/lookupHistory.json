@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"fractured:forgotten_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:void_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

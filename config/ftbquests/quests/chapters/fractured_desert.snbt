@@ -1076,5 +1076,24 @@
 			x: 1.5d
 			y: -8.0d
 		}
+		{
+			dependencies: ["47D4236FDFBCBAF8"]
+			id: "0AC1A73200A329F8"
+			rewards: [{
+				id: "17853A1E0B46CE44"
+				item: {
+					count: 1
+					id: "powerscale:languid_brew"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "086FC39009C440FC"
+				item: { count: 1, id: "powerscale:alchemy_set" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
 	]
 }

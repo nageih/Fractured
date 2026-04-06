@@ -447,6 +447,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["2629338A496C04F8"]
 			id: "15A0B3BB1FC9B3C9"
 			rewards: [{
 				count: 8

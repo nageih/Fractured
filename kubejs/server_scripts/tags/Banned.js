@@ -21,6 +21,7 @@ ServerEvents.tags("item", event => {
         'alltheores:invar_ore_hammer',
         'alltheores:platinum_ore_hammer',
         'opolisutilities:smart_crafting_table',
+        'actuallyadditions:water_bowl',
 
 
 
