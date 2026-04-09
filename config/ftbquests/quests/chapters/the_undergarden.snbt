@@ -270,6 +270,15 @@
 				"02DA07EE0352087B"
 			]
 			id: "4A29489D7471EE85"
+			rewards: [{
+				count: 4
+				id: "72CB602A49E6F0F4"
+				item: {
+					count: 1
+					id: "alltheores:steel_rod"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A034752E7EC2CBF"
 				item: { count: 1, id: "alltheores:steel_rod" }

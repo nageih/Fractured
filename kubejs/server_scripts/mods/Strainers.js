@@ -10,4 +10,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'strainers:ore_pieces/coal'})
   event.remove({id: 'strainers:ore_pieces/redstone'})
 
+  event.remove({id: 'strainers:lava'})
+  event.remove({id: 'strainers:water'})
+  event.remove({id: 'strainers:eroding_water'})
+  event.remove({id: 'strainers:purifying_water'})
+
 })

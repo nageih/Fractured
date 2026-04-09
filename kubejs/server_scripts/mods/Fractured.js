@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of(output.id, 2), ingredients[0]).id(r.getId())
   })  
 
+  
+
+
   //Colored Catalyst
   event.shaped('fractured:colored_catalyst', ['ABA', 'CDC', 'ABA'], {
     A: '#c:dyes',
@@ -147,6 +150,11 @@ ServerEvents.recipes(event => {
   event.shaped('fractured:leafy_binding', [' A ', 'AAA', ' A '], { 
     A: 'opolisutilities:leafy_string'
   }).id('fractured:leafy_binding')
+
+  //Reinforced Binding
+  event.shaped('fractured:reinforced_binding', [' A ', 'AAA', ' A '], { 
+    A: 'minecraft:string'
+  }).id('fractured:reinforced_binding')
 
   //Blueprint Paper
   event.shapeless('fractured:blueprint_paper', ['3x minecraft:paper', '#c:dyes/blue']).id('fractured:blueprint_paper')

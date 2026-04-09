@@ -34,33 +34,6 @@
 			y: -15.5d
 		}
 		{
-			id: "119067A87A4674CE"
-			tasks: [{
-				id: "11CEB9EEEA1D9FBC"
-				type: "checkmark"
-			}]
-			x: 34.5d
-			y: -2.0d
-		}
-		{
-			id: "3EC005388676D5F7"
-			tasks: [{
-				id: "3D88C1DD10091D5D"
-				type: "checkmark"
-			}]
-			x: 35.5d
-			y: -2.0d
-		}
-		{
-			id: "7451D629BF96BCB0"
-			tasks: [{
-				id: "1ABDB18DFDD9B165"
-				type: "checkmark"
-			}]
-			x: 31.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["5D4891733E44EDD7"]
 			icon: {
 				id: "immersiveengineering:biodiesel_bucket"
@@ -80,16 +53,6 @@
 			}]
 			x: 8.5d
 			y: -10.5d
-		}
-		{
-			id: "58DD564B6A5F8F85"
-			tasks: [{
-				id: "7F055E591F656CDA"
-				item: { components: { "minecraft:max_damage": 4 }, count: 1, id: "adfinders:mineral_finder" }
-				type: "item"
-			}]
-			x: 31.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["51E559ACEC3E7EFD"]

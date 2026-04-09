@@ -13,26 +13,6 @@
 	quests: [
 		{
 			dependencies: ["15A0B3BB1FC9B3C9"]
-			id: "7DCC42D86F471F53"
-			optional: true
-			rewards: [{
-				id: "2DCD232E43439A79"
-				item: {
-					count: 1
-					id: "constructionstick:wooden_stick"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CE8147492F1FF16"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fractured:twigs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7DCC42D86F471F53"]
 			id: "2DBEE8FAB832D8A1"
 			rewards: [{
 				id: "4E7256E8D0BC6500"
@@ -47,7 +27,7 @@
 				item: { count: 1, id: "minecraft:stick" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 1.0d
 		}
 		{
@@ -167,7 +147,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -205,7 +185,7 @@
 				item: { count: 1, id: "opolisutilities:wooden_shears" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
@@ -224,7 +204,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -450,7 +430,7 @@
 			dependencies: ["2629338A496C04F8"]
 			id: "15A0B3BB1FC9B3C9"
 			rewards: [{
-				count: 8
+				count: 16
 				id: "72A5B5DCAE733433"
 				item: {
 					count: 1
@@ -481,7 +461,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -749,7 +729,7 @@
 				item: { count: 1, id: "opolisutilities:crook" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 2.0d
 		}
 		{

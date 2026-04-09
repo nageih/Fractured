@@ -1,11 +1,11 @@
 #Maximum number of hits the player will take after respawning.
 # Default: 13
 # Range: > 0
-maxHits = 0
+maxHits = 1
 #The maximum amount of damage the player will take on each hit.
 # Default: 3
 # Range: > 0
-maxHitDamage = 0
+maxHitDamage = 1
 #Minimum number of effects to apply on death.
 # Default: 1
 # Range: > 0

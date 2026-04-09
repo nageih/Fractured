@@ -271,7 +271,7 @@
 	quest.2D36D8128832B70D.quest_desc: ["Made inside the &lMaterial Infusing Chamber&r"]
 	quest.2D60368F24A4C80C.quest_desc: ["Used to light the &5&lKeystone Portal&r&r to the &5&lGaia Dimension&r&r"]
 	quest.2D712EC43BA9C655.quest_desc: ["[ \"Drops from \", { \"text\": \"Cloggrum Ore\", \"underlined\": true, \"color\": \"#8b4513\", \"bold\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D181FF935A1FE6D\" } } ]"]
-	quest.2DBEE8FAB832D8A1.quest_desc: ["Crafted from &l&#8B4513Twigs&r&r"]
+	quest.2DBEE8FAB832D8A1.quest_desc: ["Crafted from &l&#8B4513Twigs&r&r, or from breaking &2&lLeaves&r&r"]
 	quest.2DC95FFEDAB612B1.quest_desc: [
 		"Can be crafted in a &#8B4513&lSmithing Table&r&r from &a&lSmithing Template&r&r, &9&lFroststeel Ingot&r&r and &#8B4513&lCloggrum Ingot&r&r"
 		""
@@ -530,7 +530,6 @@
 	quest.57E4AFCA263E9DEE.quest_desc: ["Its quite horrible in here"]
 	quest.5827207280572149.quest_desc: ["Like the &#8B4513&lTerracotta Bowl&r&r a &1&lWater Bottle&r&r can be purified by smelting "]
 	quest.58A907E969E4539F.quest_desc: ["Smelted &8&lGrout Dust&r&r"]
-	quest.58DD564B6A5F8F85.quest_desc: ["The &lMineral Finder&r can be used to find some specific blocks. Like &lLootr Chests&r"]
 	quest.5983FD16ABAAFDEE.quest_desc: ["Allows the &0&lSolidifier&r&r to make &lPlates&r"]
 	quest.59A14B1EA1C95B05.quest_desc: ["&4&lLava&r&r can be found all over the world, more common in caves"]
 	quest.59C015047456DBBE.quest_desc: ["Home to &6&lBlazes&r&r and &0&lWither Skeletons&r&r"]
@@ -740,8 +739,6 @@
 		"&lBiomes:&r All "
 	]
 	quest.7DAF88FC37E37779.quest_desc: ["Used to light &5&lThe Nether&r&r portal"]
-	quest.7DCC42D86F471F53.quest_desc: ["&l&#8B4513Twigs&r&r can be found in &l&2Plains&r&r and &l&2Forest&r&r biomes"]
-	quest.7DCC42D86F471F53.title: "Twigs"
 	quest.7DD6625A79C23089.quest_desc: ["Used to make &b&lPrinted Calculation Circuit&r&r"]
 	quest.7DDD3FB8B7A1644D.quest_desc: ["Made with the &8&lAtomic Reconstructor&r&r"]
 	quest.7DF17CC8CA995685.quest_desc: ["Crafted &lResidue&r"]

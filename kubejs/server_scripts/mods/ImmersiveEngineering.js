@@ -26,12 +26,12 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' })
   event.remove({ id: 'immersiveengineering:crafting/light_engineering' })
   event.remove({ id: 'immersiveengineering:crafting/redstone_acid' })
+  event.remove({ id: 'immersiveengineering:crafting/hammer' })
   event.remove({input: 'immersiveengineering:hammer', output: '#c:dusts'})
   event.remove({input: 'immersiveengineering:hammer', output: '#c:plates'})
 
 
   //Replace Input
-  event.replaceInput({ id: 'immersiveengineering:crafting/hammer' }, 'minecraft:iron_ingot', '#c:ingots/copper')
   event.replaceInput({ id: 'immersiveengineering:crafting/windmill' }, 'minecraft:iron_ingot', '#c:ingots/steel')
   event.replaceInput({ id: 'immersiveengineering:crafting/workbench' }, 'minecraft:iron_ingot', '#c:ingots/steel')
   event.replaceInput({ id: 'immersiveengineering:crafting/dynamo' }, 'minecraft:redstone', '#c:dusts/bronze')
@@ -41,6 +41,13 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/thermoelectric_generator' }, '#c:plates/constantan', '#c:plates/iron')
   event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, '#c:plates/copper', '#c:plates/constantan')
   event.replaceInput({ id: 'immersiveengineering:crafting/coil_hv' }, 'minecraft:iron_ingot', 'actuallyadditions:void_crystal_block')
+  
+  //Hammer
+  event.shaped('immersiveengineering:hammer[unbreakable={},damage=1]', [' AB', ' CA', 'C  '], {
+    A: '#c:ingots/copper',
+    B: '#c:strings',
+    C: '#c:rods/wooden'
+  }).id('fractured:hammer')
   
   //Time Steel
   event.recipes.immersiveengineering.alloy(
@@ -207,7 +214,7 @@ ServerEvents.recipes(event => {
       IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum")
     ],
     []
-  ).id('fractured:arc_furnace/aluminum_ingot')
+  ).id('fractured:arc_furnace/aluminum_ingot_pure')
 
   //Light Fused Stone
   event.recipes.immersiveengineering.arc_furnace(
@@ -322,13 +329,13 @@ ServerEvents.recipes(event => {
         energy,
         Fluid.of(outputFluid),
         TagOutputJS.ofItemStack(output)
-    ).id(`fractured:squeezer/${output.split(':')[1]}`)
+    ).id(`fractured:squeezer/${output.split(':')[1]}_from_${input.split(':')[1]}`)
   }
   function addSqueezerRecipeNoFluid(output, input) {
       event.recipes.immersiveengineering.squeezer(
         IngredientWithSizeJS.ofItemStack(input),
         TagOutputJS.ofItemStack(output)
-    ).id(`fractured:squeezer/${output.split(':')[1]}`)
+    ).id(`fractured:squeezer/${output.split(':')[1]}_from_${input.split(':')[1]}`)
   }
 
   //Blast Furnace Function

@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
     A: '#minecraft:logs',
     B: 'minecraft:redstone',
     C: 'woodenhopper:wooden_hopper',
-  }).id('fractured:inventory_connector')
+  }).id('fractured:inventory_cable_connector')
 
   //Storage Terminal
 
