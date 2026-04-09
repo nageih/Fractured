@@ -762,5 +762,45 @@
   "532169:7714899": {
     "mod_name": "Energy Meter",
     "version": "energymeter-neoforge-1.21.1-0.4.0.jar"
+  },
+  "1354448:7871984": {
+    "mod_name": "Mythica - a Second Overworld Dimension",
+    "version": "mythica-neoforge-1.6+mc1.21.1.jar"
+  },
+  "1262089:7883778": {
+    "mod_name": "Placers - Immersive Engineering",
+    "version": "placers-1.21.1-1.3.1.jar"
+  },
+  "1205426:7873388": {
+    "mod_name": "Advanced Loot Info",
+    "version": "AdvancedLootInfo-neoforge-1.21.1-1.8.3.jar"
+  },
+  "32274:7854356": {
+    "mod_name": "JourneyMap",
+    "version": "journeymap-neoforge-1.21.1-6.0.0-beta.60.jar"
+  },
+  "289412:7878289": {
+    "mod_name": "FTB Quests (NeoForge)",
+    "version": "ftb-quests-neoforge-2101.1.24.jar"
+  },
+  "1264423:7880467": {
+    "mod_name": "BaguetteLib",
+    "version": "baguettelib-1.21.1-NeoForge-2.0.3.jar"
+  },
+  "404468:7878281": {
+    "mod_name": "FTB Teams (NeoForge)",
+    "version": "ftb-teams-neoforge-2101.1.10.jar"
+  },
+  "633823:7873439": {
+    "mod_name": "Almost Unified",
+    "version": "almostunified-neoforge-1.21.1-1.4.1.jar"
+  },
+  "248787:7854442": {
+    "mod_name": "AppleSkin",
+    "version": "appleskin-neoforge-mc1.21-3.0.9.jar"
+  },
+  "379849:7862546": {
+    "mod_name": "The Undergarden",
+    "version": "The_Undergarden-1.21.1-0.9.6.jar"
   }
 }

@@ -22,4 +22,18 @@ UPDATE PLACERS
 - Changed Hydro Placer name to High-Pressure Refinery Placer
 
 # Mods
-<!-- MODS_CHANGELOG -->
+<details>
+  <summary>Updated (10)</summary>
+
+- Mythica - a Second Overworld Dimension: Unknown → mythica-neoforge-1.6+mc1.21.1.jar
+- Placers - Immersive Engineering: Unknown → placers-1.21.1-1.3.1.jar
+- Advanced Loot Info: AdvancedLootInfo-neoforge-1.21.1-1.8.2.jar → AdvancedLootInfo-neoforge-1.21.1-1.8.3.jar
+- JourneyMap: journeymap-neoforge-1.21.1-6.0.0-beta.59.jar → journeymap-neoforge-1.21.1-6.0.0-beta.60.jar
+- FTB Quests (NeoForge): ftb-quests-neoforge-2101.1.23.jar → ftb-quests-neoforge-2101.1.24.jar
+- BaguetteLib: Unknown → baguettelib-1.21.1-NeoForge-2.0.3.jar
+- FTB Teams (NeoForge): Unknown → ftb-teams-neoforge-2101.1.10.jar
+- Almost Unified: Unknown → almostunified-neoforge-1.21.1-1.4.1.jar
+- AppleSkin: Unknown → appleskin-neoforge-mc1.21-3.0.9.jar
+- The Undergarden: The_Undergarden-1.21.1-0.9.5.jar → The_Undergarden-1.21.1-0.9.6.jar
+
+</details>
