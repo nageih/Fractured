@@ -1,0 +1,44 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "gaiadimension:is_gaia"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.25,
+      "output": {
+        "id": "gaiadimension:white_opal_ore"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "id": "gaiadimension:blue_opal_ore"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "id": "gaiadimension:green_opal_ore"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "id": "gaiadimension:red_opal_ore"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "gaiadimension:gaia_stone"
+      }
+    }
+  ],
+  "weight": 25
+}

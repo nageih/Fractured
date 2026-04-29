@@ -147,7 +147,9 @@
 				"66B703C495554994"
 				"4955CE697F75E226"
 			]
+			dependency_requirement: "one_completed"
 			id: "194420C16D42D6CE"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "298FC02111559934"
 				item: {
@@ -424,8 +426,8 @@
 				item: { count: 1, id: "minecraft:paper" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5BCF20C94A0AB809"]
@@ -443,8 +445,8 @@
 				item: { count: 1, id: "opolisutilities:soaked_paper" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["034F5FADEF2EB690"]
@@ -462,8 +464,8 @@
 				item: { count: 1, id: "fractured:blueprint_paper" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -800,6 +802,7 @@
 			}
 			icon_scale: 3.0d
 			id: "16AB4B76A6BD0B37"
+			optional: true
 			rewards: [{
 				id: "2717D88E3F9D41F9"
 				item: {
@@ -888,8 +891,8 @@
 				item: { count: 1, id: "undergarden:utheric_shard" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CA96BE9655913FD"]
@@ -907,8 +910,8 @@
 				item: { count: 1, id: "undergarden:utheric_cluster" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["680D6A8EFD2CFF55"]
@@ -992,7 +995,7 @@
 				item: { count: 1, id: "fractured:dye_extractor" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1103,6 +1106,46 @@
 			}]
 			x: 1.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["17EFFCFB078E2B90"]
+			id: "4EBBCDD6B6C1365B"
+			rewards: [{
+				id: "072284C760E96789"
+				item: {
+					count: 1
+					id: "fractured:froststeel_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21FFAD22FD4B726D"
+				item: { count: 1, id: "fractured:froststeel_template" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3FC44FAA98E0C1A8"]
+			id: "5CE6EEC974E07F64"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "338A376CC9CEEFBD"
+				item: {
+					count: 1
+					id: "undergarden:cloggrum_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74C4F02A237F0791"
+				item: { count: 1, id: "torchmaster:feral_flare_lantern" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 }

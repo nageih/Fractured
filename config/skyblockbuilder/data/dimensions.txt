@@ -1,11 +1,10 @@
 minecraft:overworld
-fractured:dark_colored_caves
 fractured:desert
 fractured:light_colored_caves
-javd:void
-undergarden:undergarden
 minecraft:the_nether
-deeperdarker:otherside
 gaiadimension:gaia_dimension
 mythica:mythica
+undergarden:undergarden
+javd:void
+fractured:dark_colored_caves
 ae2:spatial_storage

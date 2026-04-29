@@ -5,6 +5,15 @@ ServerEvents.recipes(event => {
   //Remove 
   //event.remove({ id: 'immersiveengineering:crafting/light_engineering' })
 
+  //Control Press
+  event.recipes.immersiveengineering.blueprint(
+    'circuits',
+    TagOutputJS.ofItemStack('fractured:control_press'),
+    [
+      IngredientWithSizeJS.ofItemStack('ltxi:titanium_block'),
+    ]
+  ).id('fractured:control_press')
+  
   //Logic Press
   event.recipes.immersiveengineering.blueprint(
     'circuits',

@@ -4,38 +4,51 @@
   // This applies on top of the "offset" defined in each template
   "defaultOffset": 0,
   
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "offset": [ 0, 0, 0 ],
+  //     "surroundingBlocks": "default"
+  // }
   "mainSpawnIsland": {
     "name": "Spawn",
     "file": "spawn.nbt",
     "spawns": "spawn"
   },
   
+  // A list of spreads to place around the nether portal on a team's first nether visit.
+  // Requires to_nether.[s]nbt to be configured.
+  // Uses the same format as a direct spreads definition (a JSON array of spread entries).
+  // Example: 
+  // {
+  //     "file": "nether_island.nbt",
+  //     "offset": [ 0, 8, 0 ],
+  //     "origin": "center"
+  // }
+  "netherSpreads": [],
+  
   // A list of possible spawn points.
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {
     "player_island": {
-      "north": [],
-      "east": [],
       "south": [
-        [
-          18,
-          17,
-          31
-        ]
+        [ 18, 17, 31 ]
       ],
-      "west": []
+      "west": [],
+      "north": [],
+      "east": []
     },
     "spawn": {
-      "north": [],
-      "east": [],
       "south": [
-        [
-          18,
-          17,
-          28
-        ]
+        [ 18, 17, 28 ]
       ],
-      "west": []
+      "west": [],
+      "north": [],
+      "east": []
     }
   },
   
@@ -59,7 +72,9 @@
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
   "surroundingBlockReferences": {
-    "default": {}
+    "default": {
+      "margin": 1
+    }
   },
   
   // The list of templates being available. The first entry is the default template.

@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3FBDDBDD053EA6FE"]
@@ -128,8 +128,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1393BF57965923E5"]
@@ -147,8 +147,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5D7C475BDB7FB0E8"]
@@ -185,8 +185,8 @@
 				item: { count: 1, id: "opolisutilities:wooden_shears" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["393A1B2FDCBB1888"]
@@ -205,7 +205,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -302,7 +302,7 @@
 			}]
 			tasks: [{
 				id: "3A9CF8E29B23E539"
-				item: { count: 1, id: "survival_firesticks:firestick" }
+				item: { count: 1, id: "fractured:flint_and_stick" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -461,8 +461,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1BBC6DDFBEC013A9"]
@@ -481,7 +481,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6FB74805EB1CFEF8"]
@@ -659,7 +659,8 @@
 			dependencies: ["4B31B426D0FCC623"]
 			id: "2D026D02EBCD3D16"
 			rewards: [{
-				id: "5A66C6D9FB7176DC"
+				count: 4
+				id: "2BA316D98BC80230"
 				item: {
 					count: 1
 					id: "minecraft:charcoal"
@@ -690,8 +691,8 @@
 				item: { count: 1, id: "opolisutilities:mini_charcoal" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D026D02EBCD3D16"]
@@ -709,8 +710,8 @@
 				item: { count: 1, id: "minecraft:torch" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 12.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DBEE8FAB832D8A1"]
@@ -729,8 +730,8 @@
 				item: { count: 1, id: "opolisutilities:crook" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["13E6D929EF66D0E6"]
@@ -748,8 +749,8 @@
 				item: { count: 1, id: "fractured:survivalist_compound" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["16DAFBDB2B420964"]
@@ -784,8 +785,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 3.5d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21272C07AFACC7D0"]
@@ -795,8 +796,8 @@
 				item: { count: 1, id: "farmersdelight:tree_bark" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["466288CFF3BB3295"]
@@ -835,6 +836,147 @@
 			}]
 			x: -2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1BBC6DDFBEC013A9"]
+			id: "7969C7AEE7DA646F"
+			rewards: [{
+				id: "03C662C5F403CF8D"
+				item: {
+					count: 1
+					id: "smartcrafting:portable_smart_crafting_table"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "295280A506E6EF5D"
+				item: { count: 1, id: "smartcrafting:smart_crafting_table" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BBC6DDFBEC013A9"]
+			id: "23962B6CEC892505"
+			rewards: [{
+				count: 8
+				id: "460D2C6F96B363BC"
+				item: {
+					count: 1
+					id: "sortingstick:sorting_stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05CCBD148ABB9E08"
+				item: { count: 1, id: "sortingstick:sorting_stick" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["277457C10229C40E"]
+			id: "7617A48BE6CA31EF"
+			rewards: [{
+				id: "163380DC23A10D00"
+				item: {
+					count: 1
+					id: "minecraft:fire_charge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B00AF66968454F8"
+				item: { count: 1, id: "minecraft:fire_charge" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7617A48BE6CA31EF"
+				"27DF225809F2C58F"
+			]
+			id: "1FB057EAECA4C794"
+			rewards: [{
+				id: "05B07EECE23647A1"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A53C5495E051FA8"
+				item: { count: 1, id: "mob_repellent:wooden_brazier" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1098BBDB7BBB45DE"
+				"13E6D929EF66D0E6"
+			]
+			id: "277457C10229C40E"
+			rewards: [{
+				id: "313AA99CDAF2A7EF"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D811FD3A51DA1FA"
+				item: { count: 1, id: "fractured:ash" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E04C480ABE974FC"]
+			id: "27DF225809F2C58F"
+			rewards: [{
+				count: 16
+				id: "7F66E57A09726181"
+				item: {
+					count: 1
+					id: "bbllights:invisible_light"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44EDADA3713A99BE"
+				item: { count: 1, id: "bbllights:invisible_light" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23962B6CEC892505"]
+			id: "28006BD475491CBB"
+			rewards: [{
+				id: "2DCA4370C12061D8"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FBCC3DA7E09FEE7"
+				item: { count: 1, id: "sortingstick:dumping_chest" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 }

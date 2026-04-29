@@ -1,0 +1,8 @@
+#Radius in blocks around the player to scan for inventories when using the Sorting Stick.
+# Default: 16
+# Range: 8 ~ 64
+sortingRadius = 16
+#BLACKLIST: all containers are sorted except those in the sortingstick:blacklist block tag.
+#WHITELIST: only containers in the sortingstick:whitelist block tag are sorted.
+#Allowed Values: BLACKLIST, WHITELIST
+filterMode = "BLACKLIST"

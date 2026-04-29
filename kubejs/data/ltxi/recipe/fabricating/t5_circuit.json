@@ -1,0 +1,47 @@
+{
+  "type": "ltxi:fabricating",
+  "energy_required": 100000000,
+  "group": "circuits",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "ltxi:circuit_board"
+    },
+    {
+      "count": 2,
+      "item": "ltxi:t4_circuit"
+    },
+    {
+      "count": 16,
+      "item": "ltxi:titanium_ingot"
+    },
+    {
+      "count": 24,
+      "item": "ltxi:slatesteel_ingot"
+    },
+    {
+      "count": 48,
+      "item": "ltxi:polymer_ingot"
+    },
+    {
+      "count": 16,
+      "item": "ltxi:niobium_ingot"
+    },
+    {
+      "count": 48,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 12,
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "count": 8,
+      "item": "ltxi:sculk_chemical"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ltxi:t5_circuit"
+  }
+}

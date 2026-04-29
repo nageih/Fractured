@@ -2,6 +2,13 @@
 
 LootJS.modifiers(event => {
 
+    let bannedItemsInLootTables = Ingredient.of("#fractured:banned_in_loot_tables").itemIds
+    bannedItemsInLootTables.forEach(item => {
+            
+      event.addTableModifier("/.*:chests.*/").removeLoot(item)
+      event.addTableModifier("/.*:entities.*/").removeLoot(item)
+  })
+
   //Gravel 
   event.addBlockModifier('minecraft:gravel').removeLoot('*').addLoot('minecraft:gravel')
 
@@ -81,5 +88,10 @@ LootJS.modifiers(event => {
     .removeLoot('minecraft:redstone')
     .removeLoot('minecraft:glass_bottle')
     .removeLoot('minecraft:glowstone_dust')
+
+  event.addEntityModifier('minecraft:drowned').removeLoot('minecraft:copper_ingot')
+  event.addEntityModifier('minecraft:zombie').removeLoot('minecraft:iron_ingot')
+  event.addEntityModifier('minecraft:pillager').removeLoot('minecraft:emerald')
+  event.addEntityModifier('minecraft:vindicator').removeLoot('minecraft:emerald')
 
 })

@@ -1,0 +1,14 @@
+{
+  "catalog": { 
+    "id": "fractured:gaia_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "gaiadimension:white_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
+    { "stack": { "id": "gaiadimension:blue_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
+    { "stack": { "id": "gaiadimension:red_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
+    { "stack": { "id": "gaiadimension:white_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
+    
+    { "stack": { "id": "gaiadimension:aura_residue", "count": 64 }, "price": 1, "mode": "player_sells" },
+    { "stack": { "id": "gaiadimension:bismuth_residue", "count": 64 }, "price": 1, "mode": "player_sells" }
+  ]
+}

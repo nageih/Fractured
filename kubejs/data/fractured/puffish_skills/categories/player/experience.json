@@ -37,45 +37,6 @@
 			}
 		},
 		{
-			"type": "puffish_skills:mine_block",
-			"data": {
-				"variables": {
-					"silk_touch": {
-						"operations": [
-							{
-								"type": "get_tool_item_stack"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
-								}
-							}
-						]
-					},
-					"ores": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "#c:ores"
-								}
-							}
-						]
-					}
-				},
-				"experience": [
-					{
-						"condition": "!silk_touch & ores",
-						"expression": "1"
-					}
-				]
-			}
-		},
-		{
 			"type": "puffish_skills:eat_food",
 			"data": {
 				"variables": {
@@ -135,21 +96,51 @@
 				"experience": [
 					{
 						"condition": "is_small_xp_food",
-						"expression": "2"
+						"expression": "3"
 					},
 					{
 						"condition": "is_medium_xp_food",
-						"expression": "4"
+						"expression": "5"
 					},
 					{
 						"condition": "is_large_xp_food",
-						"expression": "7"
+						"expression": "8"
 					},
 					{
 						"condition": "is_extreme_xp_food",
-						"expression": "11"
+						"expression": "13"
 					}
 				]
+			}
+		},
+		{
+			"type": "puffish_skills:heal",
+			"data": {
+				"variables": {
+					"amount": {
+						"operations": [
+							{
+								"type": "get_heal_amount"
+							}
+						]
+					}
+				},
+				"experience": "amount * 2"
+			}
+		},
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					}
+				},
+				"experience": "damage * 0.2"
 			}
 		}
 	]

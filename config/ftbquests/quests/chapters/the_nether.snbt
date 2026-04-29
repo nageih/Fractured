@@ -396,7 +396,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D615B46A5CE7379"]
@@ -414,8 +414,8 @@
 				item: { count: 1, id: "ltxi:optical_tech_part" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.0d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["07652DF92EF47EEA"]
@@ -1021,11 +1021,14 @@
 				item: { count: 1, id: "fractured:end_catalyst" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.0d
+			x: 17.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["418613C121E2EA5C"]
+			dependencies: [
+				"418613C121E2EA5C"
+				"5510782EBAC13C9C"
+			]
 			id: "05CC0E75356103F3"
 			rewards: [{
 				id: "7F6D41C22134F5C3"
@@ -1040,8 +1043,27 @@
 				item: { count: 1, id: "fractured:infused_end_stone" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33BD68EB4BBFC6EE"]
+			id: "5510782EBAC13C9C"
+			rewards: [{
+				id: "01CCE596EE5C7848"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C8710F00D0889C6"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
 		}
 	]
 }

@@ -7,7 +7,7 @@
 	#The maximum RF per tick that tier 2 can provide.
 	# Default: 240
 	# Range: > 1
-	"RF Per Operation 2" = 240
+	"RF Per Operation 2" = 5000
 	#The maximum RF per tick that tier 3 can provide.
 	# Default: 12000
 	# Range: > 1

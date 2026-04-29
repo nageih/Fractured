@@ -7,12 +7,13 @@ ServerEvents.recipes(event => {
   event.remove({id: 'toms_storage:storage_terminal'})
   event.remove({id: 'toms_storage:crafting_terminal'})
   event.remove({id: 'toms_storage:inventory_cable'})
+  event.remove({id: 'toms_storage:inventory_cable_connector'})
 
   //Replace Input
   event.replaceInput({mod: 'flintrequired'}, 'flintrequired:plant_fiber', 'fractured:leafy_binding')
 
   //Inventory Cable Connector
-  event.shaped('toms_storage:inventory_connector', ['ABA', 'BCB', 'ABA'], {
+  event.shaped('toms_storage:inventory_cable_connector', ['ABA', 'BCB', 'ABA'], {
     A: '#minecraft:logs',
     B: 'minecraft:redstone',
     C: 'woodenhopper:wooden_hopper',

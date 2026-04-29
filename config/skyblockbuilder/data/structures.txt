@@ -1,7 +1,6 @@
 ae2:meteorite
 betterdeserttemples:desert_temple
 betterfortresses:fortress
-deeperdarker:ancient_temple
 fractured:ruined_portal
 fractured:ruined_portal_desert
 fractured:ruined_portal_jungle
@@ -10,10 +9,6 @@ fractured:ruined_portal_ocean
 fractured:ruined_portal_swamp
 fractured:stronghold
 fractured:village_desert
-friendsandfoes:citadel
-friendsandfoes:iceologer_cabin
-friendsandfoes:illusioner_shack
-friendsandfoes:illusioner_training_grounds
 gaiadimension:malachite_watchtower
 gaiadimension:mini_tower
 minecraft:ancient_city

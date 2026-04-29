@@ -10,17 +10,17 @@
     {
       "chance": 0.3,
       "output": {
-        "id": "fractured:impure_iron"
+        "id": "fractured:impure_coal"
       }
     },
     {
-      "chance": 0.3,
+      "chance": 0.2,
       "output": {
         "id": "fractured:impure_copper"
       }
     },
     {
-      "chance": 0.3,
+      "chance": 0.2,
       "output": {
         "id": "fractured:impure_tin"
       }
@@ -29,6 +29,12 @@
       "chance": 0.1,
       "output": {
         "id": "fractured:netherrack_rocks"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "minecraft:amethyst_shard"
       }
     }
   ],

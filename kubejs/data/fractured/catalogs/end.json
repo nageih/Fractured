@@ -1,0 +1,10 @@
+{
+  "catalog": { 
+    "id": "fractured:end_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "ltxi:raw_niobium", "count": 16 }, "price": 16, "mode": "player_buys" },
+
+    { "stack": { "id": "ltxi:chorus_chemical", "count": 64 }, "price": 1, "mode": "player_sells" }
+  ]
+}

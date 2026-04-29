@@ -1,0 +1,38 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "fractured:is_nether"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "minecraft:ancient_debris"
+      }
+    },
+    {
+      "chance": 0.45,
+      "output": {
+        "id": "fractured:impure_titanium"
+      }
+    },
+    {
+      "chance": 0.45,
+      "output": {
+        "id": "fractured:impure_certus_quartz"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:netherrack"
+      }
+    }
+  ],
+  "weight": 25
+}

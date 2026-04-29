@@ -7,7 +7,7 @@ dependency_line_completed_color:    #010202
 dependency_line_selected_speed:     1.2
 dependency_line_unselected_speed:   0.0
 dependency_line_thickness:          0.17
-widget_border:     #1B1D1E
+widget_border:     #c3c8ca
 
 [2629338A496C04F8]
 background: fractured:textures/quests/bg_full.png
@@ -65,6 +65,12 @@ dependency_line_completed_color: #76F2FF
 
 [2F51DDDF0EB4097B]
 background: fractured:textures/quests/nether_bg.png
+chapter_panel_background: fractured:textures/quests/panel.png; hollow_rectangle:{{widget_border}}; round_edges + {{widget_background}}; padding=1
+context_menu: hollow_rectangle:{{widget_border}}; round_edges + {{chapter_panel_background}}; padding=1
+dependency_line_completed_color: #76F2FF
+
+[07C561B1E198D1D8]
+background: fractured:textures/quests/end_bg.png
 chapter_panel_background: fractured:textures/quests/panel.png; hollow_rectangle:{{widget_border}}; round_edges + {{widget_background}}; padding=1
 context_menu: hollow_rectangle:{{widget_border}}; round_edges + {{chapter_panel_background}}; padding=1
 dependency_line_completed_color: #76F2FF

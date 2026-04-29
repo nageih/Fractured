@@ -82,7 +82,7 @@ StartupEvents.registry('block', event => {
   //Scorching Ore
   event.create('fractured:scorching_ore')
     .hardness(0.8)
-    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
     .stoneSoundType()
     .tagBoth(['c:ores/scorching', 'c:ores'])
     .fullBlock(true);

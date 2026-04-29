@@ -1,0 +1,17 @@
+{
+  "catalog": { 
+    "id": "fractured:caves_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "fractured:impure_aluminum", "count": 16 }, "price": 12, "mode": "player_buys" },
+    { "stack": { "id": "fractured:impure_iron", "count": 16 }, "price": 12, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:glowstone", "count": 16 }, "price": 9, "mode": "player_buys" },
+    { "stack": { "id": "fractured:dark_fused_stone", "count": 16 }, "price": 2, "mode": "player_buys" },
+    { "stack": { "id": "fractured:light_fused_stone", "count": 16 }, "price": 2, "mode": "player_buys" },
+    { "stack": { "id": "immersivepetroleum:petcoke", "count": 12 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "farmersdelight:mushroom_rice", "count": 1 }, "price": 3, "mode": "player_buys" },
+    { "stack": { "id": "farmersdelight:melon_juice", "count": 1 }, "price": 3, "mode": "player_buys" },
+
+    { "stack": { "id": "actuallyadditions:void_crystal", "count": 64 }, "price": 1, "mode": "player_sells" }
+  ]
+}

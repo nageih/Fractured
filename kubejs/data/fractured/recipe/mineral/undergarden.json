@@ -1,0 +1,44 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "undergarden:is_undergarden"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "fractured:impure_cloggrum"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "fractured:impure_froststeel"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "undergarden:utheric_cluster"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "undergarden:forgotten_nugget"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "undergarden:depthrock"
+      }
+    }
+  ],
+  "weight": 25
+}

@@ -7,6 +7,4 @@ ClientEvents.lang("en_us", event => {
 
     event.renameBlock('immersiveengineering:rs_engineering', 'Controller Engineering Block')
         
-
-
 })

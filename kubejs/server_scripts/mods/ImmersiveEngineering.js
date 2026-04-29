@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/thermoelectric_generator' }, '#c:plates/constantan', '#c:plates/iron')
   event.replaceInput({ id: 'immersiveengineering:crafting/empty_casing' }, '#c:plates/copper', '#c:plates/constantan')
   event.replaceInput({ id: 'immersiveengineering:crafting/coil_hv' }, 'minecraft:iron_ingot', 'actuallyadditions:void_crystal_block')
+  event.replaceInput({ id: 'immersiveengineering:crafting/capacitor_lv' }, 'immersiveengineering:plate_lead', '#c:plates/iron' )
   
   //Hammer
   event.shaped('immersiveengineering:hammer[unbreakable={},damage=1]', [' AB', ' CA', 'C  '], {
@@ -175,10 +176,7 @@ ServerEvents.recipes(event => {
     200,
     8192,
     [
-      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot"),
-      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot"),
-      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot"),
-      IngredientWithSizeJS.ofItemStack("minecraft:iron_ingot")
+      IngredientWithSizeJS.ofItemStack("4x minecraft:iron_ingot")
     ],
     []
   ).id('fractured:arc_furnace/iron_casing')
@@ -192,10 +190,7 @@ ServerEvents.recipes(event => {
     200,
     8192,
     [
-      IngredientWithSizeJS.ofItemStack("fractured:impure_aluminum"),
-      IngredientWithSizeJS.ofItemStack("fractured:impure_aluminum"),
-      IngredientWithSizeJS.ofItemStack("fractured:impure_aluminum"),
-      IngredientWithSizeJS.ofItemStack("fractured:impure_aluminum")
+      IngredientWithSizeJS.ofItemStack("4x fractured:impure_aluminum")
     ],
     []
   ).id('fractured:arc_furnace/aluminum_ingot')
@@ -208,10 +203,7 @@ ServerEvents.recipes(event => {
     200,
     8192,
     [
-      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
-      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
-      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum"),
-      IngredientWithSizeJS.ofItemStack("fractured:pure_aluminum")
+      IngredientWithSizeJS.ofItemStack("4x fractured:pure_aluminum")
     ],
     []
   ).id('fractured:arc_furnace/aluminum_ingot_pure')
@@ -285,12 +277,16 @@ ServerEvents.recipes(event => {
   addSqueezerRecipe('minecraft:iron_ingot', '125x undergarden:virulent_mix_source', 4000, 'undergarden:cloggrum_ingot')
 
   //Steel
-  addBlastFurnaceRecipe('alltheores:steel_ingot', 'undergarden:froststeel_ingot', 20 * 30)
-  addBlastFurnaceRecipe('alltheores:steel_block', 'undergarden:froststeel_block', 20 * 30 * 9)
+  addBlastFurnaceRecipe('alltheores:steel_ingot', 'undergarden:froststeel_ingot', 20 * 10)
+  addBlastFurnaceRecipe('alltheores:steel_block', 'undergarden:froststeel_block', 20 * 10 * 9)
+  addBlastFurnaceRecipe('alltheores:steel_ingot', 'minecraft:iron_ingot', 20 * 15)
+  addBlastFurnaceRecipe('alltheores:steel_block', 'minecraft:iron_block', 20 * 15 * 9)
 
   //Undergarden Raw Ores 
   addBlastFurnaceRecipe('undergarden:cloggrum_ingot', 'undergarden:raw_cloggrum', 20 * 10)
+  addBlastFurnaceRecipe('undergarden:cloggrum_block', 'undergarden:raw_cloggrum_block', 20 * 10 * 9)
   addBlastFurnaceRecipe('undergarden:froststeel_ingot', 'undergarden:raw_froststeel', 20 * 10)
+  addBlastFurnaceRecipe('undergarden:froststeel_block', 'undergarden:raw_froststeel_block', 20 * 10)
 
   //Metallic Dust
   addBlastFurnaceRecipe('fractured:metallic_dust', 'alltheores:bronze_ingot', 20 * 10)
@@ -344,7 +340,7 @@ ServerEvents.recipes(event => {
       TagOutputJS.ofItemStack(output),
       IngredientWithSizeJS.ofItemStack(input),
       time
-    ).id(`fractured:blast_furnace/${output.split(':')[1]}`)
+    ).id(`fractured:blast_furnace/${output.split(':')[1]}_from_${input.split(':')[1]}`)
   }
 
   //Replacment for All The Ores Metal Press recipes from Techopolis 3, thanks ben

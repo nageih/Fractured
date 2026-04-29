@@ -587,7 +587,7 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["53F38F1BC9168D03"]
+			dependencies: ["77623C41F3DFABF5"]
 			icon_scale: 7.0d
 			id: "442D87AC4B7041CB"
 			rewards: [{
@@ -609,11 +609,11 @@
 				to_observe: "immersivepetroleum:derrick"
 				type: "observation"
 			}]
-			x: 22.5d
-			y: -15.5d
+			x: 25.5d
+			y: -15.0d
 		}
 		{
-			dependencies: ["442D87AC4B7041CB"]
+			dependencies: ["53F38F1BC9168D03"]
 			icon_scale: 4.0d
 			id: "77623C41F3DFABF5"
 			rewards: [{
@@ -636,8 +636,8 @@
 				to_observe: "immersivepetroleum:oiltank"
 				type: "observation"
 			}]
-			x: 24.5d
-			y: -14.0d
+			x: 22.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["442D87AC4B7041CB"]
@@ -662,8 +662,8 @@
 				to_observe: "immersivepetroleum:pumpjack"
 				type: "observation"
 			}]
-			x: 24.5d
-			y: -16.5d
+			x: 28.0d
+			y: -13.5d
 		}
 		{
 			dependencies: [

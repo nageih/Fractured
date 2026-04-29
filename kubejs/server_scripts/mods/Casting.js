@@ -9,6 +9,10 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'casting:tank' })
   event.remove({ id: 'casting:mixer' })
 
+  //Fuels
+  event.recipes.casting.fuel('10x fractured:void_fuel', 1200, 100).id('fractured:fuel/void_fuel')
+  event.recipes.casting.fuel('25x undergarden:virulent_mix_source', 1000, 200).id('fractured:fuel/virulent_mix_source')
+
   //Simple Mixer
   event.shaped('casting:mixer', ['AAA', 'BCB', 'AAA'], {
     A: 'casting:black_bricks',
@@ -17,12 +21,12 @@ ServerEvents.recipes(event => {
   }).id('fractured:simple_mixer')
 
   //Void Stone
-  event.recipes.casting.solidifier('#c:stones', '100x fractured:void_fuel', 'fractured:void_stone').id('fractured:solidifier/void_stone')
+  event.recipes.casting.solidifier('#c:stones', '1000x fractured:void_fuel', 'fractured:void_stone').id('fractured:solidifier/void_stone')
 
   //Void Fuel Because casting is the best mod 
   event.recipes.casting.mixing('250x fractured:void_fuel', 
     [
-      '250x undergarden:virulent_mix_source',
+      '1000x undergarden:virulent_mix_source',
       '250x immersiveengineering:ethanol',
       '250x immersiveengineering:redstone_acid'
     ]
@@ -42,6 +46,17 @@ ServerEvents.recipes(event => {
   //Empty Casing
   event.recipes.casting.solidifier('#c:molds/bullet', '45x casting:molten_constantan', 'immersiveengineering:empty_casing').id('fractured:solidifier/empty_casing')
 
+  //Titanium 
+  event.recipes.casting.melting('ltxi:titanium_nugget', '10x casting:molten_titanium', 1000).id('fractured:melting/titanium_nugget')
+  event.recipes.casting.melting('ltxi:titanium_ingot', '90x casting:molten_titanium', 1000).id('fractured:melting/titanium_ingot')
+  event.recipes.casting.melting('ltxi:titanium_block', '810x casting:molten_titanium', 1000).id('fractured:melting/titanium_block')
+  event.recipes.casting.melting('ltxi:titanium_gear', '360x casting:molten_titanium', 1000).id('fractured:melting/titanium_gear')
+
+  event.recipes.casting.solidifier('ltxi:titanium_nugget', '10x casting:molten_titanium', 'ltxi:titanium_nugget').id('fractured:solidifier/titanium_nugget')
+  event.recipes.casting.solidifier('ltxi:titanium_ingot', '90x casting:molten_titanium', 'ltxi:titanium_ingot').id('fractured:solidifier/titanium_ingot')
+  event.recipes.casting.solidifier('ltxi:titanium_block', '810x casting:molten_titanium', 'ltxi:titanium_block').id('fractured:solidifier/titanium_block')
+  event.recipes.casting.solidifier('ltxi:titanium_gear', '360x casting:molten_titanium', 'ltxi:titanium_gear').id('fractured:solidifier/titanium_gear')
+
   //Grout Melting
   event.recipes.casting.melting('fractured:grout_dust', '250x casting:molten_black_brick', 1000).id('fractured:melting/grout_dust')
   event.recipes.casting.melting('fractured:grout_brick', '250x casting:molten_black_brick', 1000).id('fractured:melting/grout_brick')
@@ -49,6 +64,9 @@ ServerEvents.recipes(event => {
   //Treated Wood
   event.recipes.casting.solidifier('#minecraft:planks', '125x immersiveengineering:creosote', 'immersiveengineering:treated_wood_horizontal').id('fractured:solidifier/treated_wood_planks')
   event.recipes.casting.solidifier('#minecraft:logs', '500x immersiveengineering:creosote', '4x immersiveengineering:treated_wood_horizontal').id('fractured:solidifier/treated_wood_logs')
+
+  //Molten End Stone
+  event.recipes.casting.melting('ltxi:polymer_ingot', '250x casting:molten_end_stone', 1200).id('fractured:melting/polymer_ingot')
 
   //Smelting
   event.smelting('casting:black_brick', 'fractured:grout_brick').xp(0.1).id('fractured:smelting/grout_ball')

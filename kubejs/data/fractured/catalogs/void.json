@@ -1,0 +1,21 @@
+{
+  "catalog": { 
+    "id": "fractured:void_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "minecraft:iron_ingot", "count": 16 }, "price": 8, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:redstone", "count": 16 }, "price": 8, "mode": "player_buys" },
+    { "stack": { "id": "immersiveengineering:dust_saltpeter", "count": 16 }, "price": 8, "mode": "player_buys" },
+    { "stack": { "id": "fractured:void_planks", "count": 32 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "functionalstorage:framed_fluid_1", "count": 1 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "functionalstorage:framed_fluid_2", "count": 1 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "functionalstorage:framed_fluid_4", "count": 1 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "functionalstorage:framed_1", "count": 1 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "functionalstorage:framed_2", "count": 1 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "functionalstorage:framed_4", "count": 1 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "farmersdelight:chicken_soup", "count": 1 }, "price": 3, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:paper", "count": 6 }, "price": 2, "mode": "player_buys" },
+
+    { "stack": { "id": "undergarden:forgotten_nugget", "count": 64 }, "price": 1, "mode": "player_sells" }
+  ]
+}

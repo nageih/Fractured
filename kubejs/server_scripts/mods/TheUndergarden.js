@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
   event.shaped('undergarden:catalyst' , ['ABA', 'BCB', 'ABA'], {
     A: '#c:ingots/bronze',
     B: 'immersiveengineering:coal_coke',
-    C: 'survival_firesticks:firestick'
+    C: 'fractured:flint_and_stick'
   }).id('fractured:catalyst')
 
 })

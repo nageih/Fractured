@@ -1,8 +1,4 @@
 ae2:spatial_storage
-deeperdarker:blooming_caverns
-deeperdarker:deeplands
-deeperdarker:echoing_forest
-deeperdarker:overcast_columns
 fractured:dark_colored_caves
 fractured:light_colored_caves
 gaiadimension:blue_agate_taiga

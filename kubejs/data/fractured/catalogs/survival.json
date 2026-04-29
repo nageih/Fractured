@@ -1,0 +1,16 @@
+{
+  "catalog": { 
+    "id": "fractured:survival_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "fractured:survivalist_compound", "count": 10 }, "price": 4, "mode": "player_buys" },
+    { "stack": { "id": "actuallyadditions:worm", "count": 1 }, "price": 2, "mode": "player_buys" },
+    { "stack": { "id": "flintrequired:flint_shard", "count": 2 }, "price": 3, "mode": "player_buys" },
+    { "stack": { "id": "fractured:reinforced_binding", "count": 1 }, "price": 4, "mode": "player_buys" },
+    { "stack": { "id": "farmersdelight:noodle_soup", "count": 1 }, "price": 3, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:paper", "count": 6 }, "price": 2, "mode": "player_buys" },
+    { "stack": { "id": "pipe_connector:pipe_connector", "count": 1 }, "price": 14, "mode": "player_buys" },
+
+    { "stack": { "id": "fractured:survivalist_compound", "count": 64 }, "price": 1, "mode": "player_sells" }
+  ]
+}

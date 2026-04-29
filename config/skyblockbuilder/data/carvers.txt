@@ -1,5 +1,3 @@
-deeperdarker:cave
-deeperdarker:low_cave
 gaiadimension:chasms
 gaiadimension:crystal_caves
 minecraft:canyon

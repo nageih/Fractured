@@ -1,8 +1,14 @@
 Platform.getInfo('fractured').name = 'Fractured'
 
+const $FlintAndSteelItem = Java.loadClass("net.minecraft.world.item.FlintAndSteelItem");
+const $ItemProperties = Java.loadClass("net.minecraft.world.item.Item$Properties");
+
 StartupEvents.registry('item', event => {
 
     //Misc
+    event.createCustom('fractured:flint_and_stick', () => 
+        new $FlintAndSteelItem(new $ItemProperties().durability(4))
+    )
     event.create('fractured:survivalist_compound')
     event.create('fractured:pestle')
     event.create('fractured:mortar_and_pestle')
@@ -25,6 +31,7 @@ StartupEvents.registry('item', event => {
     event.create('fractured:void_ingot').tag(['c:ingots','c:ingots/void'])
     event.create('fractured:void_staff')
     event.create('fractured:portable_seismic_survey_tool')
+    event.create('fractured:ash')
 
 
     //Template
@@ -40,9 +47,12 @@ StartupEvents.registry('item', event => {
     event.create('fractured:overworld_catalyst')
 
     //Tool Binding
-    event.create('fractured:leafy_binding').tag('fractured:bindings')
-    event.create('fractured:reinforced_binding').tag('fractured:bindings')
-
+    event.create('fractured:leafy_binding').tag('fractured:bindings').tooltip('A binding made of leaves. Gives Unbreaking I to your tools.')
+    event.create('fractured:reinforced_binding').tag('fractured:bindings').tooltip('A binding reinforced with metal. Gives Unbreaking II to your tools.')
+    event.create('fractured:steel_binding').tag('fractured:bindings').tooltip('A binding reinforced with steel. Gives Unbreaking III to your tools.')
+    event.create('fractured:diamond_binding').tag('fractured:bindings').tooltip('A binding reinforced with diamond. Gives Unbreaking IV to your tools.')
+    event.create('fractured:netherite_binding').tag('fractured:bindings').tooltip('A binding made of netherite. Gives Unbreaking V to your tools.')
+    
     //Locators
     event.create('fractured:catacombs_locator').maxStackSize(16).tooltip('Right-click to locate a Catacombs inside the Undergarden')
     event.create('fractured:malachite_watchtower_locator').maxStackSize(16).tooltip('Right-click to locate a Malachite Watchtower inside the Gaia Dimension')
@@ -59,6 +69,17 @@ StartupEvents.registry('item', event => {
         event.create(`fractured:impure_${ore}`).tag([`c:impure_${ore}s`])
         event.create(`fractured:pure_${ore}`).tag([`c:pure_${ore}s`]).glow(true)
     })
+
+    //Catalogs
+    event.create('fractured:survival_catalog').displayName('Catalog: Survival').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:hot_hot_hot_catalog').displayName('Catalog: Hot Hot Hot').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:undergarden_catalog').displayName('Catalog: Undergarden').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:void_catalog').displayName('Catalog: Void').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:desert_catalog').displayName('Catalog: Desert').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:caves_catalog').displayName('Catalog: Caves').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:gaia_catalog').displayName('Catalog: Gaia').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:nether_catalog').displayName('Catalog: Nether').tag('shops:catalogs').maxStackSize(1).glow(true)
+    event.create('fractured:end_catalog').displayName('Catalog: End').tag('shops:catalogs').maxStackSize(1).glow(true)
 
     //Tool Parts
     materials.forEach(material => {

@@ -849,5 +849,31 @@
 			x: 13.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["795B4DD4B6C94430"]
+			icon_scale: 3.0d
+			id: "4E725FF32F398432"
+			optional: true
+			rewards: [{
+				id: "79D773D78347A1F7"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:assembler"
+				}
+				id: "33E7689A814E7EFD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:assembler"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
 	]
 }

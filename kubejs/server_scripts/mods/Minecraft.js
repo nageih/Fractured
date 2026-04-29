@@ -7,10 +7,36 @@ ServerEvents.recipes(event => {
   event.remove({id: 'minecraft:compass'})
   event.remove({id: 'minecraft:paper'})
   event.remove({id: 'minecraft:bread'})
+  event.remove({id: 'minecraft:wooden_pickaxe'})
+  event.remove({id: 'minecraft:wooden_shovel'})
+  event.remove({id: 'minecraft:wooden_axe'})
+  event.remove({id: 'minecraft:wooden_hoe'})
+  event.remove({id: 'minecraft:wooden_sword'})
+
 
   //Replace
   event.replaceInput({id: 'minecraft:hopper'}, 'minecraft:iron_ingot', '#c:plates/iron')
   event.replaceInput({id: 'minecraft:smithing_table'}, 'minecraft:iron_ingot', '#c:ingots/cloggrum')
+
+  event.replaceInput({}, 'minecraft:wooden_pickaxe', 'flintrequired:flint_pickaxe')
+  event.replaceInput({}, 'minecraft:wooden_shovel', 'flintrequired:flint_shovel')
+  event.replaceInput({}, 'minecraft:wooden_axe', 'flintrequired:flint_axe')
+  event.replaceInput({}, 'minecraft:wooden_hoe', 'flintrequired:flint_hoe')
+  event.replaceInput({}, 'minecraft:wooden_sword', 'flintrequired:flint_knife')
+
+  //Ice
+  event.shaped('minecraft:ice', ['AAA', 'ABA', 'AAA'], {
+    A: 'minecraft:snow_block',
+    B: 'undergarden:froststeel_nugget'
+  }).id('fractured:ice')
+
+
+  //Fire Charge
+  event.shaped('minecraft:fire_charge', ['ACA', 'CBC', 'ACA'], {
+    A: 'fractured:ash',
+    B: 'fractured:flint_and_stick',
+    C: 'fractured:dried_leaves'
+  }).id('fractured:fire_charge')
 
   //Rocks to Blocks
   event.shaped('minecraft:cobblestone', [' A ', 'ABA', ' A '], {

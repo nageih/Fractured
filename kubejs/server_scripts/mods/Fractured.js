@@ -12,9 +12,20 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of(output.id, 2), ingredients[0]).id(r.getId())
   })  
 
+  //Ash
+  event.smelting('fractured:ash', 'farmersdelight:tree_bark').xp(0.1).id('fractured:smelting/ash')
+  event.campfireCooking('fractured:ash', 'farmersdelight:tree_bark', 0.1, 100).id('fractured:campfire/ash')
+
+  //Flint and Stick
+  event.shapeless('fractured:flint_and_stick', ['minecraft:flint', 'minecraft:stick']).id('fractured:flint_and_stick')
+   
+  //Main Island Teleporter
+  event.shaped('fractured:main_island_teleporter', ['CAC', 'ABA', 'CAC'], {
+    A: 'minecraft:end_stone',
+    B: 'minecraft:ender_eye',
+    C: 'minecraft:ender_pearl',
+  }).id('fractured:main_island_teleporter')
   
-
-
   //Colored Catalyst
   event.shaped('fractured:colored_catalyst', ['ABA', 'CDC', 'ABA'], {
     A: '#c:dyes',
@@ -104,7 +115,7 @@ ServerEvents.recipes(event => {
 
   //Nether Catalyst
   event.shaped('fractured:nether_catalyst', ['ABA', 'BCB', 'ABA'], { 
-    A: 'minecraft:nether_brick',
+    A: 'gaiadimension:celestine',
     B: 'minecraft:glowstone_dust',
     C: 'fractured:malachite_heart'
   }).id('fractured:nether_catalyst')
@@ -155,6 +166,21 @@ ServerEvents.recipes(event => {
   event.shaped('fractured:reinforced_binding', [' A ', 'AAA', ' A '], { 
     A: 'minecraft:string'
   }).id('fractured:reinforced_binding')
+
+  //Steel Binding
+  event.shaped('fractured:steel_binding', [' A ', 'AAA', ' A '], { 
+    A: '#c:ingots/steel'
+  }).id('fractured:steel_binding')
+  
+  //Diamond Binding
+  event.shaped('fractured:diamond_binding', [' A ', 'AAA', ' A '], { 
+    A: '#c:gems/diamond'
+  }).id('fractured:diamond_binding')
+
+  //Netherite Binding
+  event.shaped('fractured:netherite_binding', [' A ', 'AAA', ' A '], { 
+    A: '#c:ingots/netherite'
+  }).id('fractured:netherite_binding')
 
   //Blueprint Paper
   event.shapeless('fractured:blueprint_paper', ['3x minecraft:paper', '#c:dyes/blue']).id('fractured:blueprint_paper')

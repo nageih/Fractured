@@ -8,12 +8,27 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'actuallyadditions:laser/crystalize_void_crystal' })
   event.remove({ id: 'actuallyadditions:laser/crystalize_void_crystal_block' })
   event.remove({ id: 'actuallyadditions:rice_paper' })
+  event.remove({ id: 'actuallyadditions:tiny_torch' })
   
+  //Tiny Torch
+  event.shaped('2x actuallyadditions:tiny_torch', ['A', 'B'], {
+    A: 'opolisutilities:mini_coal',
+    B: 'minecraft:stick'
+  }).id('fractured:tiny_torch_coal')
+
+  event.shaped('2x actuallyadditions:tiny_torch', ['A', 'B'], {
+    A: 'opolisutilities:mini_charcoal',
+    B: 'minecraft:stick'
+  }).id('fractured:tiny_torch_charcoal')
+
   //Black Quartz
   event.shaped('actuallyadditions:black_quartz', [' A ', 'ABA', ' A '], {
     A: 'gaiadimension:black_residue',
     B: 'minecraft:quartz'
   }).id('fractured:black_quartz')
+
+  //Gloom Shroom
+  event.recipes.actuallyadditions.laser('ltxi:gloom_shroom', 'minecraft:chorus_flower').energy(5000).id('fractured:gloom_shroom')
 
   //Void Crystal 
   event.recipes.actuallyadditions.laser('actuallyadditions:void_crystal', 'immersivepetroleum:petcoke').energy(5000).id('fractured:void_crystal')

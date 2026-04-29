@@ -37,6 +37,7 @@ ServerEvents.tags("item", event => {
         'colors:lime_apple',
         '#c:foods/vegetable',
         '#c:foods/fruit',
+        '#c:foods',
     ])
 
     event.add('fractured:medium_xp_foods', [

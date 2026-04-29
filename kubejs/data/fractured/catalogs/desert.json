@@ -1,0 +1,18 @@
+{
+  "catalog": { 
+    "id": "fractured:desert_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "fractured:impure_nickel", "count": 16 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "fractured:impure_silver", "count": 16 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "fractured:impure_gold", "count": 16 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "tempad:time_steel", "count": 4 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:gunpowder", "count": 12 }, "price": 2, "mode": "player_buys" },
+    { "stack": { "id": "immersiveengineering:plate_duroplast", "count": 8 }, "price": 16, "mode": "player_buys" },
+    { "stack": { "id": "routers:importer_block", "count": 1 }, "price": 3, "mode": "player_buys" },
+    { "stack": { "id": "routers:exporter_block", "count": 1 }, "price": 3, "mode": "player_buys" },
+    { "stack": { "id": "farmersdelight:beef_stew", "count": 1 }, "price": 3, "mode": "player_buys" },
+
+    { "stack": { "id": "ae2:printed_logic_processor", "count": 32 }, "price": 1, "mode": "player_sells" }
+  ]
+}

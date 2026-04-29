@@ -134,7 +134,7 @@ ItemEvents.rightClicked('fractured:main_island_teleporter', event => {
 ItemEvents.rightClicked('fractured:portable_seismic_survey_tool', event => {
     const { player, level, hand, item } = event
     if (level.clientSide) return
-    event.server.runCommand(`execute as ${player.uuid} at ${player.uuid} run ip reservoir get`)
+    event.server.runCommand(`execute as ${player.uuid} at ${player.uuid} run findreservoir`)
 })
 
 
@@ -191,3 +191,41 @@ ItemEvents.rightClicked('fractured:malachite_watchtower_locator', event => {
         player.displayClientMessage(Component.literal('§cNo Malachite Watchtower found nearby!'), true)
     }
 })
+
+ServerEvents.commandRegistry(event => {
+    const { commands: Commands } = event;
+
+    event.register(
+        Commands.literal('findreservoir')
+            .requires(source => source.hasPermission(0))
+            .executes(ctx => {
+                const { source } = ctx;
+                const { player, level } = source;
+                
+                const ReservoirHandler = Java.loadClass('flaxbeard.immersivepetroleum.api.reservoir.ReservoirHandler');
+                const ColumnPos = Java.loadClass('net.minecraft.server.level.ColumnPos');
+
+                const playerCol = new ColumnPos(player.blockPosition().x, player.blockPosition().z);
+                let reservoir = ReservoirHandler['getReservoir(net.minecraft.world.level.Level,net.minecraft.server.level.ColumnPos)'](level, playerCol);
+
+                if (reservoir) {
+                    let resType = reservoir.getType().value();
+                    let name = resType.name;
+                    let amount = reservoir.getAmount();
+                    let capacity = reservoir.getCapacity();
+                    let percent = ((amount / capacity) * 100).toFixed(1);
+
+                    player.tell([
+                        Component.gold("Found "),
+                        Component.yellow(name),
+                        Component.gold(" reservoir! "),
+                        Component.white(`(${percent}% full)`)
+                    ]);
+                } else {
+                    player.tell(Component.red("No reservoir found at your current coordinates."));
+                }
+
+                return 1;
+            })
+    );
+});

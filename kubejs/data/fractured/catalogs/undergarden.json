@@ -1,0 +1,21 @@
+{
+  "catalog": { 
+    "id": "fractured:undergarden_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "fractured:impure_cloggrum", "count": 16 }, "price": 4, "mode": "player_buys" },
+    { "stack": { "id": "fractured:impure_froststeel", "count": 16 }, "price": 6, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:cloggrum_helmet", "count": 1 }, "price": 7, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:cloggrum_chestplate", "count": 1 }, "price": 7, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:cloggrum_leggings", "count": 1 }, "price": 7, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:cloggrum_boots", "count": 1 }, "price": 7, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:froststeel_helmet", "count": 1 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:froststeel_chestplate", "count": 1 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:froststeel_leggings", "count": 1 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "undergarden:froststeel_boots", "count": 1 }, "price": 10, "mode": "player_buys" },
+    { "stack": { "id": "farmersdelight:noodle_soup", "count": 1 }, "price": 3, "mode": "player_buys" },
+
+    { "stack": { "id": "undergarden:gloomgourd_seeds", "count": 32 }, "price": 1, "mode": "player_sells" }
+
+  ]
+}

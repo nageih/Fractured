@@ -20,4 +20,9 @@ ServerEvents.recipes(event => {
     C: 'minecraft:compass'
   }).id('fractured:mineral_finder')
 
+  //Repair
+  event.shapeless('adfinders:mineral_finder', ['adfinders:mineral_finder']).id('fractured:mineral_finder_repair')
+  event.shapeless('adfinders:metal_finder', ['adfinders:metal_finder']).id('fractured:metal_finder_repair')
+  event.shapeless('adfinders:gem_finder', ['adfinders:gem_finder']).id('fractured:gem_finder_repair')
+
 })

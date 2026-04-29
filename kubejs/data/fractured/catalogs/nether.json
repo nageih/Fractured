@@ -1,0 +1,14 @@
+{
+  "catalog": { 
+    "id": "fractured:nether_catalog"
+  },
+  "entries": [
+    { "stack": { "id": "fractured:impure_certus_quartz", "count": 16 }, "price": 16, "mode": "player_buys" },
+    { "stack": { "id": "fractured:impure_titanium", "count": 16 }, "price": 16, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:ancient_debris", "count": 8 }, "price": 16, "mode": "player_buys" },
+    { "stack": { "id": "minecraft:quartz", "count": 16 }, "price": 16, "mode": "player_buys" },
+
+
+    { "stack": { "id": "ltxi:slatesteel_ingot", "count": 64 }, "price": 1, "mode": "player_sells" }
+  ]
+}

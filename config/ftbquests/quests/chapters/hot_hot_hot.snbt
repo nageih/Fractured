@@ -602,7 +602,7 @@
 			]
 			id: "20E9A18E3608162F"
 			rewards: [{
-				count: 5
+				count: 6
 				id: "001962BDADDFB41E"
 				item: {
 					count: 1
@@ -1086,6 +1086,25 @@
 			}]
 			x: -9.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2A448251C0169B7E"]
+			id: "15D38A9CE27F130C"
+			rewards: [{
+				id: "241BF8EA377F725D"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA505C2C0B7D3AB"
+				item: { count: 1, id: "casting:equipment_modifier" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 }

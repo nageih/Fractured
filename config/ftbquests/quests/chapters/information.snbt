@@ -41,8 +41,8 @@
 				id: "3DC2D20B6588B288"
 				type: "checkmark"
 			}]
-			x: -9.5d
-			y: -2.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["533046C9D725CF41"]
@@ -204,6 +204,24 @@
 			}]
 			x: -9.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["533046C9D725CF41"]
+			id: "71E097E3C900677F"
+			rewards: [{
+				id: "0B03E97CDD458011"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FC77ACDD6FD7FFC"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -4.0d
 		}
 	]
 }

@@ -1,0 +1,44 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "fractured:is_fractured_desert"
+    ]
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "fractured:impure_gold"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "fractured:impure_silver"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "fractured:impure_nickel"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "immersiveengineering:dust_saltpeter"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "gaiadimension:gaia_stone"
+      }
+    }
+  ],
+  "weight": 25
+}

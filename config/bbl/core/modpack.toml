@@ -3,7 +3,7 @@
 	#Name of the server
 	"Server Name" = "Fractured Official Server"
 	#IP of the server
-	"Server IP" = ""
+	"Server IP" = "fractured.benbenlaw.com"
 
 ["Discord URL use /discord command to get the link"]
 	#Add a URL to link your discord, BBL Discord = https://discord.gg/benbenlaw
@@ -13,10 +13,10 @@
 	#Modpack name
 	"Modpack name" = "Fractured"
 	#Modpack Version
-	"Modpack Version" = "A8.0"
+	"Modpack Version" = "B4.0"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false
-	"Update Checker" = false
+	"Update Checker" = true
 	#Project ID for the modpack, found on curse forge
-	"Project ID" = 0
+	"Project ID" = 1518508

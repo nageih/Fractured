@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ltxi:spark_fruit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:electric_chemical"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:optical_tech_part"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:fabricator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chorus_flower"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_acacia_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

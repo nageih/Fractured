@@ -48,6 +48,24 @@ ServerEvents.recipes(event => {
 
   //Flint
   cutting('minecraft:flint', 'minecraft:gravel', 'projectvibrantjourneys:rocks')
+  
+  //Colored Logs
+  colors.forEach(color => {
+    cuttingWithAxe(`colors:${color}_stripped_log`, `colors:${color}_log`)
+    cuttingWithAxe(`colors:${color}_stripped_wood`, `colors:${color}_wood`)
+  })
+
+  //Rocks 
+  cuttingWithPickaxe('2x projectvibrantjourneys:rocks', 'minecraft:cobblestone')
+
+  //Sandstone 
+  cuttingWithPickaxe('2x projectvibrantjourneys:sandstone_rocks', 'minecraft:sandstone')
+
+  //Red Sandstone 
+  cuttingWithPickaxe('2x projectvibrantjourneys:red_sandstone_rocks', 'minecraft:red_sandstone')
+
+  //Mossy 
+  cuttingWithPickaxe('2x projectvibrantjourneys:mossy_rocks', 'minecraft:mossy_cobblestone')
 
   //Cutting Recipe Function
   function cutting(output, input, tool) {
@@ -86,4 +104,52 @@ ServerEvents.recipes(event => {
       }
     }).id(`fractured:cutting/${output.split(':')[1]}`)
   }
+
+  function cuttingWithAxe(output, input) {
+    event.custom({
+      "type": "farmersdelight:cutting",
+      "ingredients": [
+        Ingredient.of(input).toJson()
+      ],
+      "result": [
+       {
+          "item": Item.of(output).toJson()
+        },
+        {
+          "item": {
+            "count": 1,
+            "id": "farmersdelight:tree_bark"
+          }
+        }
+      ],
+      "sound": {
+        "sound_id": "minecraft:item.axe.strip"
+      },
+      "tool": {
+        "type": "farmersdelight:item_ability",
+        "action": "axe_strip"
+      }
+    }).id(`fractured:cutting/${output.split(':')[1]}`)
+  }
+
+  function cuttingWithPickaxe(output, input) {
+    event.custom({
+      "type": "farmersdelight:cutting",
+      "ingredients": [
+        Ingredient.of(input).toJson()
+      ],
+      "result": [
+        {
+           "item": Item.of(output).toJson()
+        }
+      ],
+      "tool": {
+        "type": "farmersdelight:item_ability",
+        "action": "pickaxe_dig"
+      }
+    }).id(`fractured:cutting/${output.split(':')[1]}`)
+  }
+
+
+
 })

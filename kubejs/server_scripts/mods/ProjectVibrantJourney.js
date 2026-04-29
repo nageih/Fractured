@@ -11,5 +11,6 @@ ServerEvents.recipes(event => {
   event.remove({id: 'projectvibrantjourneys:stick_from_twigs'})
   event.remove({id: 'projectvibrantjourneys:stick_from_birch_twigs'})
 
+  //Sticks
   event.shapeless('2x minecraft:stick', ['#fractured:twigs'])
 })

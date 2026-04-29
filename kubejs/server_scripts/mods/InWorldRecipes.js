@@ -2,6 +2,9 @@
 
 ServerEvents.recipes(event => {
 
+  //Blue Ice
+  createInWorldConversion('minecraft:snow_block', "minecraft:packed_ice", false, 100, "javd:void")
+
   //Void Block
   createInWorldConversion('alltheores:steel_block', "fractured:void_block", false, 100, "javd:void")
 
@@ -10,6 +13,9 @@ ServerEvents.recipes(event => {
 
   //Void Infused Sandstone
   createInWorldConversion("minecraft:sandstone", "fractured:void_infused_sandstone", false, 100, "javd:void")
+
+  //Void Infused End Stone
+  createInWorldConversion("minecraft:end_stone", "fractured:infused_end_stone", false, 100, "javd:void")
 
   //In World Conversion Function
   function createInWorldConversion(blockToConvert, convertedBlock, popItem, duration, dimension) {
