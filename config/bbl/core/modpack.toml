@@ -13,7 +13,7 @@
 	#Modpack name
 	"Modpack name" = "Fractured"
 	#Modpack Version
-	"Modpack Version" = "B4.0"
+	"Modpack Version" = "B4.1"
 
 ["Check if the modpack has any updates available"]
 	#Check if the modpack has any updates available, default = false
