@@ -599,6 +599,96 @@
 		},
 		"cost": 5
 	},
+	"attack+0.5": {
+		"title": "+0.5 Attack (1 Points)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/iron_obtained.png",
+				"available": "fractured:textures/frames/iron_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+		"metadata": {
+			"icon": "0zv3pzlqonya2t0j"
+		}
+	},
+	"attack+1.0": {
+		"title": "+1.0 Attack (3 Points)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/gold_obtained.png",
+				"available": "fractured:textures/frames/gold_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 3,
+		"metadata": {
+			"icon": "zgsj4zmvzvyi6ov5"
+		}
+	},
+	"attack+1.5": {
+		"title": "+1.5 Attack (5 Points)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/diamond_obtained.png",
+				"available": "fractured:textures/frames/diamond_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 5,
+		"metadata": {
+			"icon": "le347g2nkwfbzr2m"
+		}
+	},
 	"tree_faller": {
 		"title": "Tree Capitator (10 Points)",
 		"frame": {

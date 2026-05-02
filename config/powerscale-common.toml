@@ -35,7 +35,7 @@ detailed_logging = false
 
 	[item.difficulty_meter]
 		#If set to true, the difficulty meter will display the exact difficulty value instead of a loose percentage
-		show_exact_value = false
+		show_exact_value = true
 
 		[item.attribute_boosters.change_amount]
 			#The amount that health booster tonics (or heart crystals when using simple attribute boosters) will increase health

@@ -6,6 +6,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'gaiadimension:purifier' })
   event.remove({ id: 'gaiadimension:keystone_block' })
 
+  //Te
+  event.shapeless('9x gaiadimension:black_residue', ['gaiadimension:tektite']).id('fractured:tektite_to_residue')
+
   //Titanium
   addRestructuringRecipe('fractured:impure_titanium', 'ltxi:titanium_nugget', 'ltxi:titanium_nugget')
   addRestructuringRecipe('fractured:pure_titanium', '2x ltxi:titanium_nugget', '2x ltxi:titanium_nugget')
@@ -39,7 +42,7 @@ ServerEvents.recipes(event => {
     event.custom({
       "type": "gaiadimension:purifying",
       "byproduct": Item.of(byproduct).toJson(),
-      "cookingtime": 200,
+      "cookingtime": 100,
       "experience": 0.1,
       "ingredient": Ingredient.of(input).toJson(),
       "result": Item.of(output).toJson()
@@ -51,7 +54,7 @@ ServerEvents.recipes(event => {
     event.custom({
       "type": "gaiadimension:restructuring",
       "byproduct": Item.of(byproduct).toJson(),
-      "cookingtime": 200,
+      "cookingtime": 40,
       "experience": 0.1,
       "ingredient": Ingredient.of(input).toJson(),
       "result": Item.of(output).toJson()

@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ltxi:heavy_pistol","components":{"ltxi:equipment_upgrades":{"ltxi:default/heavy_pistol":1},"ltxi:ammo":7}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:sulfur"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersiveengineering:cokebrick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"fractured:netherrack_rocks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"fractured:reinforced_binding"},"type":"item_stack","bookmarkType":"INGREDIENT"},

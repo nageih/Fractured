@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
   //Fuels
   event.recipes.casting.fuel('10x fractured:void_fuel', 1200, 100).id('fractured:fuel/void_fuel')
   event.recipes.casting.fuel('25x undergarden:virulent_mix_source', 1000, 200).id('fractured:fuel/virulent_mix_source')
+  event.recipes.casting.fuel('10x gaiadimension:superhot_magma_still', 1800, 80).id('fractured:fuel/superhot_magma_still')
 
   //Simple Mixer
   event.shaped('casting:mixer', ['AAA', 'BCB', 'AAA'], {
@@ -52,10 +53,10 @@ ServerEvents.recipes(event => {
   event.recipes.casting.melting('ltxi:titanium_block', '810x casting:molten_titanium', 1000).id('fractured:melting/titanium_block')
   event.recipes.casting.melting('ltxi:titanium_gear', '360x casting:molten_titanium', 1000).id('fractured:melting/titanium_gear')
 
-  event.recipes.casting.solidifier('ltxi:titanium_nugget', '10x casting:molten_titanium', 'ltxi:titanium_nugget').id('fractured:solidifier/titanium_nugget')
-  event.recipes.casting.solidifier('ltxi:titanium_ingot', '90x casting:molten_titanium', 'ltxi:titanium_ingot').id('fractured:solidifier/titanium_ingot')
-  event.recipes.casting.solidifier('ltxi:titanium_block', '810x casting:molten_titanium', 'ltxi:titanium_block').id('fractured:solidifier/titanium_block')
-  event.recipes.casting.solidifier('ltxi:titanium_gear', '360x casting:molten_titanium', 'ltxi:titanium_gear').id('fractured:solidifier/titanium_gear')
+  event.recipes.casting.solidifier('casting:nugget_mold', '10x casting:molten_titanium', 'ltxi:titanium_nugget').id('fractured:solidifier/titanium_nugget')
+  event.recipes.casting.solidifier('casting:ingot_mold', '90x casting:molten_titanium', 'ltxi:titanium_ingot').id('fractured:solidifier/titanium_ingot')
+  event.recipes.casting.solidifier('casting:block_mold', '810x casting:molten_titanium', 'ltxi:titanium_block').id('fractured:solidifier/titanium_block')
+  event.recipes.casting.solidifier('casting:gear_mold', '360x casting:molten_titanium', 'ltxi:titanium_gear').id('fractured:solidifier/titanium_gear')
 
   //Grout Melting
   event.recipes.casting.melting('fractured:grout_dust', '250x casting:molten_black_brick', 1000).id('fractured:melting/grout_dust')

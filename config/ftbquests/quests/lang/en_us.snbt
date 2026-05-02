@@ -227,7 +227,7 @@
 	quest.21B208B0E0AF3354.quest_desc: ["An &lImporter&r can be connected to an &lExporter&r using the &lConnector&r"]
 	quest.21D13EF5C1AC11E8.quest_desc: ["After placing &#8B4513&lTreated Planks&r&r in &0&lThe Void&r&r it will become infused and transform into &0&lVoid Planks&r&r"]
 	quest.21F08F82EA034C58.quest_desc: [
-		"The &6&lMetal Finder&r&r can be used to help find metal ores like &#FF681F&lCopper&r&r, &lTin&r and more."
+		"The &6&lMetal Finder&r&r can be used to help find metal ores like &#8B4513&lCloggrum&r,&r &9&lFroststeel&r&r and &l&4Utheric&r&r Ore"
 		""
 		"The finder will point in the direction if it detects ore, will also show if the ore is above or below you"
 	]
@@ -325,7 +325,7 @@
 	quest.302185C254A81930.quest_desc: [
 		"&lWhite Opal Ore&r"
 		""
-		"&lIndication&r: Primal Mass "
+		"&lIndication&r: Primal Mass on the Surface"
 		"&lDimension:&r Gaia"
 		"&lBiomes:&r All"
 	]
@@ -370,7 +370,7 @@
 	quest.392E6E0C5A3E48C5.quest_desc: [
 		"&lBlue Opal Ore&r"
 		""
-		"&lIndication&r: Primal Mass "
+		"&lIndication&r: Primal Mass on the Surface"
 		"&lDimension:&r Gaia"
 		"&lBiomes:&r All"
 	]
@@ -466,7 +466,7 @@
 	quest.486A68FCF7F4E791.quest_desc: [
 		"&lGreen Opal Ore&r"
 		""
-		"&lIndication&r: Primal Mass "
+		"&lIndication&r: Primal Mass on the Surface"
 		"&lDimension:&r Gaia"
 		"&lBiomes:&r All"
 	]
@@ -496,7 +496,7 @@
 	quest.4D9D0F0C2F41312D.quest_desc: [
 		"&lRed Opal Ore&r"
 		""
-		"&lIndication&r: Primal Mass "
+		"&lIndication&r: Primal Mass on the Surface"
 		"&lDimension:&r Gaia"
 		"&lBiomes:&r All"
 	]
@@ -620,7 +620,7 @@
 	quest.62CBCEEA70E792A5.quest_desc: ["[ \"Drops from \", { \"text\": \"Scorched Ore\", \"bold\": true, \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9C19B2677B34EE\" } } ]"]
 	quest.62DE41B4D9F07102.quest_desc: ["Allows you to craft &lCircuits&r"]
 	quest.62FFBF777A339BC7.quest_desc: ["Another plate"]
-	quest.631673700DFBD026.quest_desc: ["Made with the &7&lAtomic Reconstructor&r&r from various types of &0&lCoal&r&r"]
+	quest.631673700DFBD026.quest_desc: ["Made with the &7&lAtomic Reconstructor&r&r from &0&lPetcoke&r&r"]
 	quest.63742CD0E21CB0D7.quest_desc: ["&e&lWheat&r&r can be grown on &l&#8B4513Farmland&r&r from &e&lWheat Seeds&r&r"]
 	quest.63C305D56960EAE4.quest_desc: [
 		"Can be used to break &2&lLeaves&r&r quickly and increase the amount of &2&lSaplings&r&r they drop."

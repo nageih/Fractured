@@ -275,6 +275,7 @@ ServerEvents.recipes(event => {
 
   //Iron Ingot
   addSqueezerRecipe('minecraft:iron_ingot', '125x undergarden:virulent_mix_source', 4000, 'undergarden:cloggrum_ingot')
+  addSqueezerRecipe('minecraft:iron_block', '1125x undergarden:virulent_mix_source', 4000, 'undergarden:cloggrum_block')
 
   //Steel
   addBlastFurnaceRecipe('alltheores:steel_ingot', 'undergarden:froststeel_ingot', 20 * 10)
@@ -286,7 +287,7 @@ ServerEvents.recipes(event => {
   addBlastFurnaceRecipe('undergarden:cloggrum_ingot', 'undergarden:raw_cloggrum', 20 * 10)
   addBlastFurnaceRecipe('undergarden:cloggrum_block', 'undergarden:raw_cloggrum_block', 20 * 10 * 9)
   addBlastFurnaceRecipe('undergarden:froststeel_ingot', 'undergarden:raw_froststeel', 20 * 10)
-  addBlastFurnaceRecipe('undergarden:froststeel_block', 'undergarden:raw_froststeel_block', 20 * 10)
+  addBlastFurnaceRecipe('undergarden:froststeel_block', 'undergarden:raw_froststeel_block', 20 * 10 * 9)
 
   //Metallic Dust
   addBlastFurnaceRecipe('fractured:metallic_dust', 'alltheores:bronze_ingot', 20 * 10)

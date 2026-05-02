@@ -99,6 +99,7 @@ fractured:purple_stone
 fractured:red_stone
 fractured:white_stone
 fractured:yellow_stone
+friendsandfoes:buttercup_patch
 gaiadimension:aura_crystal_growth
 gaiadimension:aura_shoots
 gaiadimension:aura_tree

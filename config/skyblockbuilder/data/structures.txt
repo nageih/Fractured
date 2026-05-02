@@ -9,6 +9,10 @@ fractured:ruined_portal_ocean
 fractured:ruined_portal_swamp
 fractured:stronghold
 fractured:village_desert
+friendsandfoes:citadel
+friendsandfoes:iceologer_cabin
+friendsandfoes:illusioner_shack
+friendsandfoes:illusioner_training_grounds
 gaiadimension:malachite_watchtower
 gaiadimension:mini_tower
 minecraft:ancient_city
