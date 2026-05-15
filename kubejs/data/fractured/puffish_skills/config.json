@@ -1,11 +1,7 @@
 {
 	"version": 3,
-
 	"categories": [
-	
-		
-		
-		"ultimine",
-		"player"
+		"player",
+		"ultimine"
 	]
 }

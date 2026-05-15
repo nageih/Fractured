@@ -892,29 +892,7 @@
 				item: { count: 1, id: "minecraft:fire_charge" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"7617A48BE6CA31EF"
-				"27DF225809F2C58F"
-			]
-			id: "1FB057EAECA4C794"
-			rewards: [{
-				id: "05B07EECE23647A1"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A53C5495E051FA8"
-				item: { count: 1, id: "mob_repellent:wooden_brazier" }
-				type: "item"
-			}]
-			x: 15.0d
+			x: 7.5d
 			y: 2.0d
 		}
 		{

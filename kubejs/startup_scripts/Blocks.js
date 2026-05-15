@@ -7,6 +7,7 @@ StartupEvents.registry('block', event => {
     .hardness(1.3)
     .tagBlock('minecraft:mineable/pickaxe')
     .soundType('metal')
+    .requiresTool(true)
     .fullBlock(true);
 
   //Void Planks
@@ -21,6 +22,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Light Fused Stone
@@ -28,6 +30,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Void Infused Sandstone
@@ -35,6 +38,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Void Infused Sandstone
@@ -42,6 +46,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Fractured Desert
@@ -49,6 +54,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Undergarden Portal Frame
@@ -56,6 +62,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Nether Portal Frame
@@ -63,6 +70,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //End Portal Frame
@@ -70,6 +78,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Overworld Portal Frame
@@ -77,6 +86,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .fullBlock(true);
 
   //Scorching Ore
@@ -84,6 +94,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock(['minecraft:mineable/pickaxe', 'minecraft:needs_stone_tool'])
     .stoneSoundType()
+    .requiresTool(true)
     .tagBoth(['c:ores/scorching', 'c:ores'])
     .fullBlock(true);
 
@@ -92,6 +103,7 @@ StartupEvents.registry('block', event => {
     .hardness(0.8)
     .tagBlock('minecraft:mineable/pickaxe')
     .stoneSoundType()
+    .requiresTool(true)
     .tagBoth(['c:ores/certus_quartz', 'c:ores'])
     .fullBlock(true);
       

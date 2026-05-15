@@ -9,7 +9,13 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'actuallyadditions:laser/crystalize_void_crystal_block' })
   event.remove({ id: 'actuallyadditions:rice_paper' })
   event.remove({ id: 'actuallyadditions:tiny_torch' })
+  event.remove({ id: 'actuallyadditions:rice_dough_smelting' })
   
+  //AE2
+  event.recipes.actuallyadditions.crushing("ae2:fluix_dust", "ae2:fluix_crystal").id('fractured:aa/crusher/fluix_dust')
+  event.recipes.actuallyadditions.crushing("ae2:certus_quartz_dust", "ae2:certus_quartz_crystal").id('fractured:aa/crusher/certus_quartz_dust')
+  event.recipes.actuallyadditions.crushing("ae2:sky_dust", "ae2:sky_stone_block").id('fractured:aa/crusher/sky_dust')
+
   //Tiny Torch
   event.shaped('2x actuallyadditions:tiny_torch', ['A', 'B'], {
     A: 'opolisutilities:mini_coal',

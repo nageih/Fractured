@@ -716,5 +716,125 @@
 			"icon": "y0m5a4e2agzzn532"
 		},
 		"cost": 10
+	},
+	"consuming+0.1": {
+		"title": "+0.1 Consuming (1 Point)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/iron_obtained.png",
+				"available": "fractured:textures/frames/iron_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:consuming_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "y0m5a4e2agzzn532"
+		},
+		"cost": 1
+	},
+	"critchance+0.01": {
+		"title": "+0.01 Critical Hit Chance (1 Point)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/iron_obtained.png",
+				"available": "fractured:textures/frames/iron_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "y0m5a4e2agzzn532"
+		},
+		"cost": 1
+	},
+	"critdamage+0.02": {
+		"title": "+0.02 Critical Hit Damage (3 Point)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/gold_obtained.png",
+				"available": "fractured:textures/frames/gold_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "y0m5a4e2agzzn532"
+		},
+		"cost": 3
+	},
+	"critdamage+0.04": {
+		"title": "+0.04 Critical Hit Damage (5 Point)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "fractured:textures/frames/diamond_obtained.png",
+				"available": "fractured:textures/frames/diamond_unobtained.png"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "y0m5a4e2agzzn532"
+		},
+		"cost": 5
 	}
 }

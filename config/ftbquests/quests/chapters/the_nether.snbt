@@ -308,8 +308,8 @@
 				item: { count: 1, id: "ltxi:titanium_glass" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -330,7 +330,7 @@
 				item: { count: 1, id: "ltxi:electrocentrifuge" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 7.0d
 		}
 		{
@@ -542,6 +542,7 @@
 			dependencies: [
 				"332CB14725979954"
 				"1978C0A1FE18504C"
+				"2D36D8128832B70D"
 			]
 			id: "06E82AD5B86D8A7F"
 			rewards: [{
@@ -1064,6 +1065,25 @@
 			}]
 			x: 16.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["332CB14725979954"]
+			id: "2CBE3AE43EA28194"
+			rewards: [{
+				id: "51D715F0D186BC16"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF50A51919A031B"
+				item: { count: 1, id: "ltxi:empty_upgrade_module" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
 		}
 	]
 }

@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"immersivepetroleum:crudeoil"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersivepetroleum:kerosene"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersivepetroleum:bitumen"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -649,8 +649,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0A19B699A2C1109D"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer_1x1)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "0526B82B75C37B98"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 14.5d
@@ -874,6 +874,72 @@
 			}]
 			x: -6.5d
 			y: -6.5d
+		}
+		{
+			dependencies: [
+				"12B0E741F9AA57B0"
+				"2ED575C7F52113CF"
+			]
+			id: "51D762448274C031"
+			rewards: [{
+				id: "35824C1F5D8BF585"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1049F32EFC3DBAE0"
+				item: { count: 1, id: "enderstorage:ender_chest" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2DC95FFEDAB612B1"]
+			id: "71F92CE39747A014"
+			rewards: [{
+				id: "298FC657C07F3C54"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0373F7257D2A4B15"
+				item: { count: 1, id: "undergarden:forgotten_pickaxe" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71F92CE39747A014"]
+			id: "2ED575C7F52113CF"
+			tasks: [{
+				id: "2C5E47E68641827C"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"12B0E741F9AA57B0"
+				"2ED575C7F52113CF"
+			]
+			id: "099D068DD7DDF318"
+			tasks: [{
+				id: "76B0E0C970DE985F"
+				item: { count: 1, id: "enderstorage:ender_tank" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
 		}
 	]
 }

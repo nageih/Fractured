@@ -91,6 +91,8 @@ LootJS.modifiers(event => {
 
   event.addEntityModifier('minecraft:drowned').removeLoot('minecraft:copper_ingot')
   event.addEntityModifier('minecraft:zombie').removeLoot('minecraft:iron_ingot')
+  event.addEntityModifier('minecraft:zombie_villager').removeLoot('minecraft:iron_ingot')
+  event.addEntityModifier('minecraft:husk').removeLoot('minecraft:iron_ingot')
   event.addEntityModifier('minecraft:pillager').removeLoot('minecraft:emerald')
   event.addEntityModifier('minecraft:vindicator').removeLoot('minecraft:emerald')
 

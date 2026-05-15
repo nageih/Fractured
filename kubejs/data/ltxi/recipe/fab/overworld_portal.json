@@ -1,14 +1,38 @@
 {
   "type": "ltxi:fabricating",
-  "energy_required": 2500000,
+  "energy_required": 50000000,
   "ingredients": [
     {
-      "count": 32,
+      "count": 64,
       "item": "minecraft:grass_block"
     },
     {
-      "count": 32,
+      "count": 64,
       "item": "minecraft:dirt"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:stone"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:gravel"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:deepslate"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:sand"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:snow_block"
+    },
+    {
+      "count": 64,
+      "tag": "minecraft:logs"
     },
     {
       "count": 2,
@@ -32,7 +56,7 @@
     }
   ],
   "result": {
-    "count": 1,
+    "count": 10,
     "id": "fractured:overworld_portal_frame"
   }
 }

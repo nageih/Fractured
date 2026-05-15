@@ -1,6 +1,6 @@
 {
   "type": "ltxi:fabricating",
-  "energy_required": 2500000,
+  "energy_required": 50000000,
   "ingredients": [
     {
       "count": 1,

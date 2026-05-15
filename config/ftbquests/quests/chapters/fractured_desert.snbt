@@ -541,6 +541,7 @@
 			tasks: [{
 				id: "26AB20DDDC644993"
 				item: { components: { "immersiveengineering:blueprint": "bullet" }, count: 1, id: "immersiveengineering:blueprint" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 6.0d
@@ -903,7 +904,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -12.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0C721EC44FCA6FDA"]
@@ -940,8 +941,8 @@
 				item: { count: 1, id: "routers:rf_upgrade_1" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -12.0d
+			x: 19.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["4193F2B5376B8AA7"]
@@ -1057,6 +1058,25 @@
 			}]
 			x: -3.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["69BB5D5E51D7E1B7"]
+			id: "3E86538DC1DD213A"
+			rewards: [{
+				id: "298D62B23E743ADC"
+				item: {
+					count: 1
+					id: "shops:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF75D87830E77D5"
+				item: { count: 1, id: "enderrf:ender_battery" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -12.5d
 		}
 	]
 }

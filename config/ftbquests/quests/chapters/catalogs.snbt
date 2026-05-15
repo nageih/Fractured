@@ -210,8 +210,8 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"05CC0E75356103F3"
 				"39FE25094F4E6455"
+				"332CB14725979954"
 			]
 			icon: {
 				id: "fractured:nether_catalog"

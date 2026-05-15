@@ -447,6 +447,7 @@
 		}
 		{
 			dependencies: ["19C6F2DB3B517D91"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:end_stone"
 			}
@@ -463,30 +464,49 @@
 			dependencies: ["4670AA7F41BF13B2"]
 			id: "74B90EAE37174516"
 			tasks: [{
-				id: "521E86DB3CADFD87"
-				item: { count: 1, id: "ltxi:niobium_ore" }
-				type: "item"
+				icon: {
+					id: "ltxi:niobium_ore"
+				}
+				id: "3B1A51E271D06EC0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ltxi:niobium_ore"
+				type: "observation"
 			}]
 			x: -15.5d
 			y: -12.5d
 		}
 		{
+			dependencies: ["4670AA7F41BF13B2"]
 			id: "07CC92C56487C17A"
 			tasks: [{
-				id: "3A899B1FFDD6ADB7"
-				type: "checkmark"
+				icon: {
+					id: "alltheores:end_uranium_ore"
+				}
+				id: "5F46EE5E5A2F76EB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alltheores:end_uranium_ore"
+				type: "observation"
 			}]
-			x: -9.0d
-			y: -9.0d
+			x: -16.0d
+			y: -10.5d
 		}
 		{
+			dependencies: ["4670AA7F41BF13B2"]
 			id: "4885CF4B9E878C89"
 			tasks: [{
-				id: "493D465BAB380F33"
-				type: "checkmark"
+				icon: {
+					id: "alltheores:end_lead_ore"
+				}
+				id: "262CD0F2BA6E1702"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alltheores:end_lead_ore"
+				type: "observation"
 			}]
-			x: -19.5d
-			y: -12.5d
+			x: -18.5d
+			y: -12.0d
 		}
 	]
 }

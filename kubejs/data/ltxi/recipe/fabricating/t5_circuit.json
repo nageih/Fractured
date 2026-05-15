@@ -1,6 +1,6 @@
 {
   "type": "ltxi:fabricating",
-  "energy_required": 100000000,
+  "energy_required": 40000000,
   "group": "circuits",
   "ingredients": [
     {
@@ -28,7 +28,7 @@
       "item": "ltxi:niobium_ingot"
     },
     {
-      "count": 48,
+      "count": 32,
       "item": "minecraft:redstone"
     },
     {

@@ -7,7 +7,9 @@
     { "stack": { "id": "gaiadimension:blue_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
     { "stack": { "id": "gaiadimension:red_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
     { "stack": { "id": "gaiadimension:white_opal_ore", "count": 16 }, "price": 14, "mode": "player_buys" },
-    { "stack": { "id": "gaiadimension:corrupt_warrior_sword", "count": 1 }, "price": 50, "mode": "player_buys" },
+    { "stack": { "id": "gaiadimension:corrupt_warrior_sword", "count": 1 }, "price": 100, "mode": "player_buys" },
+    { "stack": { "id": "gaiadimension:gaia_champion_sword", "count": 1 }, "price": 100, "mode": "player_buys" },
+    { "stack": { "id": "ae2:sky_stone_block", "count": 32 }, "price": 8, "mode": "player_buys" },
     
     { "stack": { "id": "gaiadimension:aura_residue", "count": 64 }, "price": 1, "mode": "player_sells" },
     { "stack": { "id": "gaiadimension:bismuth_residue", "count": 64 }, "price": 1, "mode": "player_sells" }

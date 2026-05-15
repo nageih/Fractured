@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
   event.remove({input: '#alltheores:ore_hammers', output: '#c:ingots'})
   event.remove({input: '#alltheores:ore_hammers', output: '#c:plates'})
   event.remove({id: 'alltheores:crafting/hammer/netherite/scrap_from_debris'})
+  event.remove({id: 'alltheores:arcfurnace/steel/ingot'})
 
 
 })

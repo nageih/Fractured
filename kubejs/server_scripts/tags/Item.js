@@ -8,6 +8,13 @@ ServerEvents.tags("item", event => {
     event.add('c:molds/rod', 'immersiveengineering:mold_rod')
     event.add('c:molds/wire', 'immersiveengineering:mold_wire')
     event.add('c:molds/bullet', 'immersiveengineering:mold_bullet_casing')
+    event.add('casting:molds', [
+        'immersiveengineering:mold_plate',
+        'immersiveengineering:mold_gear',
+        'immersiveengineering:mold_rod',
+        'immersiveengineering:mold_wire',
+        'immersiveengineering:mold_bullet_casing'
+    ])
 
     //Twigs
     event.add('fractured:twigs', ['projectvibrantjourneys:birch_twigs', 'projectvibrantjourneys:twigs'])

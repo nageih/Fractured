@@ -42,6 +42,26 @@ ServerEvents.recipes(event => {
   })
   */
  
+  //Charged Certus Quartz
+  event.custom({
+    "type": "inworldrecipes:lightning_crafting",
+    "dropped_item":
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "count": 1
+
+    },
+    "results": [
+      {
+        "item": {
+          "count": 1,
+          "id": "ae2:charged_certus_quartz_crystal"
+        }
+      }
+    ]
+  }).id('fractured:lightning_crafting/charged_certus_quartz_crystal')
+
+ 
   //Glowstone Dust
   event.custom({
     "type": "inworldrecipes:lightning_crafting",

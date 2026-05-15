@@ -13,6 +13,9 @@
 	quests: [
 		{
 			dependencies: ["442D87AC4B7041CB"]
+			icon: {
+				id: "immersivepetroleum:distillation_tower"
+			}
 			icon_scale: 6.0d
 			id: "53B955CB408CDA10"
 			rewards: [{

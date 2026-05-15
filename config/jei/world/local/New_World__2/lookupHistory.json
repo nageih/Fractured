@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ltxi:circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:t4_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:t5_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:t3_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ltxi:t2_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

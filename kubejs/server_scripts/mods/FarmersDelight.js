@@ -67,6 +67,9 @@ ServerEvents.recipes(event => {
   //Mossy 
   cuttingWithPickaxe('2x projectvibrantjourneys:mossy_rocks', 'minecraft:mossy_cobblestone')
 
+  //Black Bricks
+  cuttingWithPickaxe('4x casting:black_brick', 'casting:black_bricks')
+
   //Cutting Recipe Function
   function cutting(output, input, tool) {
     event.custom({

@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
   //Void Bucket
   event.shaped('fractured:void_bucket', ['ABA', ' A '], { 
     A: 'fractured:void_planks',
-    B: '#c:buckets'
+    B: 'minecraft:bucket'
   }).id('fractured:void_bucket')
 
   //Void Chest

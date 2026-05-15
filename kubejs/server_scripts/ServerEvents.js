@@ -18,9 +18,9 @@ PlayerEvents.tick(event => {
     let player = event.player
     let server = event.server
 
-    if (player.y > 301 && player.y < 310 && player.tags.contains('given_ship')) {
-        player.tags.remove('given_ship')
-    }
+    //if (player.y > 301 && player.y < 310 && player.tags.contains('given_ship')) {
+    //    player.tags.remove('given_ship')
+    //}
          
 
     if (player.y < 300 && player.y > 290 && !player.tags.contains('given_ship') && !player.isCreative() && !player.isSpectator()) {
@@ -55,14 +55,20 @@ PlayerEvents.tick(event => {
             )
         })
 
-
-
         server.scheduleInTicks(80, () => {
             player.tell(`Start the engine (Hold Forward)`)
         })
 
 
         player.tags.add('given_ship')
+    }
+})
+
+PlayerEvents.respawned(event => {
+    let player = event.player
+
+    if (player.tags.contains('given_ship')) {
+        player.tags.remove('given_ship')
     }
 })
 

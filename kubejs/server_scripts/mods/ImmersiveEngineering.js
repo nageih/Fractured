@@ -43,6 +43,30 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'immersiveengineering:crafting/coil_hv' }, 'minecraft:iron_ingot', 'actuallyadditions:void_crystal_block')
   event.replaceInput({ id: 'immersiveengineering:crafting/capacitor_lv' }, 'immersiveengineering:plate_lead', '#c:plates/iron' )
   
+  //Fluix Dust
+  event.recipes.immersiveengineering.crusher(
+      TagOutputJS.ofItemStack("ae2:fluix_dust"),
+      "ae2:fluix_crystal",
+      1000,
+      []
+  ).id('fractured:crusher/fluix_dust')
+  
+  //Certus Dust
+  event.recipes.immersiveengineering.crusher(
+      TagOutputJS.ofItemStack("ae2:certus_quartz_dust"),
+      "ae2:certus_quartz_crystal",
+      1000,
+      []
+  ).id('fractured:crusher/certus_quartz_dust')
+  
+  //Sky Stone Dust
+  event.recipes.immersiveengineering.crusher(
+      TagOutputJS.ofItemStack("ae2:sky_dust"),
+      "ae2:sky_stone_block",
+      1000,
+      []
+  ).id('fractured:crusher/sky_dust')
+
   //Hammer
   event.shaped('immersiveengineering:hammer[unbreakable={},damage=1]', [' AB', ' CA', 'C  '], {
     A: '#c:ingots/copper',
