@@ -10,6 +10,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'actuallyadditions:rice_paper' })
   event.remove({ id: 'actuallyadditions:tiny_torch' })
   event.remove({ id: 'actuallyadditions:rice_dough_smelting' })
+  event.remove({ id: 'actuallyadditions:crushing/diamond_horse_armor' })
+  event.remove({ id: 'actuallyadditions:crushing/iron_horse_armor' })
+  event.remove({ id: 'actuallyadditions:crushing/gold_horse_armor' })
   
   //AE2
   event.recipes.actuallyadditions.crushing("ae2:fluix_dust", "ae2:fluix_crystal").id('fractured:aa/crusher/fluix_dust')

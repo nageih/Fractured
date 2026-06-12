@@ -14,6 +14,8 @@
   "balm:jade": null,
   "dimstorage:dim_block_base": null,
   "dimstorage:dim_tank": null,
+  "framedblocks:framed_block_generic": null,
+  "framedblocks:framed_item_frame": null,
   "ftbquests:barrier": null,
   "functionalstorage:armory": null,
   "functionalstorage:drawer": null,

@@ -32,7 +32,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["54AE70099F87ED5F"]
+			dependencies: [
+				"54AE70099F87ED5F"
+				"12571F322C143731"
+			]
+			dependency_requirement: "one_completed"
 			id: "2FB32CECCE3E1A3F"
 			rewards: [{
 				id: "3753038906EA17B2"
@@ -47,8 +51,8 @@
 				structure: "gaiadimension:malachite_watchtower"
 				type: "structure"
 			}]
-			x: 2.5d
-			y: -7.5d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			id: "116E654229D0BA5F"
@@ -997,10 +1001,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"12571F322C143731"
-				"600B5859D960C6B6"
-			]
+			dependencies: ["600B5859D960C6B6"]
 			id: "54AE70099F87ED5F"
 			optional: true
 			rewards: [{
@@ -1017,7 +1018,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2863B7E6B497FBFC"]

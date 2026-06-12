@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
   event.shaped('fractured:gaia_catalyst', ['ABA', 'BCB', 'ABA'], { 
     A: 'minecraft:iron_block',
     B: 'minecraft:redstone_block',
-    C: 'minecraft:glowstone'
+    C: 'fractured:lightning_charge'
   }).id('fractured:gaia_catalyst')
 
   //Wheat Flour

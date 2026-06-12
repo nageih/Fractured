@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:comparator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"thirst:purity":2,"minecraft:potion_contents":{"potion":"minecraft:water"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fractured:gaia_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

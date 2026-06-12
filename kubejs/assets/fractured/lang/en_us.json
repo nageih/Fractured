@@ -21,5 +21,12 @@
     "block.gaiadimension.superhot_magma": "Superhot Magma",
     "block.gaiadimension.liquid_aura": "Liquid Aura",
 
+    "dimension.fractured.desert": "Fractured Desert",
+    "dimension.fractured.dark_colored_caves": "Dark Colored Caves",
+    "dimension.fractured.light_colored_caves": "Light Colored Caves",
+    "dimension.gaiadimension.gaia_dimension": "Gaia Dimension",
+    "dimension.javd.void": "Void",
+
+
     "advancements.friendsandfoes.husbandry.wax_off.title": "Wax Off"
 }

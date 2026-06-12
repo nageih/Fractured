@@ -7,3 +7,5 @@
 	# Default: 32
 	# Range: 1 ~ 1200
 	maxBackoffTicks = 32
+	#Whether the mod is enabled.
+	enabled = true
