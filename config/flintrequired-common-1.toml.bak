@@ -1,0 +1,50 @@
+#Set true to drop flint tools down to the wooden tier instead of stone
+wooden-tier = true
+#Durability (uses) for the flint knife
+# Default: 26
+# Range: > 1
+flint-knife-durability = 26
+#Durability (uses) for the flint pickaxe
+# Default: 65
+# Range: > 1
+flint-pickaxe-durability = 65
+#Durability (uses) for the flint shovel
+# Default: 40
+# Range: > 1
+flint-shovel-durability = 40
+#Durability (uses) for the flint hoe
+# Default: 35
+# Range: > 1
+flint-hoe-durability = 35
+#Durability (uses) for the flint axe
+# Default: 50
+# Range: > 1
+flint-axe-durability = 50
+#Attack damage bonus for the flint knife (integer)
+# Default: 3
+# Range: > -2147483648
+flint-knife-damage = 3
+#Attack damage bonus for the flint pickaxe (integer)
+# Default: 1
+# Range: > -2147483648
+flint-pickaxe-damage = 1
+#Attack damage bonus for the flint shovel (float)
+# Default: 1.5
+# Range: -Infinity ~ Infinity
+flint-shovel-damage = 1.5
+#Attack damage bonus for the flint hoe (integer)
+# Default: 0
+# Range: > -2147483648
+flint-hoe-damage = 0
+#Attack damage bonus for the flint axe (float)
+# Default: 4.0
+# Range: -Infinity ~ Infinity
+flint-axe-damage = 4.0
+#Durability for the crude brush
+# Default: 10
+# Range: > 1
+crude-brush-durability = 10
+#Durability for the crude bow
+# Default: 135
+# Range: > 1
+crude-bow-durability = 135

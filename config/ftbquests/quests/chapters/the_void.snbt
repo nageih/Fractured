@@ -124,6 +124,7 @@
 					id: "immersiveengineering:fermenter"
 				}
 				id: "7334971FC0DECE97"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:fermenter"
@@ -168,6 +169,7 @@
 					id: "immersiveengineering:crusher"
 				}
 				id: "578EA439B83D9E63"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:crusher"
@@ -484,6 +486,7 @@
 					id: "immersiveengineering:mixer"
 				}
 				id: "7CCCB53780475D1C"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:mixer"
@@ -867,6 +870,7 @@
 					id: "immersiveengineering:assembler"
 				}
 				id: "33E7689A814E7EFD"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:assembler"

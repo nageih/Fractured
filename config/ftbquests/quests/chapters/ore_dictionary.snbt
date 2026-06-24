@@ -22,6 +22,7 @@
 					id: "minecraft:coal_ore"
 				}
 				id: "07784DA776E08879"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:coal_ore"
@@ -38,6 +39,7 @@
 					id: "alltheores:tin_ore"
 				}
 				id: "69B06E281546397C"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "alltheores:tin_ore"
@@ -54,6 +56,7 @@
 					id: "minecraft:copper_ore"
 				}
 				id: "1F4C5931E242DF66"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:copper_ore"
@@ -70,6 +73,7 @@
 					id: "fractured:scorching_ore"
 				}
 				id: "128AE77AABFAEF02"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "fractured:scorching_ore"
@@ -86,6 +90,7 @@
 					id: "undergarden:depthrock_cloggrum_ore"
 				}
 				id: "6A187A35442E1E10"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "undergarden:depthrock_cloggrum_ore"
@@ -102,6 +107,7 @@
 					id: "undergarden:shiverstone_froststeel_ore"
 				}
 				id: "5079B0C4E7352CED"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "undergarden:shiverstone_froststeel_ore"
@@ -118,6 +124,7 @@
 					id: "minecraft:gold_ore"
 				}
 				id: "001D4835F69B70BA"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:gold_ore"
@@ -134,6 +141,7 @@
 					id: "alltheores:silver_ore"
 				}
 				id: "4B93C2588B245842"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "alltheores:silver_ore"
@@ -269,6 +277,7 @@
 					id: "gaiadimension:white_opal_ore"
 				}
 				id: "4A6D84EE8237304D"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "gaiadimension:white_opal_ore"
@@ -288,6 +297,7 @@
 					id: "gaiadimension:blue_opal_ore"
 				}
 				id: "6D1F5088FBD5CE5F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "gaiadimension:blue_opal_ore"
@@ -304,6 +314,7 @@
 					id: "gaiadimension:red_opal_ore"
 				}
 				id: "53C5D6374A204502"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "gaiadimension:white_opal_ore"
@@ -323,6 +334,7 @@
 					id: "gaiadimension:green_opal_ore"
 				}
 				id: "1A506D1233C28998"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "gaiadimension:green_opal_ore"
@@ -339,6 +351,7 @@
 					id: "undergarden:depthrock_utherium_ore"
 				}
 				id: "0D42A3FCCFB419BE"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "undergarden:depthrock_utherium_ore"
@@ -355,6 +368,7 @@
 					id: "alltheores:nickel_ore"
 				}
 				id: "6B0E2666633FD9E5"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "alltheores:nickel_ore"
@@ -371,6 +385,7 @@
 					id: "minecraft:amethyst_cluster"
 				}
 				id: "4E2B6822F28715C8"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:amethyst_cluster"
@@ -402,6 +417,7 @@
 					id: "ltxi:titanium_ore"
 				}
 				id: "27EB98947AA17149"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ltxi:titanium_ore"
@@ -418,6 +434,7 @@
 					id: "minecraft:ancient_debris"
 				}
 				id: "4CC0A4649FB623E1"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:ancient_debris"
@@ -437,6 +454,7 @@
 					id: "fractured:certus_quartz_ore"
 				}
 				id: "1CB2DD889A76F4F7"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "fractured:certus_quartz_ore"
@@ -468,6 +486,7 @@
 					id: "ltxi:niobium_ore"
 				}
 				id: "3B1A51E271D06EC0"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ltxi:niobium_ore"
@@ -484,6 +503,7 @@
 					id: "alltheores:end_uranium_ore"
 				}
 				id: "5F46EE5E5A2F76EB"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "alltheores:end_uranium_ore"
@@ -500,6 +520,7 @@
 					id: "alltheores:end_lead_ore"
 				}
 				id: "262CD0F2BA6E1702"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "alltheores:end_lead_ore"

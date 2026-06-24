@@ -32,6 +32,7 @@
 					id: "immersivepetroleum:distillation_tower"
 				}
 				id: "3B8E5A535C52FD9A"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersivepetroleum:distillation_tower"
@@ -97,6 +98,7 @@
 					id: "immersivepetroleum:coker_unit"
 				}
 				id: "54B9E7076B51BD2B"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersivepetroleum:coker_unit"
@@ -179,6 +181,7 @@
 					id: "immersivepetroleum:hydrotreater"
 				}
 				id: "2D833ADA11EE7F74"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersivepetroleum:hydrotreater"
@@ -242,6 +245,7 @@
 					id: "immersiveengineering:arc_furnace"
 				}
 				id: "3C3131FB56491FFE"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:arc_furnace"
@@ -422,6 +426,7 @@
 					id: "immersiveengineering:excavator"
 				}
 				id: "6EBD991C2BC7DD27"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:excavator"
@@ -566,6 +571,7 @@
 					id: "immersiveengineering:lightning_rod"
 				}
 				id: "3FFDF65406D04C5F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:lightning_rod"

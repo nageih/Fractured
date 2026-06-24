@@ -44,6 +44,9 @@ ServerEvents.recipes(event => {
     B: '#minecraft:wooden_pressure_plates' 
   }).id('fractured:plate_mold')
   
+  //Ender Dust
+  event.recipes.casting.solidifier('casting:dust_mold', '250x casting:molten_ender', 'ae2:ender_dust').id('fractured:solidifier/ender_dust')
+
   //Empty Casing
   event.recipes.casting.solidifier('#c:molds/bullet', '45x casting:molten_constantan', 'immersiveengineering:empty_casing').id('fractured:solidifier/empty_casing')
 

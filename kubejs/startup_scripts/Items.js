@@ -11,7 +11,7 @@ StartupEvents.registry('item', event => {
     )
     event.create('fractured:survivalist_compound')
     event.create('fractured:pestle')
-    event.create('fractured:mortar_and_pestle')
+    event.create('fractured:mortar_and_pestle').maxStackSize(1)
     event.create('fractured:dried_leaves')
     event.create('fractured:grout_dust')
     event.create('fractured:metallic_dust')
@@ -48,7 +48,7 @@ StartupEvents.registry('item', event => {
 
     //Tool Binding
     event.create('fractured:leafy_binding').tag('fractured:bindings').tooltip('A binding made of leaves. Gives Unbreaking I to your tools.')
-    event.create('fractured:reinforced_binding').tag('fractured:bindings').tooltip('A binding reinforced with metal. Gives Unbreaking II to your tools.')
+    event.create('fractured:reinforced_binding').tag('fractured:bindings').tooltip('A binding reinforced with string. Gives Unbreaking II to your tools.')
     event.create('fractured:steel_binding').tag('fractured:bindings').tooltip('A binding reinforced with steel. Gives Unbreaking III to your tools.')
     event.create('fractured:diamond_binding').tag('fractured:bindings').tooltip('A binding reinforced with diamond. Gives Unbreaking IV to your tools.')
     event.create('fractured:netherite_binding').tag('fractured:bindings').tooltip('A binding made of netherite. Gives Unbreaking V to your tools.')

@@ -818,6 +818,7 @@
 					id: "immersiveengineering:auto_workbench"
 				}
 				id: "602F5222F0246EAF"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:auto_workbench"
@@ -848,6 +849,7 @@
 					id: "immersiveengineering:squeezer"
 				}
 				id: "0E0B0F212058F5AB"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:squeezer"
@@ -1016,6 +1018,7 @@
 					id: "immersiveengineering:shelf"
 				}
 				id: "2470CEBC6F1D4E6F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:shelf"
@@ -1042,6 +1045,7 @@
 					id: "immersiveengineering:metal_press"
 				}
 				id: "3C5E01C3A9AB9A96"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:metal_press"

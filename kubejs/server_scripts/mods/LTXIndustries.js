@@ -23,6 +23,9 @@ ServerEvents.recipes(event => {
   //Replace Input
   event.replaceInput({ id: 'ltxi:shaped_recipes/fabricator' }, 'ltxi:titanium_ingot', 'ltxi:niobium_ingot')
 
+  //Ender Dust
+    grinding('ae2:ender_dust', 'minecraft:ender_pearl')
+
   //Fluix Dust
   grinding('ae2:fluix_dust', 'ae2:fluix_crystal')
   grinding('ae2:certus_quartz_dust', 'ae2:certus_quartz_crystal')

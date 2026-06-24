@@ -268,6 +268,7 @@
 					id: "immersiveengineering:diesel_generator"
 				}
 				id: "04908DFB17291048"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:diesel_generator"
@@ -430,6 +431,7 @@
 					id: "immersiveengineering:refinery"
 				}
 				id: "4D932C4E5E27E744"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:refinery"
@@ -497,6 +499,7 @@
 					id: "immersiveengineering:bottling_machine"
 				}
 				id: "2369B61BC4493A3B"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:bottling_machine"
@@ -605,6 +608,7 @@
 					id: "immersivepetroleum:derrick"
 				}
 				id: "5EB854EC740929A2"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersivepetroleum:derrick"
@@ -632,6 +636,7 @@
 					id: "immersivepetroleum:oiltank"
 				}
 				id: "3287BB68C41CDF56"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersivepetroleum:oiltank"
@@ -658,6 +663,7 @@
 					id: "immersivepetroleum:pumpjack"
 				}
 				id: "31BF12D61BB93961"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersivepetroleum:pumpjack"
@@ -888,25 +894,6 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["45D0F678DF95095D"]
-			id: "4A255446CFF13ABA"
-			rewards: [{
-				id: "05AF15CF1A0673E3"
-				item: {
-					count: 1
-					id: "shops:copper_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5E6CEE5193CB4A30"
-				item: { count: 1, id: "routers:dimensional_upgrade" }
-				type: "item"
-			}]
-			x: 18.5d
-			y: -11.5d
-		}
-		{
 			dependencies: ["0C721EC44FCA6FDA"]
 			id: "76EAA695594BBCA8"
 			rewards: [{
@@ -941,7 +928,7 @@
 				item: { count: 1, id: "routers:rf_upgrade_1" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 19.0d
 			y: -12.5d
 		}
 		{
@@ -1075,7 +1062,7 @@
 				item: { count: 1, id: "enderrf:ender_battery" }
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -12.5d
 		}
 	]

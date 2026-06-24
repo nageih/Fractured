@@ -549,6 +549,7 @@
 					id: "immersiveengineering:coke_oven"
 				}
 				id: "277A9DFF8FAA8D82"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:coke_oven"
@@ -693,6 +694,7 @@
 					id: "immersiveengineering:blast_furnace"
 				}
 				id: "3A6A7531A58B1426"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:blast_furnace"
@@ -760,6 +762,7 @@
 					id: "immersiveengineering:alloy_smelter"
 				}
 				id: "01A8F04A95497656"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:alloy_smelter"

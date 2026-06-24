@@ -66,6 +66,14 @@ ServerEvents.recipes(event => {
       1000,
       []
   ).id('fractured:crusher/sky_dust')
+  
+  //Ender Dust
+  event.recipes.immersiveengineering.crusher(
+      TagOutputJS.ofItemStack("ae2:ender_dust"),
+      "minecraft:ender_pearl",
+      1000,
+      []
+  ).id('fractured:crusher/ender_dust')
 
   //Hammer
   event.shaped('immersiveengineering:hammer[unbreakable={},damage=1]', [' AB', ' CA', 'C  '], {

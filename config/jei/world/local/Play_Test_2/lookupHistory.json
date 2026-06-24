@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ae2:ender_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:enderium_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:mangrove_propagule"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:mangrove_leaves"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:muddy_mangrove_roots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -97,7 +99,5 @@
   {"ingredient":{"id":"undergardendelight:forgotten_knife"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"fractured:survival_catalog"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2:fluix_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"ae2:certus_quartz_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"alltheores:lumium_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"alltheores:enderium_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"ae2:certus_quartz_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

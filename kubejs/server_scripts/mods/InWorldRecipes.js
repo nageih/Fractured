@@ -121,7 +121,12 @@ ServerEvents.recipes(event => {
 
   //Dyes
   colors.forEach(color => {
-    createDyeExtractorRecipe(`colors:${color}_stone`, 'fractured:dye_extractor', 'minecraft:stone', `minecraft:${color}_dye`, 0.25)
+    createDyeExtractorRecipe(`colors:${color}_stone`, 'fractured:dye_extractor', 'minecraft:stone', `minecraft:${color}_dye`, 1)
+    createDyeExtractorRecipe(`colors:${color}_log`, 'fractured:dye_extractor', 'minecraft:oak_log', `minecraft:${color}_dye`, 1)
+    createDyeExtractorRecipe(`colors:${color}_leaves`, 'fractured:dye_extractor', 'minecraft:oak_leaves', `minecraft:${color}_dye`, 1)
+    createDyeExtractorRecipe(`colors:${color}_sapling`, 'fractured:dye_extractor', 'minecraft:oak_sapling', `minecraft:${color}_dye`, 1)
+    createDyeExtractorRecipe(`colors:${color}_dirt`, 'fractured:dye_extractor', 'minecraft:dirt', `minecraft:${color}_dye`, 1)
+    createDyeExtractorRecipe(`colors:${color}_cobblestone`, 'fractured:dye_extractor', 'minecraft:cobblestone', `minecraft:${color}_dye`, 1)
 
   });
 
