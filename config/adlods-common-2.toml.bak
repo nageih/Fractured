@@ -25,14 +25,6 @@
 	enabled = true
 	#If enabled and the dimension has a ceiling (e.g. the Nether), the indicators will only spawn on the top surface of the ceiling
 	alwaysOnCeiling = false
-	#Use pebbles with dynamic textures that reveal the ore composition of the underground deposit
-	useOrePebbles = true
-	#Use regular stone pebbles that reveal nothing about the ore composition of the underground deposit
-	useStonePebbles = true
-	#Use modded flowers as above-ground indicators
-	useModdedFlowers = true
-	#Use vanilla flowers as above-ground indicators
-	useVanillaFlowers = true
 
 [Features]
 	#Disables generation of the listed features in the world
@@ -45,7 +37,3 @@
 [Stripper]
 	#Automatically dress previously stripped chunks before unloading them to prevent data loss
 	dressUnloadedChunks = true
-
-[Vanilla]
-	#Fixes ocean floor heightmap returning incorrect values in frozen biomes
-	fixOceanFloorHeightmap = true

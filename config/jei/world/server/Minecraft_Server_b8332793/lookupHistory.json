@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"alltheores:sulfur"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersivepetroleum:bitumen"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"immersivepetroleum:crudeoil"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"placers:distillation_tower_placer"},"type":"item_stack","bookmarkType":"INGREDIENT"}

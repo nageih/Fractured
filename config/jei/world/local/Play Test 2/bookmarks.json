@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"immersivepetroleum:hydrotreater"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gaiadimension:sweet_muck_still"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+]
